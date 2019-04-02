@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="First-Test-Suite" time="14" tests="1" failures="0" errors="0">
+   <testsuite name="First-Test-Suite" tests="1" failures="0" errors="0" time="14" timestamp="2019-04-02 10:10:21" hostname="HP - 10.152.69.144" id="Test Suites/First-Test-Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190402_101020"/>
+         <property name="logFiles" value="C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190402_101020\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - 10.152.69.144"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.152.69.144"/>
+         <property name="sessionId" value="df0bd8b64bedc341e2d626fbda433d66"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/First-Test-Case" classname="Test Cases/First-Test-Case" status="PASSED">
+         <system-out><![CDATA[2019-04-02 10:10:21 - [TEST_CASE][PASSED] - Test Cases/First-Test-Case: Test Cases/First-Test-Case
+
+2019-04-02 10:10:22 - [TEST_STEP][PASSED] - openBrowser("http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/"): Browser is opened with url: 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/'
+
+2019-04-02 10:10:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-02 10:10:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-02 10:10:34 - [MESSAGE][PASSED] - Browser is opened with url: 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/'
+
+2019-04-02 10:10:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-02 10:10:35 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-02 10:10:21 - [TEST_SUITE][PASSED] - First-Test-Suite: Test Cases/First-Test-Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

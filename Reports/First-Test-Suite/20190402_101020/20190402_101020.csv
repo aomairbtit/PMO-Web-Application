@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First-Test-Suite,Chrome 73.0.3683.86,,2019-04-02 10:10:21,2019-04-02 10:10:36,14.998s,PASSED
+,,,,,,
+Test Cases/First-Test-Case,Chrome 73.0.3683.86,,2019-04-02 10:10:21,2019-04-02 10:10:35,13.962s,PASSED
+"openBrowser(""http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/"")",Chrome 73.0.3683.86,,2019-04-02 10:10:22,2019-04-02 10:10:34,12.533s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-02 10:10:34,2019-04-02 10:10:35,1.135s,PASSED
