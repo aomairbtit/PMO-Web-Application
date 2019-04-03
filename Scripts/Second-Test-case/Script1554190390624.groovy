@@ -17,7 +17,3 @@ WebUI.openBrowser('http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/')
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('OOB-Objects/OOB-Side-Bar'), 0)
-
-WebUI.closeBrowser()
-

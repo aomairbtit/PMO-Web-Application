@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First-Test-Suite,Chrome 73.0.3683.86,,2019-04-02 10:53:53,2019-04-02 10:54:19,26.024s,PASSED
+,,,,,,
+Test Cases/First-Test-Case,Chrome 73.0.3683.86,,2019-04-02 10:53:53,2019-04-02 10:54:06,12.597s,PASSED
+"openBrowser(""http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/"")",Chrome 73.0.3683.86,,2019-04-02 10:53:54,2019-04-02 10:54:05,11.149s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-02 10:54:05,2019-04-02 10:54:06,1.149s,PASSED
+,,,,,,
+Test Cases/Second-Test-case,Chrome 73.0.3683.86,,2019-04-02 10:54:06,2019-04-02 10:54:19,12.616s,PASSED
+"openBrowser(""http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/"")",Chrome 73.0.3683.86,,2019-04-02 10:54:06,2019-04-02 10:54:18,11.339s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-02 10:54:18,2019-04-02 10:54:19,1.122s,PASSED

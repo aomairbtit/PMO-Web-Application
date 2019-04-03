@@ -12,12 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.pmo.steps.MyTestRunner
 
-WebUI.openBrowser('http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/')
-
-WebUI.maximizeWindow()
-
-WebUI.verifyElementPresent(findTestObject('OOB-Objects/OOB-Side-Bar'), 0)
-
-WebUI.closeBrowser()
-
+//CucumberKW.runWithCucumberRunner(MyTestRunner.class)
+CucumberKW.runFeatureFile('Include/features/Main-Features/Login-to-OOB.feature')
