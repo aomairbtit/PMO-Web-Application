@@ -22,4 +22,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Main-Test-Cases/Verify-HomePage</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>125f0402-56c6-4bf2-b59d-1a11cd96f747</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main-Test-Cases/AddIdea</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
