@@ -15,4 +15,4 @@ import internal.GlobalVariable as GlobalVariable
 import com.pmo.steps.MyTestRunner
 
 //CucumberKW.runWithCucumberRunner(MyTestRunner.class)
-CucumberKW.runFeatureFile('Include/features/Main-Features/017-Save-Draft-Idea-then-Send-it.feature')
+CucumberKW.runFeatureFile('Include/features/Governance-Module/017-Save-Draft-Idea-then-Send-it.feature')

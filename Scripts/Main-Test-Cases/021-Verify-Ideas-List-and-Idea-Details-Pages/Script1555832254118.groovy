@@ -15,4 +15,4 @@ import internal.GlobalVariable as GlobalVariable
 import com.pmo.steps.MyTestRunner
 
 //CucumberKW.runWithCucumberRunner(MyTestRunner.class)
-CucumberKW.runFeatureFile('Include/features/Governance-Module/011-Verify-Clicking-Load-With-No-Attachment.feature')
+CucumberKW.runFeatureFile('Include/features/Governance-Module/021-Verify-Ideas-List-and-Idea-Details-Pages.feature')

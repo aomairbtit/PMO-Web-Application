@@ -15,4 +15,4 @@ import internal.GlobalVariable as GlobalVariable
 import com.pmo.steps.MyTestRunner
 
 //CucumberKW.runWithCucumberRunner(MyTestRunner.class)
-CucumberKW.runFeatureFile('Include/features/Main-Features/001-Login-to-OOB.feature')
+CucumberKW.runFeatureFile('Include/features/Governance-Module/001-Login-to-OOB.feature')

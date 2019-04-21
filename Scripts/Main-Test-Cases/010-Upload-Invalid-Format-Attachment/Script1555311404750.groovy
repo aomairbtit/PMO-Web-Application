@@ -15,4 +15,4 @@ import internal.GlobalVariable as GlobalVariable
 import com.pmo.steps.MyTestRunner
 
 //CucumberKW.runWithCucumberRunner(MyTestRunner.class)
-CucumberKW.runFeatureFile('Include/features/Main-Features/010-Upload-Invalid-Format-Attachment.feature')
+CucumberKW.runFeatureFile('Include/features/Governance-Module/010-Upload-Invalid-Format-Attachment.feature')

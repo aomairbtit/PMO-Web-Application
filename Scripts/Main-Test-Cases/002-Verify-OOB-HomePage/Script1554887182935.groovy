@@ -16,5 +16,6 @@ import internal.GlobalVariable as GlobalVariable
 import com.pmo.steps.MyTestRunner
 
 //CucumberKW.runWithCucumberRunner(MyTestRunner.class)
-CucumberKW.runFeatureFile('Include/features/Main-Features/002-Verify-OOB-HomePage.feature')
+
+CucumberKW.runFeatureFile('Include/features/Governance-Module/002-Verify-OOB-HomePage.feature')
 

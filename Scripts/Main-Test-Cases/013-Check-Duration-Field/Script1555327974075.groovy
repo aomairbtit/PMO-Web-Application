@@ -15,4 +15,4 @@ import internal.GlobalVariable as GlobalVariable
 import com.pmo.steps.MyTestRunner
 
 //CucumberKW.runWithCucumberRunner(MyTestRunner.class)
-CucumberKW.runFeatureFile('Include/features/Main-Features/013-Check-Duration-Field.feature')
+CucumberKW.runFeatureFile('Include/features/Governance-Module/013-Check-Duration-Field.feature')
