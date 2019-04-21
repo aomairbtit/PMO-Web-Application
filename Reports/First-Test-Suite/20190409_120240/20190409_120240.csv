@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First-Test-Suite,Chrome 73.0.3683.86,,2019-04-09 12:02:42,2019-04-09 12:03:23,40.788s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/GoToOOB,Chrome 73.0.3683.86,,2019-04-09 12:02:42,2019-04-09 12:02:53,11.488s,PASSED
+"runFeatureFile(""Include/features/Main-Features/Login-to-OOB.feature"")",Chrome 73.0.3683.86,,2019-04-09 12:02:42,2019-04-09 12:02:53,11.265s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/Verify-HomePage,Chrome 73.0.3683.86,,2019-04-09 12:02:53,2019-04-09 12:03:05,11.673s,PASSED
+"runFeatureFile(""Include/features/Main-Features/VerifyOOBHomePage.feature"")",Chrome 73.0.3683.86,,2019-04-09 12:02:54,2019-04-09 12:03:05,11.576s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/AddIdea,Chrome 73.0.3683.86,,2019-04-09 12:03:05,2019-04-09 12:03:22,16.681s,FAILED
+"runFeatureFile(""Include/features/Main-Features/AddIdea.feature"")",Chrome 73.0.3683.86,,2019-04-09 12:03:05,2019-04-09 12:03:22,16.575s,FAILED

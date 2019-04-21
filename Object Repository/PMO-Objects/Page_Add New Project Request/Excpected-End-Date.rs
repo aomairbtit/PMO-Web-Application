@@ -3,7 +3,7 @@
    <description></description>
    <name>Excpected-End-Date</name>
    <tag></tag>
-   <elementGuidId>9920ef41-5cdd-42b8-8aaa-ea48a1a73ce0</elementGuidId>
+   <elementGuidId>181fd2e0-11be-4d8e-b5f8-3e7c6007832f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -70,7 +70,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gregorian'])[2]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ميلادي'])[2]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='This feild is Required'])[3]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='هذا الحقل الزامي'])[3]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -1,0 +1,160 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify Show optional fields link",
+        "description": "",
+        "id": "verify-show-optional-fields-link;verify-show-optional-fields-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2909573935,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1163197902,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8325542471,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43891651,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3574428383,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to go to ideas list page",
+            "match": {
+              "location": "AddIdeaSteps.goToIdeasList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1427031537,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to click on Add New button",
+            "match": {
+              "location": "AddIdeaSteps.clickAddNewIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127577927,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to click on Hide optional fields link",
+            "match": {
+              "location": "AddIdeaSteps.clickHideOptionalFieldsLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97222915,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to verify optional fields disappear",
+            "match": {
+              "location": "AddIdeaSteps.optionalFieldsDisappear()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3496341720,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to click on Show optional fields link",
+            "match": {
+              "location": "AddIdeaSteps.clickShowOptionalFieldsLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87851158,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to verify optional fields appear",
+            "match": {
+              "location": "AddIdeaSteps.optionalFieldsAppear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Show optional fields link",
+    "description": "  I want to verify optional fields will appear after clicking on Show optional fields link",
+    "id": "verify-show-optional-fields-link",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Main-Features/015-Verify-Show-Optional-fields.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -6,12 +6,11 @@
    <elementGuidId>19b6f610-c2c9-4413-9c9c-a76ed7a14ca2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@type='file']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;AttachmentPath_attachement_div&quot;]/div[1]/div/div[2]/input</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

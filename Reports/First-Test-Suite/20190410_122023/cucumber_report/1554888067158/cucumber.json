@@ -1,0 +1,208 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Cancel idea creation process",
+        "description": "",
+        "id": "pmo-cancel-idea-creatin;cancel-idea-creation-process",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3378197750,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1124361993,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9210759400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26919575,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7203035193,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to go to ideas list page",
+            "match": {
+              "location": "AddIdeaSteps.goToIdeasList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1710327336,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to click on Add New button",
+            "match": {
+              "location": "AddIdeaSteps.clickAddNewIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122053881,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to fill idea name field",
+            "match": {
+              "location": "AddIdeaSteps.fillIdeaNameField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 281494546,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to select expected start date",
+            "match": {
+              "location": "AddIdeaSteps.selectStartDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 371922153,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to select expected end date",
+            "match": {
+              "location": "AddIdeaSteps.selectEndDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110363217,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to fill idea objective field",
+            "match": {
+              "location": "AddIdeaSteps.fillObjectiveField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118100789,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to fill expected budget field",
+            "match": {
+              "location": "AddIdeaSteps.fillBudgetField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114100918,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to fill Notes field",
+            "match": {
+              "location": "AddIdeaSteps.fillNotesField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1154757615,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I want to click Cancel idea button",
+            "match": {
+              "location": "AddIdeaSteps.clickCancelIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1197412961,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I want to check idea not created",
+            "match": {
+              "location": "AddIdeaSteps.checkCancelation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "PMO Cancel idea creatin",
+    "description": "  I want to verify (cancel idea creation) process",
+    "id": "pmo-cancel-idea-creatin",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Main-Features/004-Cancel-Idea-Creation.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

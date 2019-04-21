@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-04-07T14:34:46</date>
+  <millis>1554636886309</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/First-Test-Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">First-Test-Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/First-Test-Suite</property>
+</record>
+<record>
+  <date>2019-04-07T14:34:46</date>
+  <millis>1554636886320</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = HP - 10.152.29.166</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">HP - 10.152.29.166</property>
+</record>
+<record>
+  <date>2019-04-07T14:34:46</date>
+  <millis>1554636886320</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-04-07T14:34:46</date>
+  <millis>1554636886320</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.152.29.166</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.152.29.166</property>
+</record>
+<record>
+  <date>2019-04-07T14:34:46</date>
+  <millis>1554636886321</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.6.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.6.4</property>
+</record>
+<record>
+  <date>2019-04-07T14:34:46</date>
+  <millis>1554636886484</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Main-Test-Cases/GoToOOB</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Main-Test-Cases/GoToOOB</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Main-Test-Cases/GoToOOB</property>
+  <property name="source">C:\\Users\\HP\\git\\PMO-Web-Application\\Test Cases\\Main-Test-Cases\\GoToOOB.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-07T14:34:46</date>
+  <millis>1554636886775</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/Main-Features/Login-to-OOB.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-04-07T14:34:46</date>
+  <millis>1554636886805</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/Main-Features/Login-to-OOB.feature&amp;apos; and extract report to folder: &amp;apos;C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190407_143443/cucumber_report/1554636886800&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:47</date>
+  <millis>1554636887278</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Go to OOB and login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:47</date>
+  <millis>1554636887279</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to go to OOB and login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:47</date>
+  <millis>1554636887421</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:47</date>
+  <millis>1554636887442</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:50</date>
+  <millis>1554636890128</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 1916470d626212baa5db812f59bf8c18</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">1916470d626212baa5db812f59bf8c18</property>
+</record>
+<record>
+  <date>2019-04-07T14:34:50</date>
+  <millis>1554636890273</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 73.0.3683.86</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 73.0.3683.86</property>
+</record>
+<record>
+  <date>2019-04-07T14:34:50</date>
+  <millis>1554636890273</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-04-07T14:34:50</date>
+  <millis>1554636890275</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-04-07T14:34:50</date>
+  <millis>1554636890276</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-04-07T14:34:58</date>
+  <millis>1554636898252</millis>
+  <sequence>21</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:58</date>
+  <millis>1554636898255</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to go to OOB and login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:58</date>
+  <millis>1554636898255</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to go to OOB and login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:58</date>
+  <millis>1554636898256</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to maximize window</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:59</date>
+  <millis>1554636899387</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:59</date>
+  <millis>1554636899388</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to maximize window</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:59</date>
+  <millis>1554636899388</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to maximize window</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:59</date>
+  <millis>1554636899388</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I verify I&amp;apos;m in OOB main page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:59</date>
+  <millis>1554636899420</millis>
+  <sequence>33</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:59</date>
+  <millis>1554636899439</millis>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OOB-Objects/OOB-Side-Bar&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:59</date>
+  <millis>1554636899440</millis>
+  <sequence>37</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I verify I&amp;apos;m in OOB main page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:59</date>
+  <millis>1554636899440</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I verify I&amp;apos;m in OOB main page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:34:59</date>
+  <millis>1554636899440</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900043</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900043</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900044</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900046</millis>
+  <sequence>44</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Go to OOB and login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900046</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Go to OOB and login</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900159</millis>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/Main-Features/Login-to-OOB.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900160</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/Main-Features/Login-to-OOB.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900160</millis>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Main-Test-Cases/GoToOOB</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900161</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Main-Test-Cases/GoToOOB</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900166</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Main-Test-Cases/Verify-HomePage</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Main-Test-Cases/Verify-HomePage</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Main-Test-Cases/Verify-HomePage</property>
+  <property name="source">C:\\Users\\HP\\git\\PMO-Web-Application\\Test Cases\\Main-Test-Cases\\Verify-HomePage.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900318</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/Main-Features/VerifyOOBHomePage.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900319</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/Main-Features/VerifyOOBHomePage.feature&amp;apos; and extract report to folder: &amp;apos;C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190407_143443/cucumber_report/1554636900319&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900500</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO verify OOB home page elements</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900561</millis>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to go to OOB and login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:00</date>
+  <millis>1554636900571</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:02</date>
+  <millis>1554636902609</millis>
+  <sequence>59</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 97a9e6b8c7e47cb43223069ea84e7206</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">97a9e6b8c7e47cb43223069ea84e7206</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:02</date>
+  <millis>1554636902630</millis>
+  <sequence>60</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 73.0.3683.86</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 73.0.3683.86</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:02</date>
+  <millis>1554636902630</millis>
+  <sequence>61</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:02</date>
+  <millis>1554636902630</millis>
+  <sequence>62</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:02</date>
+  <millis>1554636902631</millis>
+  <sequence>63</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:11</date>
+  <millis>1554636911058</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:11</date>
+  <millis>1554636911059</millis>
+  <sequence>66</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to go to OOB and login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:11</date>
+  <millis>1554636911059</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to go to OOB and login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:11</date>
+  <millis>1554636911060</millis>
+  <sequence>68</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to maximize window</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912184</millis>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912184</millis>
+  <sequence>71</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to maximize window</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912184</millis>
+  <sequence>72</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to maximize window</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912185</millis>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I verify I&amp;apos;m in OOB main page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912190</millis>
+  <sequence>77</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912214</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OOB-Objects/OOB-Side-Bar&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912214</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I verify I&amp;apos;m in OOB main page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912215</millis>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I verify I&amp;apos;m in OOB main page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912215</millis>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to verify Dashboard presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912225</millis>
+  <sequence>87</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912240</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OOB-Objects/Dashboard&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912240</millis>
+  <sequence>91</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to verify Dashboard presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912240</millis>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to verify Dashboard presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912240</millis>
+  <sequence>93</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to verify Projects List presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912251</millis>
+  <sequence>97</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912266</millis>
+  <sequence>100</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OOB-Objects/Projects-List&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912267</millis>
+  <sequence>101</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to verify Projects List presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912267</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to verify Projects List presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912267</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to verify Strategy Center presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912275</millis>
+  <sequence>107</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912290</millis>
+  <sequence>110</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OOB-Objects/Strategy-Center&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912291</millis>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to verify Strategy Center presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912291</millis>
+  <sequence>112</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to verify Strategy Center presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912291</millis>
+  <sequence>113</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to verify Reports presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912301</millis>
+  <sequence>117</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912316</millis>
+  <sequence>120</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OOB-Objects/Reports&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912317</millis>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to verify Reports presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912317</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to verify Reports presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912317</millis>
+  <sequence>123</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to verify Tasks presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912324</millis>
+  <sequence>127</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912337</millis>
+  <sequence>130</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OOB-Objects/Tasks&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912338</millis>
+  <sequence>131</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to verify Tasks presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912338</millis>
+  <sequence>132</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to verify Tasks presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912338</millis>
+  <sequence>133</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to verify Support presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912347</millis>
+  <sequence>137</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912360</millis>
+  <sequence>140</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OOB-Objects/Support&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912361</millis>
+  <sequence>141</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to verify Support presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912361</millis>
+  <sequence>142</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to verify Support presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912362</millis>
+  <sequence>143</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to verify User Dropdwon presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912370</millis>
+  <sequence>147</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912383</millis>
+  <sequence>150</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OOB-Objects/User-Dropdwon&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912383</millis>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to verify User Dropdwon presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912383</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to verify User Dropdwon presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912384</millis>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to verify Notifications presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912392</millis>
+  <sequence>157</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912404</millis>
+  <sequence>160</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OOB-Objects/Notifications&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912405</millis>
+  <sequence>161</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to verify Notifications presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912405</millis>
+  <sequence>162</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to verify Notifications presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912405</millis>
+  <sequence>163</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to verify Settings presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912414</millis>
+  <sequence>167</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912426</millis>
+  <sequence>170</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OOB-Objects/Settings&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912427</millis>
+  <sequence>171</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to verify Settings presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912427</millis>
+  <sequence>172</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to verify Settings presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912427</millis>
+  <sequence>173</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to verify Language presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912435</millis>
+  <sequence>177</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912450</millis>
+  <sequence>180</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OOB-Objects/Language&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912450</millis>
+  <sequence>181</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to verify Language presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912450</millis>
+  <sequence>182</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to verify Language presents</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:12</date>
+  <millis>1554636912450</millis>
+  <sequence>183</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I want to close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:13</date>
+  <millis>1554636913046</millis>
+  <sequence>185</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:13</date>
+  <millis>1554636913047</millis>
+  <sequence>186</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I want to close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:13</date>
+  <millis>1554636913048</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I want to close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:13</date>
+  <millis>1554636913050</millis>
+  <sequence>188</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO verify OOB home page elements</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:13</date>
+  <millis>1554636913051</millis>
+  <sequence>189</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO verify OOB home page elements</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:13</date>
+  <millis>1554636913106</millis>
+  <sequence>190</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/Main-Features/VerifyOOBHomePage.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:13</date>
+  <millis>1554636913106</millis>
+  <sequence>191</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/Main-Features/VerifyOOBHomePage.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:13</date>
+  <millis>1554636913106</millis>
+  <sequence>192</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Main-Test-Cases/Verify-HomePage</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:13</date>
+  <millis>1554636913106</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Main-Test-Cases/Verify-HomePage</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:13</date>
+  <millis>1554636913109</millis>
+  <sequence>194</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Main-Test-Cases/AddIdea</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Main-Test-Cases/AddIdea</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Main-Test-Cases/AddIdea</property>
+  <property name="source">C:\\Users\\HP\\git\\PMO-Web-Application\\Test Cases\\Main-Test-Cases\\AddIdea.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:13</date>
+  <millis>1554636913215</millis>
+  <sequence>196</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:13</date>
+  <millis>1554636913218</millis>
+  <sequence>198</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:15</date>
+  <millis>1554636915324</millis>
+  <sequence>200</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = b3e2be4a6f4ae31c8746fd2812a80a1f</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">b3e2be4a6f4ae31c8746fd2812a80a1f</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:15</date>
+  <millis>1554636915346</millis>
+  <sequence>201</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 73.0.3683.86</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 73.0.3683.86</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:15</date>
+  <millis>1554636915346</millis>
+  <sequence>202</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:15</date>
+  <millis>1554636915346</millis>
+  <sequence>203</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:15</date>
+  <millis>1554636915347</millis>
+  <sequence>204</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:23</date>
+  <millis>1554636923011</millis>
+  <sequence>206</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:23</date>
+  <millis>1554636923012</millis>
+  <sequence>207</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:23</date>
+  <millis>1554636923012</millis>
+  <sequence>208</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:24</date>
+  <millis>1554636924140</millis>
+  <sequence>210</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:24</date>
+  <millis>1554636924140</millis>
+  <sequence>211</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:24</date>
+  <millis>1554636924140</millis>
+  <sequence>212</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OOB-Objects/IdeasList\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:28</date>
+  <millis>1554636928967</millis>
+  <sequence>219</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OOB-Objects/IdeasList&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:28</date>
+  <millis>1554636928968</millis>
+  <sequence>220</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OOB-Objects/IdeasList\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:28</date>
+  <millis>1554636928968</millis>
+  <sequence>221</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;PMO-Objects/Page_Project Request/Add-New-Project-Request\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:29</date>
+  <millis>1554636929943</millis>
+  <sequence>228</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/PMO-Objects/Page_Project Request/Add-New-Project-Request&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:29</date>
+  <millis>1554636929944</millis>
+  <sequence>229</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;PMO-Objects/Page_Project Request/Add-New-Project-Request\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:29</date>
+  <millis>1554636929945</millis>
+  <sequence>230</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;PMO-Objects/Page_Add New Project Request/Idea-Name-Field\&amp;quot;), \&amp;quot;Automation Ideia\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930122</millis>
+  <sequence>242</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Automation Ideia&amp;apos; is set on object &amp;apos;Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Name-Field&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930122</millis>
+  <sequence>243</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;PMO-Objects/Page_Add New Project Request/Idea-Name-Field\&amp;quot;), \&amp;quot;Automation Ideia\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930122</millis>
+  <sequence>244</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;PMO-Objects/Page_Add New Project Request/Expected-Start-date/GREGORIAN-Start-date-Check-Box\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930204</millis>
+  <sequence>251</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Start-date/GREGORIAN-Start-date-Check-Box&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930205</millis>
+  <sequence>252</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;PMO-Objects/Page_Add New Project Request/Expected-Start-date/GREGORIAN-Start-date-Check-Box\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930205</millis>
+  <sequence>253</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;PMO-Objects/Page_Add New Project Request/Excepted-Start-Date\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930308</millis>
+  <sequence>260</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/PMO-Objects/Page_Add New Project Request/Excepted-Start-Date&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930308</millis>
+  <sequence>261</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;PMO-Objects/Page_Add New Project Request/Excepted-Start-Date\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930308</millis>
+  <sequence>262</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : mouseOver(findTestObject(\&amp;quot;PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930366</millis>
+  <sequence>269</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26&amp;apos; is hovered</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930367</millis>
+  <sequence>270</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : mouseOver(findTestObject(\&amp;quot;PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930367</millis>
+  <sequence>271</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930441</millis>
+  <sequence>278</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930441</millis>
+  <sequence>279</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930441</millis>
+  <sequence>280</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Main-Test-Cases/AddIdea</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:30</date>
+  <millis>1554636930442</millis>
+  <sequence>281</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Main-Test-Cases/AddIdea</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-07T14:35:31</date>
+  <millis>1554636931158</millis>
+  <sequence>282</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/First-Test-Suite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

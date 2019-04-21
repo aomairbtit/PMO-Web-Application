@@ -1,0 +1,172 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify that user unable to upload attachment with duplicate name",
+        "description": "",
+        "id": "verify-uploading-attachment-with-duplicate-name-in-add-idea-form;verify-that-user-unable-to-upload-attachment-with-duplicate-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3064566987,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1178235071,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9232106607,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40924006,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4541566832,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to go to ideas list page",
+            "match": {
+              "location": "AddIdeaSteps.goToIdeasList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1257401765,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to click on Add New button",
+            "match": {
+              "location": "AddIdeaSteps.clickAddNewIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1138242535,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to add Attachment",
+            "match": {
+              "location": "AddIdeaSteps.uploadAttachment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 567193557,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to verify document uploaded",
+            "match": {
+              "location": "AddIdeaSteps.verifyDocumentUploaded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1520089055,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to refresh page",
+            "match": {
+              "location": "AddIdeaSteps.refresh()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1141017409,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to add Attachment",
+            "match": {
+              "location": "AddIdeaSteps.uploadAttachment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56205865,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to verify Attachment with already existed name not added",
+            "match": {
+              "location": "AddIdeaSteps.verifyAttachmentWithAlreadyExistedNamenotAdded()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify uploading attachment with duplicate name in add idea form",
+    "description": "  I want to verify that user unable to upload attachment with duplicate name  ",
+    "id": "verify-uploading-attachment-with-duplicate-name-in-add-idea-form",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Main-Features/008-Verify-Uploading-Attachment-with-Duplicate-Name.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

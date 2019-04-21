@@ -1,0 +1,100 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Add new idea",
+        "description": "",
+        "id": "add-new-idea;add-new-idea",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3044576374,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1144184509,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6461673263,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64491422,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 612220758,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@OOB"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Add new idea",
+    "description": "  I want to add new idea",
+    "id": "add-new-idea",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Main-Features/001-Login-to-OOB.feature",
+    "tags": [
+      {
+        "name": "@OOB",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

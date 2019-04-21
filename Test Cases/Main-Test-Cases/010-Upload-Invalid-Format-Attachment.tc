@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>010-Upload-Invalid-Format-Attachment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eca000f0-9f3c-4c66-bd6a-907e1f4d4bbb</testCaseGuid>
+</TestCaseEntity>

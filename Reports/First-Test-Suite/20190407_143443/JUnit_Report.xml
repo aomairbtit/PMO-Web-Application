@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="First-Test-Suite" time="44" tests="3" failures="0" errors="0">
+   <testsuite name="First-Test-Suite" tests="3" failures="0" errors="0" time="44" timestamp="2019-04-07 14:34:46" hostname="HP - 10.152.29.166" id="Test Suites/First-Test-Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190407_143443"/>
+         <property name="logFiles" value="C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190407_143443\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - 10.152.29.166"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.152.29.166"/>
+         <property name="sessionId" value="b3e2be4a6f4ae31c8746fd2812a80a1f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main-Test-Cases/GoToOOB" classname="Test Cases/Main-Test-Cases/GoToOOB" status="PASSED">
+         <system-out><![CDATA[2019-04-07 14:34:46 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/GoToOOB: Test Cases/Main-Test-Cases/GoToOOB
+
+2019-04-07 14:34:46 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Main-Features/Login-to-OOB.feature"): Feature file: 'Include/features/Main-Features/Login-to-OOB.feature' was passed
+
+2019-04-07 14:34:46 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Main-Features/Login-to-OOB.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190407_143443/cucumber_report/1554636886800'...
+
+2019-04-07 14:34:47 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Go to OOB and login: SCENARIO Go to OOB and login
+
+2019-04-07 14:34:47 - [TEST_STEP][PASSED] - I want to go to OOB and login: I want to go to OOB and login
+
+2019-04-07 14:34:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-07 14:34:47 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-07 14:34:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/'
+
+2019-04-07 14:34:58 - [MESSAGE][PASSED] - I want to go to OOB and login
+
+2019-04-07 14:34:58 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-04-07 14:34:59 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-07 14:34:59 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-04-07 14:34:59 - [TEST_STEP][PASSED] - I verify I'm in OOB main page: I verify I'm in OOB main page
+
+2019-04-07 14:34:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-07 14:34:59 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/OOB-Side-Bar' is present
+
+2019-04-07 14:34:59 - [MESSAGE][PASSED] - I verify I'm in OOB main page
+
+2019-04-07 14:34:59 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-04-07 14:35:00 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-07 14:35:00 - [MESSAGE][PASSED] - I want to close browser
+
+2019-04-07 14:35:00 - [MESSAGE][PASSED] - Feature file: 'Include/features/Main-Features/Login-to-OOB.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main-Test-Cases/Verify-HomePage" classname="Test Cases/Main-Test-Cases/Verify-HomePage" status="PASSED">
+         <system-out><![CDATA[2019-04-07 14:35:00 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/Verify-HomePage: Test Cases/Main-Test-Cases/Verify-HomePage
+
+2019-04-07 14:35:00 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Main-Features/VerifyOOBHomePage.feature"): Feature file: 'Include/features/Main-Features/VerifyOOBHomePage.feature' was passed
+
+2019-04-07 14:35:00 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Main-Features/VerifyOOBHomePage.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190407_143443/cucumber_report/1554636900319'...
+
+2019-04-07 14:35:00 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO verify OOB home page elements: SCENARIO verify OOB home page elements
+
+2019-04-07 14:35:00 - [TEST_STEP][PASSED] - I want to go to OOB and login: I want to go to OOB and login
+
+2019-04-07 14:35:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-07 14:35:11 - [MESSAGE][PASSED] - Browser is opened with url: 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/'
+
+2019-04-07 14:35:11 - [MESSAGE][PASSED] - I want to go to OOB and login
+
+2019-04-07 14:35:11 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-04-07 14:35:12 - [TEST_STEP][PASSED] - I verify I'm in OOB main page: I verify I'm in OOB main page
+
+2019-04-07 14:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/OOB-Side-Bar' is present
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - I verify I'm in OOB main page
+
+2019-04-07 14:35:12 - [TEST_STEP][PASSED] - I want to verify Dashboard presents: I want to verify Dashboard presents
+
+2019-04-07 14:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Dashboard' is present
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - I want to verify Dashboard presents
+
+2019-04-07 14:35:12 - [TEST_STEP][PASSED] - I want to verify Projects List presents: I want to verify Projects List presents
+
+2019-04-07 14:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Projects-List' is present
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - I want to verify Projects List presents
+
+2019-04-07 14:35:12 - [TEST_STEP][PASSED] - I want to verify Strategy Center presents: I want to verify Strategy Center presents
+
+2019-04-07 14:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Strategy-Center' is present
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - I want to verify Strategy Center presents
+
+2019-04-07 14:35:12 - [TEST_STEP][PASSED] - I want to verify Reports presents: I want to verify Reports presents
+
+2019-04-07 14:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Reports' is present
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - I want to verify Reports presents
+
+2019-04-07 14:35:12 - [TEST_STEP][PASSED] - I want to verify Tasks presents: I want to verify Tasks presents
+
+2019-04-07 14:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Tasks' is present
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - I want to verify Tasks presents
+
+2019-04-07 14:35:12 - [TEST_STEP][PASSED] - I want to verify Support presents: I want to verify Support presents
+
+2019-04-07 14:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Support' is present
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - I want to verify Support presents
+
+2019-04-07 14:35:12 - [TEST_STEP][PASSED] - I want to verify User Dropdwon presents: I want to verify User Dropdwon presents
+
+2019-04-07 14:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/User-Dropdwon' is present
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - I want to verify User Dropdwon presents
+
+2019-04-07 14:35:12 - [TEST_STEP][PASSED] - I want to verify Notifications presents: I want to verify Notifications presents
+
+2019-04-07 14:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Notifications' is present
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - I want to verify Notifications presents
+
+2019-04-07 14:35:12 - [TEST_STEP][PASSED] - I want to verify Settings presents: I want to verify Settings presents
+
+2019-04-07 14:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Settings' is present
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - I want to verify Settings presents
+
+2019-04-07 14:35:12 - [TEST_STEP][PASSED] - I want to verify Language presents: I want to verify Language presents
+
+2019-04-07 14:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Language' is present
+
+2019-04-07 14:35:12 - [MESSAGE][PASSED] - I want to verify Language presents
+
+2019-04-07 14:35:12 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-04-07 14:35:13 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-07 14:35:13 - [MESSAGE][PASSED] - I want to close browser
+
+2019-04-07 14:35:13 - [MESSAGE][PASSED] - Feature file: 'Include/features/Main-Features/VerifyOOBHomePage.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main-Test-Cases/AddIdea" classname="Test Cases/Main-Test-Cases/AddIdea" status="PASSED">
+         <system-out><![CDATA[2019-04-07 14:35:13 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/AddIdea: Test Cases/Main-Test-Cases/AddIdea
+
+2019-04-07 14:35:13 - [TEST_STEP][PASSED] - openBrowser("http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/"): Browser is opened with url: 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/'
+
+2019-04-07 14:35:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-07 14:35:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/'
+
+2019-04-07 14:35:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-07 14:35:24 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-07 14:35:24 - [TEST_STEP][PASSED] - click(findTestObject("OOB-Objects/IdeasList")): Object: 'Object Repository/OOB-Objects/IdeasList' is clicked on
+
+2019-04-07 14:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OOB-Objects/IdeasList' is clicked on
+
+2019-04-07 14:35:28 - [TEST_STEP][PASSED] - click(findTestObject("PMO-Objects/Page_Project Request/Add-New-Project-Request")): Object: 'Object Repository/PMO-Objects/Page_Project Request/Add-New-Project-Request' is clicked on
+
+2019-04-07 14:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Project Request/Add-New-Project-Request' is clicked on
+
+2019-04-07 14:35:29 - [TEST_STEP][PASSED] - setText(findTestObject("PMO-Objects/Page_Add New Project Request/Idea-Name-Field"), "Automation Ideia"): Text 'Automation Ideia' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Name-Field'
+
+2019-04-07 14:35:30 - [MESSAGE][PASSED] - Text 'Automation Ideia' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Name-Field'
+
+2019-04-07 14:35:30 - [TEST_STEP][PASSED] - click(findTestObject("PMO-Objects/Page_Add New Project Request/Expected-Start-date/GREGORIAN-Start-date-Check-Box")): Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Start-date/GREGORIAN-Start-date-Check-Box' is clicked on
+
+2019-04-07 14:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Start-date/GREGORIAN-Start-date-Check-Box' is clicked on
+
+2019-04-07 14:35:30 - [TEST_STEP][PASSED] - click(findTestObject("PMO-Objects/Page_Add New Project Request/Excepted-Start-Date")): Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Excepted-Start-Date' is clicked on
+
+2019-04-07 14:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Excepted-Start-Date' is clicked on
+
+2019-04-07 14:35:30 - [TEST_STEP][PASSED] - mouseOver(findTestObject("PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26")): Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26' is hovered
+
+2019-04-07 14:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26' is hovered
+
+2019-04-07 14:35:30 - [TEST_STEP][PASSED] - click(findTestObject("PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26")): Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26' is clicked on
+
+2019-04-07 14:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-07 14:34:46 - [TEST_SUITE][PASSED] - First-Test-Suite: Test Cases/Main-Test-Cases/AddIdea]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

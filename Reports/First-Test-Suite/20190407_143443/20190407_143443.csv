@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First-Test-Suite,Chrome 73.0.3683.86,,2019-04-07 14:34:46,2019-04-07 14:35:31,44.849s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/GoToOOB,Chrome 73.0.3683.86,,2019-04-07 14:34:46,2019-04-07 14:35:00,13.677s,PASSED
+"runFeatureFile(""Include/features/Main-Features/Login-to-OOB.feature"")",Chrome 73.0.3683.86,,2019-04-07 14:34:46,2019-04-07 14:35:00,13.385s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/Verify-HomePage,Chrome 73.0.3683.86,,2019-04-07 14:35:00,2019-04-07 14:35:13,12.940s,PASSED
+"runFeatureFile(""Include/features/Main-Features/VerifyOOBHomePage.feature"")",Chrome 73.0.3683.86,,2019-04-07 14:35:00,2019-04-07 14:35:13,12.788s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/AddIdea,Chrome 73.0.3683.86,,2019-04-07 14:35:13,2019-04-07 14:35:30,17.333s,PASSED
+"openBrowser(""http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/"")",Chrome 73.0.3683.86,,2019-04-07 14:35:13,2019-04-07 14:35:23,9.797s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-07 14:35:23,2019-04-07 14:35:24,1.128s,PASSED
+"click(findTestObject(""OOB-Objects/IdeasList""))",Chrome 73.0.3683.86,,2019-04-07 14:35:24,2019-04-07 14:35:28,4.828s,PASSED
+"click(findTestObject(""PMO-Objects/Page_Project Request/Add-New-Project-Request""))",Chrome 73.0.3683.86,,2019-04-07 14:35:28,2019-04-07 14:35:29,0.976s,PASSED
+"setText(findTestObject(""PMO-Objects/Page_Add New Project Request/Idea-Name-Field""), ""Automation Ideia"")",Chrome 73.0.3683.86,,2019-04-07 14:35:29,2019-04-07 14:35:30,0.177s,PASSED
+"click(findTestObject(""PMO-Objects/Page_Add New Project Request/Expected-Start-date/GREGORIAN-Start-date-Check-Box""))",Chrome 73.0.3683.86,,2019-04-07 14:35:30,2019-04-07 14:35:30,0.083s,PASSED
+"click(findTestObject(""PMO-Objects/Page_Add New Project Request/Excepted-Start-Date""))",Chrome 73.0.3683.86,,2019-04-07 14:35:30,2019-04-07 14:35:30,0.103s,PASSED
+"mouseOver(findTestObject(""PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26""))",Chrome 73.0.3683.86,,2019-04-07 14:35:30,2019-04-07 14:35:30,0.059s,PASSED
+"click(findTestObject(""PMO-Objects/Page_Add New Project Request/Expected-Start-date/Day26""))",Chrome 73.0.3683.86,,2019-04-07 14:35:30,2019-04-07 14:35:30,0.074s,PASSED

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.863947">
+<testcase classname="Add new idea" name="Add new idea" time="11.863947">
+<system-out><![CDATA[Given I want to open browser................................................passed
+When I want to maximize window..............................................passed
+When I want to go to OOB....................................................passed
+Then I verify I'm in OOB main page..........................................passed
+Then I want to close browser................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="First-Test-Suite" time="121" tests="7" failures="0" errors="0">
+   <testsuite name="First-Test-Suite" tests="7" failures="0" errors="0" time="121" timestamp="2019-04-11 16:13:54" hostname="HP - HP45G5" id="Test Suites/First-Test-Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190411_161353"/>
+         <property name="logFiles" value="C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190411_161353\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - HP45G5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.1.164"/>
+         <property name="sessionId" value="223b6cb2e68885de8fcf85fdb719d83e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main-Test-Cases/001-Login-To-OOB" classname="Test Cases/Main-Test-Cases/001-Login-To-OOB" status="PASSED">
+         <system-out><![CDATA[2019-04-11 16:13:55 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/001-Login-To-OOB: Test Cases/Main-Test-Cases/001-Login-To-OOB
+
+2019-04-11 16:13:55 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Main-Features/001-Login-to-OOB.feature"): Feature file: 'Include/features/Main-Features/001-Login-to-OOB.feature' was passed
+
+2019-04-11 16:13:55 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Main-Features/001-Login-to-OOB.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190411_161353/cucumber_report/1554988435455'...
+
+2019-04-11 16:13:55 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Add new idea: SCENARIO Add new idea
+
+2019-04-11 16:13:55 - [TEST_STEP][PASSED] - I want to open browser: I want to open browser
+
+2019-04-11 16:13:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 16:13:56 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-11 16:13:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 16:13:58 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-11 16:13:58 - [MESSAGE][PASSED] - I want to open browser
+
+2019-04-11 16:13:58 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-04-11 16:14:00 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 16:14:00 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-04-11 16:14:00 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-04-11 16:14:06 - [MESSAGE][PASSED] - Navigate to 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-04-11 16:14:06 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-04-11 16:14:06 - [TEST_STEP][PASSED] - I verify I'm in OOB main page: I verify I'm in OOB main page
+
+2019-04-11 16:14:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:06 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/OOB-Side-Bar' is present
+
+2019-04-11 16:14:06 - [MESSAGE][PASSED] - I verify I'm in OOB main page
+
+2019-04-11 16:14:06 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-04-11 16:14:07 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-11 16:14:07 - [MESSAGE][PASSED] - I want to close browser
+
+2019-04-11 16:14:07 - [MESSAGE][PASSED] - Feature file: 'Include/features/Main-Features/001-Login-to-OOB.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main-Test-Cases/002-Verify-OOB-HomePage" classname="Test Cases/Main-Test-Cases/002-Verify-OOB-HomePage" status="PASSED">
+         <system-out><![CDATA[2019-04-11 16:14:07 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/002-Verify-OOB-HomePage: Test Cases/Main-Test-Cases/002-Verify-OOB-HomePage
+
+2019-04-11 16:14:07 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Main-Features/002-Verify-OOB-HomePage.feature"): Feature file: 'Include/features/Main-Features/002-Verify-OOB-HomePage.feature' was passed
+
+2019-04-11 16:14:07 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Main-Features/002-Verify-OOB-HomePage.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190411_161353/cucumber_report/1554988447718'...
+
+2019-04-11 16:14:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO verify OOB home page elements: SCENARIO verify OOB home page elements
+
+2019-04-11 16:14:07 - [TEST_STEP][PASSED] - I want to open browser: I want to open browser
+
+2019-04-11 16:14:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 16:14:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 16:14:10 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-11 16:14:10 - [MESSAGE][PASSED] - I want to open browser
+
+2019-04-11 16:14:10 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-04-11 16:14:11 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 16:14:11 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-04-11 16:14:11 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Navigate to 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-04-11 16:14:19 - [TEST_STEP][PASSED] - I verify I'm in OOB main page: I verify I'm in OOB main page
+
+2019-04-11 16:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/OOB-Side-Bar' is present
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I verify I'm in OOB main page
+
+2019-04-11 16:14:19 - [TEST_STEP][PASSED] - I want to verify Dashboard presents: I want to verify Dashboard presents
+
+2019-04-11 16:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Dashboard' is present
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I want to verify Dashboard presents
+
+2019-04-11 16:14:19 - [TEST_STEP][PASSED] - I want to verify Projects List presents: I want to verify Projects List presents
+
+2019-04-11 16:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Projects-List' is present
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I want to verify Projects List presents
+
+2019-04-11 16:14:19 - [TEST_STEP][PASSED] - I want to verify Strategy Center presents: I want to verify Strategy Center presents
+
+2019-04-11 16:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Strategy-Center' is present
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I want to verify Strategy Center presents
+
+2019-04-11 16:14:19 - [TEST_STEP][PASSED] - I want to verify Reports presents: I want to verify Reports presents
+
+2019-04-11 16:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Reports' is present
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I want to verify Reports presents
+
+2019-04-11 16:14:19 - [TEST_STEP][PASSED] - I want to verify Tasks presents: I want to verify Tasks presents
+
+2019-04-11 16:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Tasks' is present
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I want to verify Tasks presents
+
+2019-04-11 16:14:19 - [TEST_STEP][PASSED] - I want to verify Support presents: I want to verify Support presents
+
+2019-04-11 16:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Support' is present
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I want to verify Support presents
+
+2019-04-11 16:14:19 - [TEST_STEP][PASSED] - I want to verify User Dropdwon presents: I want to verify User Dropdwon presents
+
+2019-04-11 16:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/User-Dropdwon' is present
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I want to verify User Dropdwon presents
+
+2019-04-11 16:14:19 - [TEST_STEP][PASSED] - I want to verify Notifications presents: I want to verify Notifications presents
+
+2019-04-11 16:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Notifications' is present
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I want to verify Notifications presents
+
+2019-04-11 16:14:19 - [TEST_STEP][PASSED] - I want to verify Settings presents: I want to verify Settings presents
+
+2019-04-11 16:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Settings' is present
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I want to verify Settings presents
+
+2019-04-11 16:14:19 - [TEST_STEP][PASSED] - I want to verify Language presents: I want to verify Language presents
+
+2019-04-11 16:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/Language' is present
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I want to verify Language presents
+
+2019-04-11 16:14:19 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - I want to close browser
+
+2019-04-11 16:14:19 - [MESSAGE][PASSED] - Feature file: 'Include/features/Main-Features/002-Verify-OOB-HomePage.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main-Test-Cases/003-Add-Idea" classname="Test Cases/Main-Test-Cases/003-Add-Idea" status="PASSED">
+         <system-out><![CDATA[2019-04-11 16:14:19 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/003-Add-Idea: Test Cases/Main-Test-Cases/003-Add-Idea
+
+2019-04-11 16:14:20 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Main-Features/003-Add-Idea.feature"): Feature file: 'Include/features/Main-Features/003-Add-Idea.feature' was passed
+
+2019-04-11 16:14:20 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Main-Features/003-Add-Idea.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190411_161353/cucumber_report/1554988460091'...
+
+2019-04-11 16:14:20 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Add new idea: SCENARIO Add new idea
+
+2019-04-11 16:14:20 - [TEST_STEP][PASSED] - I want to open browser: I want to open browser
+
+2019-04-11 16:14:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 16:14:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 16:14:22 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-11 16:14:22 - [MESSAGE][PASSED] - I want to open browser
+
+2019-04-11 16:14:22 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-04-11 16:14:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 16:14:23 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-04-11 16:14:23 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-04-11 16:14:29 - [MESSAGE][PASSED] - Navigate to 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-04-11 16:14:29 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-04-11 16:14:29 - [TEST_STEP][PASSED] - I verify I'm in OOB main page: I verify I'm in OOB main page
+
+2019-04-11 16:14:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:29 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/OOB-Side-Bar' is present
+
+2019-04-11 16:14:29 - [MESSAGE][PASSED] - I verify I'm in OOB main page
+
+2019-04-11 16:14:29 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-04-11 16:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OOB-Objects/IdeasList' is clicked on
+
+2019-04-11 16:14:32 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-04-11 16:14:32 - [TEST_STEP][PASSED] - I want to click on Add New button: I want to click on Add New button
+
+2019-04-11 16:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Project Request/Add-New-Project-Request' is clicked on
+
+2019-04-11 16:14:33 - [MESSAGE][PASSED] - I want to click on Add New button
+
+2019-04-11 16:14:33 - [TEST_STEP][PASSED] - I want to fill idea name field: I want to fill idea name field
+
+2019-04-11 16:14:33 - [MESSAGE][PASSED] - Text 'Automation8179' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Name-Field'
+
+2019-04-11 16:14:33 - [MESSAGE][PASSED] - I want to fill idea name field
+
+2019-04-11 16:14:33 - [TEST_STEP][PASSED] - I want to select expected start date: I want to select expected start date
+
+2019-04-11 16:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/GREGORIAN-Start-date-Check-Box' is clicked on
+
+2019-04-11 16:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Excepted-Start-Date' is clicked on
+
+2019-04-11 16:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Day26' is hovered
+
+2019-04-11 16:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Day26' is clicked on
+
+2019-04-11 16:14:33 - [MESSAGE][PASSED] - I want to select expected start date
+
+2019-04-11 16:14:33 - [TEST_STEP][PASSED] - I want to select expected end date: I want to select expected end date
+
+2019-04-11 16:14:33 - [MESSAGE][PASSED] - Object 'Object Repository/PMO-Objects/Page_Add New Project Request/GREGORIAN-End-Date-Check-Box' is visible
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/GREGORIAN-End-Date-Check-Box' is clicked on
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Excpected-End-Date' is clicked on
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateMonthDropdown'
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateDay15' is hovered
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateDay15' is clicked on
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - I want to select expected end date
+
+2019-04-11 16:14:34 - [TEST_STEP][PASSED] - I want to fill idea objective field: I want to fill idea objective field
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Objective-Field'
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - I want to fill idea objective field
+
+2019-04-11 16:14:34 - [TEST_STEP][PASSED] - I want to fill expected budget field: I want to fill expected budget field
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Budget-Field'
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - I want to fill expected budget field
+
+2019-04-11 16:14:34 - [TEST_STEP][PASSED] - I want to fill Notes field: I want to fill Notes field
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - Text 'test note' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Notes-Field'
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - I want to fill Notes field
+
+2019-04-11 16:14:34 - [TEST_STEP][PASSED] - I want to add Attachment: I want to add Attachment
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Add-New-Document-Button' is clicked on
+
+2019-04-11 16:14:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PMO-Objects/Page_Add New Project Request/Add-New-Document-Button' successfully
+
+2019-04-11 16:14:34 - [MESSAGE][PASSED] - File 'C:\Users\HP\Desktop\download.png' sent to object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Upload-File'
+
+2019-04-11 16:14:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:35 - [MESSAGE][PASSED] - Object 'Object Repository/PMO-Objects/Page_Add New Project Request/AttachedFile' is present
+
+2019-04-11 16:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/LoadButton' is clicked on
+
+2019-04-11 16:14:35 - [MESSAGE][PASSED] - I want to add Attachment
+
+2019-04-11 16:14:35 - [TEST_STEP][PASSED] - I want to click send idea button: I want to click send idea button
+
+2019-04-11 16:14:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PMO-Objects/Page_Add New Project Request/CardBlock' successfully
+
+2019-04-11 16:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/SendIdeaButton' is focused
+
+2019-04-11 16:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/SendIdeaButton' is hovered
+
+2019-04-11 16:14:36 - [MESSAGE][PASSED] - Object 'Object Repository/PMO-Objects/Page_Add New Project Request/SendIdeaButton' is clickable
+
+2019-04-11 16:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/SendIdeaButton' is clicked on
+
+2019-04-11 16:14:36 - [MESSAGE][PASSED] - I want to click send idea button
+
+2019-04-11 16:14:36 - [TEST_STEP][PASSED] - I want to verify idea added successfuly: I want to verify idea added successfuly
+
+2019-04-11 16:14:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-11 16:14:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CreatedIdeaName' are matched.
+
+2019-04-11 16:14:38 - [MESSAGE][PASSED] - I want to verify idea added successfuly
+
+2019-04-11 16:14:38 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-04-11 16:14:38 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-11 16:14:38 - [MESSAGE][PASSED] - I want to close browser
+
+2019-04-11 16:14:39 - [MESSAGE][PASSED] - Feature file: 'Include/features/Main-Features/003-Add-Idea.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main-Test-Cases/004-Cancel-Idea-Creation" classname="Test Cases/Main-Test-Cases/004-Cancel-Idea-Creation" status="PASSED">
+         <system-out><![CDATA[2019-04-11 16:14:39 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/004-Cancel-Idea-Creation: Test Cases/Main-Test-Cases/004-Cancel-Idea-Creation
+
+2019-04-11 16:14:39 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Main-Features/004-Cancel-Idea-Creation.feature"): Feature file: 'Include/features/Main-Features/004-Cancel-Idea-Creation.feature' was passed
+
+2019-04-11 16:14:39 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Main-Features/004-Cancel-Idea-Creation.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190411_161353/cucumber_report/1554988479134'...
+
+2019-04-11 16:14:39 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Cancel idea creation process: SCENARIO Cancel idea creation process
+
+2019-04-11 16:14:39 - [TEST_STEP][PASSED] - I want to open browser: I want to open browser
+
+2019-04-11 16:14:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 16:14:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 16:14:41 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-11 16:14:41 - [MESSAGE][PASSED] - I want to open browser
+
+2019-04-11 16:14:41 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-04-11 16:14:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 16:14:42 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-04-11 16:14:42 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-04-11 16:14:48 - [MESSAGE][PASSED] - Navigate to 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-04-11 16:14:48 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-04-11 16:14:48 - [TEST_STEP][PASSED] - I verify I'm in OOB main page: I verify I'm in OOB main page
+
+2019-04-11 16:14:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:14:48 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/OOB-Side-Bar' is present
+
+2019-04-11 16:14:48 - [MESSAGE][PASSED] - I verify I'm in OOB main page
+
+2019-04-11 16:14:48 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-04-11 16:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OOB-Objects/IdeasList' is clicked on
+
+2019-04-11 16:14:51 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-04-11 16:14:51 - [TEST_STEP][PASSED] - I want to click on Add New button: I want to click on Add New button
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Project Request/Add-New-Project-Request' is clicked on
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - I want to click on Add New button
+
+2019-04-11 16:14:53 - [TEST_STEP][PASSED] - I want to fill idea name field: I want to fill idea name field
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - Text 'Automation3034' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Name-Field'
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - I want to fill idea name field
+
+2019-04-11 16:14:53 - [TEST_STEP][PASSED] - I want to select expected start date: I want to select expected start date
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/GREGORIAN-Start-date-Check-Box' is clicked on
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Excepted-Start-Date' is clicked on
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Day26' is hovered
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Day26' is clicked on
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - I want to select expected start date
+
+2019-04-11 16:14:53 - [TEST_STEP][PASSED] - I want to select expected end date: I want to select expected end date
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - Object 'Object Repository/PMO-Objects/Page_Add New Project Request/GREGORIAN-End-Date-Check-Box' is visible
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/GREGORIAN-End-Date-Check-Box' is clicked on
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Excpected-End-Date' is clicked on
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateMonthDropdown'
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateDay15' is hovered
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateDay15' is clicked on
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - I want to select expected end date
+
+2019-04-11 16:14:53 - [TEST_STEP][PASSED] - I want to fill idea objective field: I want to fill idea objective field
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Objective-Field'
+
+2019-04-11 16:14:53 - [MESSAGE][PASSED] - I want to fill idea objective field
+
+2019-04-11 16:14:53 - [TEST_STEP][PASSED] - I want to fill expected budget field: I want to fill expected budget field
+
+2019-04-11 16:14:54 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Budget-Field'
+
+2019-04-11 16:14:54 - [MESSAGE][PASSED] - I want to fill expected budget field
+
+2019-04-11 16:14:54 - [TEST_STEP][PASSED] - I want to fill Notes field: I want to fill Notes field
+
+2019-04-11 16:14:54 - [MESSAGE][PASSED] - Text 'test note' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Notes-Field'
+
+2019-04-11 16:14:54 - [MESSAGE][PASSED] - I want to fill Notes field
+
+2019-04-11 16:14:54 - [TEST_STEP][PASSED] - I want to click Cancel idea button: I want to click Cancel idea button
+
+2019-04-11 16:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/CancelIdeaButton' is hovered
+
+2019-04-11 16:14:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/CancelIdeaButton' is clicked on
+
+2019-04-11 16:14:55 - [MESSAGE][PASSED] - I want to click Cancel idea button
+
+2019-04-11 16:14:55 - [TEST_STEP][PASSED] - I want to check idea not created: I want to check idea not created
+
+2019-04-11 16:14:55 - [MESSAGE][PASSED] - Text 'Automation3034' is set on object 'Object Repository/PMO-Objects/Page_Project Request/SearchField'
+
+2019-04-11 16:14:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/PMO-Objects/Page_Project Request/SearchResult' are matched.
+
+2019-04-11 16:14:56 - [MESSAGE][PASSED] - I want to check idea not created
+
+2019-04-11 16:14:56 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-04-11 16:14:57 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-11 16:14:57 - [MESSAGE][PASSED] - I want to close browser
+
+2019-04-11 16:14:57 - [MESSAGE][PASSED] - Feature file: 'Include/features/Main-Features/004-Cancel-Idea-Creation.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main-Test-Cases/005-Save-Idea" classname="Test Cases/Main-Test-Cases/005-Save-Idea" status="PASSED">
+         <system-out><![CDATA[2019-04-11 16:14:57 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/005-Save-Idea: Test Cases/Main-Test-Cases/005-Save-Idea
+
+2019-04-11 16:14:57 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Main-Features/005-Save-Idea.feature"): Feature file: 'Include/features/Main-Features/005-Save-Idea.feature' was passed
+
+2019-04-11 16:14:57 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Main-Features/005-Save-Idea.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190411_161353/cucumber_report/1554988497376'...
+
+2019-04-11 16:14:57 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Save Idea: SCENARIO Save Idea
+
+2019-04-11 16:14:57 - [TEST_STEP][PASSED] - I want to open browser: I want to open browser
+
+2019-04-11 16:14:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 16:14:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 16:14:59 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-11 16:14:59 - [MESSAGE][PASSED] - I want to open browser
+
+2019-04-11 16:14:59 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-04-11 16:15:00 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 16:15:00 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-04-11 16:15:00 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-04-11 16:15:07 - [MESSAGE][PASSED] - Navigate to 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-04-11 16:15:07 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-04-11 16:15:07 - [TEST_STEP][PASSED] - I verify I'm in OOB main page: I verify I'm in OOB main page
+
+2019-04-11 16:15:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/OOB-Side-Bar' is present
+
+2019-04-11 16:15:07 - [MESSAGE][PASSED] - I verify I'm in OOB main page
+
+2019-04-11 16:15:07 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-04-11 16:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OOB-Objects/IdeasList' is clicked on
+
+2019-04-11 16:15:10 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-04-11 16:15:10 - [TEST_STEP][PASSED] - I want to click on Add New button: I want to click on Add New button
+
+2019-04-11 16:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Project Request/Add-New-Project-Request' is clicked on
+
+2019-04-11 16:15:11 - [MESSAGE][PASSED] - I want to click on Add New button
+
+2019-04-11 16:15:11 - [TEST_STEP][PASSED] - I want to fill idea name field: I want to fill idea name field
+
+2019-04-11 16:15:11 - [MESSAGE][PASSED] - Text 'Automation8545' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Name-Field'
+
+2019-04-11 16:15:11 - [MESSAGE][PASSED] - I want to fill idea name field
+
+2019-04-11 16:15:11 - [TEST_STEP][PASSED] - I want to select expected start date: I want to select expected start date
+
+2019-04-11 16:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/GREGORIAN-Start-date-Check-Box' is clicked on
+
+2019-04-11 16:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Excepted-Start-Date' is clicked on
+
+2019-04-11 16:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Day26' is hovered
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Day26' is clicked on
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - I want to select expected start date
+
+2019-04-11 16:15:12 - [TEST_STEP][PASSED] - I want to select expected end date: I want to select expected end date
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/PMO-Objects/Page_Add New Project Request/GREGORIAN-End-Date-Check-Box' is visible
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/GREGORIAN-End-Date-Check-Box' is clicked on
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Excpected-End-Date' is clicked on
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateMonthDropdown'
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateDay15' is hovered
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateDay15' is clicked on
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - I want to select expected end date
+
+2019-04-11 16:15:12 - [TEST_STEP][PASSED] - I want to fill idea objective field: I want to fill idea objective field
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Objective-Field'
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - I want to fill idea objective field
+
+2019-04-11 16:15:12 - [TEST_STEP][PASSED] - I want to fill expected budget field: I want to fill expected budget field
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Budget-Field'
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - I want to fill expected budget field
+
+2019-04-11 16:15:12 - [TEST_STEP][PASSED] - I want to fill Notes field: I want to fill Notes field
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Text 'test note' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Notes-Field'
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - I want to fill Notes field
+
+2019-04-11 16:15:12 - [TEST_STEP][PASSED] - I want to click save idea button: I want to click save idea button
+
+2019-04-11 16:15:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/SaveIdeaButton' is present
+
+2019-04-11 16:15:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/SaveIdeaButton' is clickable
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/SaveIdeaButton' is clicked on
+
+2019-04-11 16:15:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - I want to click save idea button
+
+2019-04-11 16:15:12 - [TEST_STEP][PASSED] - I want to wait for page load: I want to wait for page load
+
+2019-04-11 16:15:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-04-11 16:15:12 - [MESSAGE][PASSED] - I want to wait for page load
+
+2019-04-11 16:15:12 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-04-11 16:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OOB-Objects/IdeasList' is clicked on
+
+2019-04-11 16:15:15 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-04-11 16:15:15 - [TEST_STEP][PASSED] - I want to search on saved idea: I want to search on saved idea
+
+2019-04-11 16:15:15 - [MESSAGE][PASSED] - Text 'Automation8545' is set on object 'Object Repository/PMO-Objects/Page_Project Request/SearchField'
+
+2019-04-11 16:15:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/PMO-Objects/Page_Project Request/SearchResult' are matched.
+
+2019-04-11 16:15:16 - [MESSAGE][PASSED] - I want to search on saved idea
+
+2019-04-11 16:15:16 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-04-11 16:15:17 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-11 16:15:17 - [MESSAGE][PASSED] - I want to close browser
+
+2019-04-11 16:15:17 - [MESSAGE][PASSED] - Feature file: 'Include/features/Main-Features/005-Save-Idea.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields" classname="Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields" status="PASSED">
+         <system-out><![CDATA[2019-04-11 16:15:17 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields: Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields
+
+2019-04-11 16:15:17 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Main-Features/006-Check-Mandatory-Fields.feature"): Feature file: 'Include/features/Main-Features/006-Check-Mandatory-Fields.feature' was passed
+
+2019-04-11 16:15:17 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Main-Features/006-Check-Mandatory-Fields.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190411_161353/cucumber_report/1554988517420'...
+
+2019-04-11 16:15:17 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Save Idea: SCENARIO Save Idea
+
+2019-04-11 16:15:17 - [TEST_STEP][PASSED] - I want to open browser: I want to open browser
+
+2019-04-11 16:15:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 16:15:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 16:15:19 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-11 16:15:19 - [MESSAGE][PASSED] - I want to open browser
+
+2019-04-11 16:15:19 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-04-11 16:15:20 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 16:15:20 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-04-11 16:15:20 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-04-11 16:15:26 - [MESSAGE][PASSED] - Navigate to 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-04-11 16:15:26 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-04-11 16:15:26 - [TEST_STEP][PASSED] - I verify I'm in OOB main page: I verify I'm in OOB main page
+
+2019-04-11 16:15:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:26 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/OOB-Side-Bar' is present
+
+2019-04-11 16:15:26 - [MESSAGE][PASSED] - I verify I'm in OOB main page
+
+2019-04-11 16:15:26 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-04-11 16:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OOB-Objects/IdeasList' is clicked on
+
+2019-04-11 16:15:28 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-04-11 16:15:28 - [TEST_STEP][PASSED] - I want to click on Add New button: I want to click on Add New button
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Project Request/Add-New-Project-Request' is clicked on
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - I want to click on Add New button
+
+2019-04-11 16:15:29 - [TEST_STEP][PASSED] - I want to click send idea button: I want to click send idea button
+
+2019-04-11 16:15:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PMO-Objects/Page_Add New Project Request/CardBlock' successfully
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/SendIdeaButton' is focused
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/SendIdeaButton' is hovered
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - Object 'Object Repository/PMO-Objects/Page_Add New Project Request/SendIdeaButton' is clickable
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/SendIdeaButton' is clicked on
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - I want to click send idea button
+
+2019-04-11 16:15:29 - [TEST_STEP][PASSED] - I want to check idea name is a manatory field: I want to check idea name is a manatory field
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - Object 'Object Repository/PMO-Objects/Page_Add New Project Request/IdeaNameMandatoryField' is visible
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - I want to check idea name is a manatory field
+
+2019-04-11 16:15:29 - [TEST_STEP][PASSED] - I want to check start date is a manatory field: I want to check start date is a manatory field
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - Object 'Object Repository/PMO-Objects/Page_Add New Project Request/StartDateMandatory' is visible
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - I want to check start date is a manatory field
+
+2019-04-11 16:15:29 - [TEST_STEP][PASSED] - I want to check end date is a manatory field: I want to check end date is a manatory field
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - Object 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateMandatory' is visible
+
+2019-04-11 16:15:29 - [MESSAGE][PASSED] - I want to check end date is a manatory field
+
+2019-04-11 16:15:29 - [TEST_STEP][PASSED] - I want to check idea objective is a manatory field: I want to check idea objective is a manatory field
+
+2019-04-11 16:15:30 - [MESSAGE][PASSED] - Object 'Object Repository/PMO-Objects/Page_Add New Project Request/ObjectiveMandatory' is visible
+
+2019-04-11 16:15:30 - [MESSAGE][PASSED] - I want to check idea objective is a manatory field
+
+2019-04-11 16:15:30 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-04-11 16:15:30 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-11 16:15:30 - [MESSAGE][PASSED] - I want to close browser
+
+2019-04-11 16:15:30 - [MESSAGE][PASSED] - Feature file: 'Include/features/Main-Features/006-Check-Mandatory-Fields.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main-Test-Cases/007-Delete-Attachemnt" classname="Test Cases/Main-Test-Cases/007-Delete-Attachemnt" status="PASSED">
+         <system-out><![CDATA[2019-04-11 16:15:30 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/007-Delete-Attachemnt: Test Cases/Main-Test-Cases/007-Delete-Attachemnt
+
+2019-04-11 16:15:30 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Main-Features/007-Delete-Attachment.feature"): Feature file: 'Include/features/Main-Features/007-Delete-Attachment.feature' was passed
+
+2019-04-11 16:15:30 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Main-Features/007-Delete-Attachment.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190411_161353/cucumber_report/1554988530809'...
+
+2019-04-11 16:15:30 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Save Idea: SCENARIO Save Idea
+
+2019-04-11 16:15:30 - [TEST_STEP][PASSED] - I want to open browser: I want to open browser
+
+2019-04-11 16:15:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 16:15:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 16:15:33 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-11 16:15:33 - [MESSAGE][PASSED] - I want to open browser
+
+2019-04-11 16:15:33 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-04-11 16:15:34 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 16:15:34 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-04-11 16:15:34 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-04-11 16:15:40 - [MESSAGE][PASSED] - Navigate to 'http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-04-11 16:15:40 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-04-11 16:15:40 - [TEST_STEP][PASSED] - I verify I'm in OOB main page: I verify I'm in OOB main page
+
+2019-04-11 16:15:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:40 - [MESSAGE][PASSED] - Object 'Object Repository/OOB-Objects/OOB-Side-Bar' is present
+
+2019-04-11 16:15:40 - [MESSAGE][PASSED] - I verify I'm in OOB main page
+
+2019-04-11 16:15:40 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-04-11 16:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OOB-Objects/IdeasList' is clicked on
+
+2019-04-11 16:15:41 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-04-11 16:15:41 - [TEST_STEP][PASSED] - I want to click on Add New button: I want to click on Add New button
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Project Request/Add-New-Project-Request' is clicked on
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - I want to click on Add New button
+
+2019-04-11 16:15:43 - [TEST_STEP][PASSED] - I want to fill idea name field: I want to fill idea name field
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - Text 'Automation6378' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Name-Field'
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - I want to fill idea name field
+
+2019-04-11 16:15:43 - [TEST_STEP][PASSED] - I want to select expected start date: I want to select expected start date
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/GREGORIAN-Start-date-Check-Box' is clicked on
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Excepted-Start-Date' is clicked on
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Day26' is hovered
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Day26' is clicked on
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - I want to select expected start date
+
+2019-04-11 16:15:43 - [TEST_STEP][PASSED] - I want to select expected end date: I want to select expected end date
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - Object 'Object Repository/PMO-Objects/Page_Add New Project Request/GREGORIAN-End-Date-Check-Box' is visible
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/GREGORIAN-End-Date-Check-Box' is clicked on
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Excpected-End-Date' is clicked on
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateMonthDropdown'
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateDay15' is hovered
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/EndDateDay15' is clicked on
+
+2019-04-11 16:15:43 - [MESSAGE][PASSED] - I want to select expected end date
+
+2019-04-11 16:15:43 - [TEST_STEP][PASSED] - I want to fill idea objective field: I want to fill idea objective field
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Objective-Field'
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - I want to fill idea objective field
+
+2019-04-11 16:15:44 - [TEST_STEP][PASSED] - I want to fill expected budget field: I want to fill expected budget field
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Expected-Budget-Field'
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - I want to fill expected budget field
+
+2019-04-11 16:15:44 - [TEST_STEP][PASSED] - I want to fill Notes field: I want to fill Notes field
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - Text 'test note' is set on object 'Object Repository/PMO-Objects/Page_Add New Project Request/Notes-Field'
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - I want to fill Notes field
+
+2019-04-11 16:15:44 - [TEST_STEP][PASSED] - I want to click save idea button: I want to click save idea button
+
+2019-04-11 16:15:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - Object 'Object Repository/SaveIdeaButton' is present
+
+2019-04-11 16:15:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - Object 'Object Repository/SaveIdeaButton' is clickable
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SaveIdeaButton' is clicked on
+
+2019-04-11 16:15:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - I want to click save idea button
+
+2019-04-11 16:15:44 - [TEST_STEP][PASSED] - I want to wait for page load: I want to wait for page load
+
+2019-04-11 16:15:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-04-11 16:15:44 - [MESSAGE][PASSED] - I want to wait for page load
+
+2019-04-11 16:15:44 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-04-11 16:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OOB-Objects/IdeasList' is clicked on
+
+2019-04-11 16:15:46 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-04-11 16:15:46 - [TEST_STEP][PASSED] - I want to search on saved idea: I want to search on saved idea
+
+2019-04-11 16:15:47 - [MESSAGE][PASSED] - Text 'Automation6378' is set on object 'Object Repository/PMO-Objects/Page_Project Request/SearchField'
+
+2019-04-11 16:15:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/PMO-Objects/Page_Project Request/SearchResult' are matched.
+
+2019-04-11 16:15:48 - [MESSAGE][PASSED] - I want to search on saved idea
+
+2019-04-11 16:15:48 - [TEST_STEP][PASSED] - I want to click on edit idea icon: I want to click on edit idea icon
+
+2019-04-11 16:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/EditIdea' is clicked on
+
+2019-04-11 16:15:49 - [MESSAGE][PASSED] - I want to click on edit idea icon
+
+2019-04-11 16:15:49 - [TEST_STEP][PASSED] - I want to add Attachment: I want to add Attachment
+
+2019-04-11 16:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Add-New-Document-Button' is clicked on
+
+2019-04-11 16:15:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PMO-Objects/Page_Add New Project Request/Add-New-Document-Button' successfully
+
+2019-04-11 16:15:50 - [MESSAGE][PASSED] - File 'C:\Users\HP\Desktop\download.png' sent to object: 'Object Repository/PMO-Objects/Page_Add New Project Request/Upload-File'
+
+2019-04-11 16:15:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:50 - [MESSAGE][PASSED] - Object 'Object Repository/PMO-Objects/Page_Add New Project Request/AttachedFile' is present
+
+2019-04-11 16:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/LoadButton' is clicked on
+
+2019-04-11 16:15:50 - [MESSAGE][PASSED] - I want to add Attachment
+
+2019-04-11 16:15:50 - [TEST_STEP][PASSED] - I want to refresh page: I want to refresh page
+
+2019-04-11 16:15:52 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-04-11 16:15:52 - [MESSAGE][PASSED] - I want to refresh page
+
+2019-04-11 16:15:52 - [TEST_STEP][PASSED] - I want to click save idea button: I want to click save idea button
+
+2019-04-11 16:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:52 - [MESSAGE][PASSED] - Object 'Object Repository/SaveIdeaButton' is present
+
+2019-04-11 16:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:52 - [MESSAGE][PASSED] - Object 'Object Repository/SaveIdeaButton' is clickable
+
+2019-04-11 16:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/SaveIdeaButton' is clicked on
+
+2019-04-11 16:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-11 16:15:52 - [MESSAGE][PASSED] - I want to click save idea button
+
+2019-04-11 16:15:52 - [TEST_STEP][PASSED] - I want to delete attachment: I want to delete attachment
+
+2019-04-11 16:15:52 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-04-11 16:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PMO-Objects/Page_Add New Project Request/Add-New-Document-Button' successfully
+
+2019-04-11 16:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/DeleteAttachment' is hovered
+
+2019-04-11 16:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PMO-Objects/Page_Add New Project Request/DeleteAttachment' is clicked on
+
+2019-04-11 16:15:54 - [MESSAGE][PASSED] - Alert accepted
+
+2019-04-11 16:15:54 - [MESSAGE][PASSED] - I want to delete attachment
+
+2019-04-11 16:15:54 - [TEST_STEP][PASSED] - I want to verify document removed: I want to verify document removed
+
+2019-04-11 16:15:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-11 16:15:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PMO-Objects/Page_Add New Project Request/UploadedDocument' located by 'By.xpath: //*[@id='tblProjectDocuments']/tbody/tr' is not present after '30' second(s)
+
+2019-04-11 16:15:55 - [MESSAGE][PASSED] - I want to verify document removed
+
+2019-04-11 16:15:55 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-04-11 16:15:56 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-11 16:15:56 - [MESSAGE][PASSED] - I want to close browser
+
+2019-04-11 16:15:56 - [MESSAGE][PASSED] - Feature file: 'Include/features/Main-Features/007-Delete-Attachment.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-11 16:13:54 - [TEST_SUITE][PASSED] - First-Test-Suite: Test Cases/Main-Test-Cases/007-Delete-Attachemnt]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

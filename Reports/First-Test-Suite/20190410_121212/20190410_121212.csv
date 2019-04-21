@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First-Test-Suite,Chrome 73.0.3683.86,,2019-04-10 12:12:14,2019-04-10 12:13:15,1m - 1.737s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/001-Login-To-OOB,Chrome 73.0.3683.86,,2019-04-10 12:12:14,2019-04-10 12:12:15,0.862s,FAILED
+"runFeatureFile(""Include/features/Main-Features/001-Login-to-OOB.feature"")",Chrome 73.0.3683.86,,2019-04-10 12:12:14,2019-04-10 12:12:15,0.603s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/002-Verify-OOB-HomePage,Chrome 73.0.3683.86,,2019-04-10 12:12:15,2019-04-10 12:12:15,0.196s,FAILED
+"runFeatureFile(""Include/features/Main-Features/002-Verify-OOB-HomePage"")",Chrome 73.0.3683.86,,2019-04-10 12:12:15,2019-04-10 12:12:15,0.078s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/003-Add-Idea,Chrome 73.0.3683.86,,2019-04-10 12:12:15,2019-04-10 12:12:37,21.769s,PASSED
+"runFeatureFile(""Include/features/Main-Features/003-Add-Idea.feature"")",Chrome 73.0.3683.86,,2019-04-10 12:12:15,2019-04-10 12:12:37,21.671s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/004-Cancel-Idea-Creation,Chrome 73.0.3683.86,,2019-04-10 12:12:37,2019-04-10 12:12:53,16.076s,PASSED
+"runFeatureFile(""Include/features/Main-Features/004-Cancel-Idea-Creation.feature"")",Chrome 73.0.3683.86,,2019-04-10 12:12:37,2019-04-10 12:12:53,15.989s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/005-Save-Idea,Chrome 73.0.3683.86,,2019-04-10 12:12:53,2019-04-10 12:13:15,22.010s,PASSED
+"runFeatureFile(""Include/features/Main-Features/005-Save-Idea.feature"")",Chrome 73.0.3683.86,,2019-04-10 12:12:53,2019-04-10 12:13:15,21.918s,PASSED

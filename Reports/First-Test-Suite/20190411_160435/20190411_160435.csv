@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First-Test-Suite,Chrome 73.0.3683.86,,2019-04-11 16:04:37,2019-04-11 16:06:40,2m - 2.680s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/001-Login-To-OOB,Chrome 73.0.3683.86,,2019-04-11 16:04:37,2019-04-11 16:04:50,13.382s,PASSED
+"runFeatureFile(""Include/features/Main-Features/001-Login-to-OOB.feature"")",Chrome 73.0.3683.86,,2019-04-11 16:04:37,2019-04-11 16:04:50,13.154s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/002-Verify-OOB-HomePage,Chrome 73.0.3683.86,,2019-04-11 16:04:50,2019-04-11 16:05:03,12.130s,PASSED
+"runFeatureFile(""Include/features/Main-Features/002-Verify-OOB-HomePage.feature"")",Chrome 73.0.3683.86,,2019-04-11 16:04:51,2019-04-11 16:05:03,12.040s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/003-Add-Idea,Chrome 73.0.3683.86,,2019-04-11 16:05:03,2019-04-11 16:05:20,17.583s,FAILED
+"runFeatureFile(""Include/features/Main-Features/003-Add-Idea.feature"")",Chrome 73.0.3683.86,,2019-04-11 16:05:03,2019-04-11 16:05:20,17.466s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/004-Cancel-Idea-Creation,Chrome 73.0.3683.86,,2019-04-11 16:05:20,2019-04-11 16:05:39,19.013s,PASSED
+"runFeatureFile(""Include/features/Main-Features/004-Cancel-Idea-Creation.feature"")",Chrome 73.0.3683.86,,2019-04-11 16:05:20,2019-04-11 16:05:39,18.916s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/005-Save-Idea,Chrome 73.0.3683.86,,2019-04-11 16:05:39,2019-04-11 16:05:59,19.535s,PASSED
+"runFeatureFile(""Include/features/Main-Features/005-Save-Idea.feature"")",Chrome 73.0.3683.86,,2019-04-11 16:05:39,2019-04-11 16:05:59,19.446s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields,Chrome 73.0.3683.86,,2019-04-11 16:05:59,2019-04-11 16:06:13,13.776s,FAILED
+"runFeatureFile(""Include/features/Main-Features/006-Check-Mandatory-Fields.feature"")",Chrome 73.0.3683.86,,2019-04-11 16:05:59,2019-04-11 16:06:13,13.688s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/007-Delete-Attachemnt,Chrome 73.0.3683.86,,2019-04-11 16:06:13,2019-04-11 16:06:40,27.057s,PASSED
+"runFeatureFile(""Include/features/Main-Features/007-Delete-Attachment.feature"")",Chrome 73.0.3683.86,,2019-04-11 16:06:13,2019-04-11 16:06:40,26.958s,PASSED

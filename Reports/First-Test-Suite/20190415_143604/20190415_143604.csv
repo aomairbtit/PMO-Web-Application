@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First-Test-Suite,Chrome 73.0.3683.103,,2019-04-15 14:36:05,2019-04-15 14:41:46,5m - 41.183s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/001-Login-To-OOB,Chrome 73.0.3683.103,,2019-04-15 14:36:05,2019-04-15 14:36:26,20.820s,PASSED
+"runFeatureFile(""Include/features/Main-Features/001-Login-to-OOB.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:36:05,2019-04-15 14:36:26,20.572s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/002-Verify-OOB-HomePage,Chrome 73.0.3683.103,,2019-04-15 14:36:26,2019-04-15 14:36:47,20.838s,PASSED
+"runFeatureFile(""Include/features/Main-Features/002-Verify-OOB-HomePage.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:36:26,2019-04-15 14:36:47,20.748s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/003-Add-Idea,Chrome 73.0.3683.103,,2019-04-15 14:36:47,2019-04-15 14:37:18,31.500s,FAILED
+"runFeatureFile(""Include/features/Main-Features/003-Add-Idea.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:36:47,2019-04-15 14:37:18,31.398s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/004-Cancel-Idea-Creation,Chrome 73.0.3683.103,,2019-04-15 14:37:18,2019-04-15 14:37:47,29.167s,PASSED
+"runFeatureFile(""Include/features/Main-Features/004-Cancel-Idea-Creation.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:37:18,2019-04-15 14:37:47,29.061s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/005-Save-Idea,Chrome 73.0.3683.103,,2019-04-15 14:37:47,2019-04-15 14:38:17,29.761s,PASSED
+"runFeatureFile(""Include/features/Main-Features/005-Save-Idea.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:37:48,2019-04-15 14:38:17,29.654s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields,Chrome 73.0.3683.103,,2019-04-15 14:38:17,2019-04-15 14:38:44,26.803s,PASSED
+"runFeatureFile(""Include/features/Main-Features/006-Check-Mandatory-Fields.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:38:17,2019-04-15 14:38:44,26.726s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/007-Delete-Attachemnt,Chrome 73.0.3683.103,,2019-04-15 14:38:44,2019-04-15 14:39:21,36.650s,PASSED
+"runFeatureFile(""Include/features/Main-Features/007-Delete-Attachment.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:38:44,2019-04-15 14:39:21,36.559s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/008-Verify-Uploading-Attachment-with-Duplicate-Name,Chrome 73.0.3683.103,,2019-04-15 14:39:21,2019-04-15 14:39:49,28.610s,PASSED
+"runFeatureFile(""Include/features/Main-Features/008-Verify-Uploading-Attachment-with-Duplicate-Name.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:39:21,2019-04-15 14:39:49,28.517s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/009-Upload-Large-Size-Attachment,Chrome 73.0.3683.103,,2019-04-15 14:39:49,2019-04-15 14:40:14,24.357s,PASSED
+"runFeatureFile(""Include/features/Main-Features/009-Upload-Large-Size-Attachment.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:39:49,2019-04-15 14:40:14,24.254s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/010-Upload-Invalid-Format-Attachment,Chrome 73.0.3683.103,,2019-04-15 14:40:14,2019-04-15 14:40:33,18.986s,PASSED
+"runFeatureFile(""Include/features/Main-Features/010-Upload-Invalid-Format-Attachment.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:40:14,2019-04-15 14:40:33,18.864s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/011-Verify-Clicking-Load-With-No-Attachment,Chrome 73.0.3683.103,,2019-04-15 14:40:33,2019-04-15 14:40:57,24.368s,PASSED
+"runFeatureFile(""Include/features/Main-Features/011-Verify-Clicking-Load-With-No-Attachment.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:40:33,2019-04-15 14:40:57,24.275s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/012-Start-Date-Greater-Than-End-Date,Chrome 73.0.3683.103,,2019-04-15 14:40:57,2019-04-15 14:41:23,26.162s,PASSED
+"runFeatureFile(""Include/features/Main-Features/012-Start-Date-Greater-Than-End-Date.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:40:57,2019-04-15 14:41:23,26.072s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/013-Check-Duration-Field,Chrome 73.0.3683.103,,2019-04-15 14:41:23,2019-04-15 14:41:45,21.991s,PASSED
+"runFeatureFile(""Include/features/Main-Features/013-Check-Duration-Field.feature"")",Chrome 73.0.3683.103,,2019-04-15 14:41:23,2019-04-15 14:41:45,21.897s,PASSED

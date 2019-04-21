@@ -49,9 +49,16 @@ import cucumber.api.java.en.When
 
 class MainSteps {
 
-	@Given("I want to go to OOB and login")
-	def OpenOOB(){
-		WebUI.openBrowser('http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/')
+
+	@Given("I want to open browser")
+	def openBrowser(){
+		WebUI.openBrowser('')
+		WebUI.deleteAllCookies()
+	}
+
+	@When("I want to go to OOB")
+	def goToOOB(){
+		WebUI.navigateToUrl('https://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/')
 	}
 
 	@When("I want to maximize window")
@@ -59,7 +66,7 @@ class MainSteps {
 		WebUI.maximizeWindow()
 	}
 
-	@Then("I verify I'm in OOB main page")
+	@Then("I want to verify I'm in OOB main page")
 	def verifyLoginToOOB() {
 		WebUI.verifyElementPresent(findTestObject('OOB-Objects/OOB-Side-Bar'), 0)
 	}
@@ -73,47 +80,47 @@ class MainSteps {
 	def verifyDashboardPresent() {
 		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Dashboard'), 0)
 	}
-	
+
 	@When('I want to verify Projects List presents')
 	def verifyProjectsListPresent() {
 		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Projects-List'), 0)
 	}
-	
+
 	@When('I want to verify Strategy Center presents')
 	def verifyStrategyCenterPresent() {
 		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Strategy-Center'), 0)
 	}
-	
+
 	@When('I want to verify Reports presents')
 	def verifyReportsPresent() {
 		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Reports'), 0)
 	}
-	
+
 	@When('I want to verify Tasks presents')
 	def verifyTasksPresent() {
 		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Tasks'), 0)
 	}
-	
+
 	@When('I want to verify Support presents')
 	def verifySupportPresent() {
 		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Support'), 0)
 	}
-	
+
 	@When('I want to verify User Dropdwon presents')
 	def verifyUserDropdwonPresent() {
 		WebUI.verifyElementPresent(findTestObject('OOB-Objects/User-Dropdwon'), 0)
 	}
-	
-	@When('I want to verify Notifications presents')
+
+	@When('I want to verify Inbox Icon presents')
 	def verifyNotificationsPresent() {
-		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Notifications'), 0)
+		WebUI.verifyElementPresent(findTestObject('OOB-Objects/InboxIcon'), 0)
 	}
-	
+
 	@When('I want to verify Settings presents')
 	def verifySettingsPresent() {
 		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Settings'), 0)
 	}
-	
+
 	@When('I want to verify Language presents')
 	def verifyLanguagePresent() {
 		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Language'), 0)

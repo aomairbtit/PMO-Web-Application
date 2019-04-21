@@ -1,0 +1,232 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Add new idea",
+        "description": "",
+        "id": "pmo-add-idea;add-new-idea",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2404460362,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1144224605,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8175055120,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23299592,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2282600280,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to go to ideas list page",
+            "match": {
+              "location": "AddIdeaSteps.goToIdeasList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1333660445,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to click on Add New button",
+            "match": {
+              "location": "AddIdeaSteps.clickAddNewIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136352864,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to fill idea name field",
+            "match": {
+              "location": "AddIdeaSteps.fillIdeaNameField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 308706619,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to select expected start date",
+            "match": {
+              "location": "AddIdeaSteps.selectStartDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 420688085,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to select expected end date",
+            "match": {
+              "location": "AddIdeaSteps.selectEndDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134562407,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to fill idea objective field",
+            "match": {
+              "location": "AddIdeaSteps.fillObjectiveField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142161185,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to fill expected budget field",
+            "match": {
+              "location": "AddIdeaSteps.fillBudgetField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143465344,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to fill Notes field",
+            "match": {
+              "location": "AddIdeaSteps.fillNotesField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 780339205,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I want to add Attachment",
+            "match": {
+              "location": "AddIdeaSteps.uploadAttachment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 243680065,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I want to click send idea button",
+            "match": {
+              "location": "AddIdeaSteps.clickSendIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2604963828,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I want to verify idea added successfuly",
+            "match": {
+              "location": "AddIdeaSteps.verifyIdeaAdded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 616409801,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "PMO Add Idea",
+    "description": "  I want to add new idea",
+    "id": "pmo-add-idea",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Main-Features/003-Add-Idea.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

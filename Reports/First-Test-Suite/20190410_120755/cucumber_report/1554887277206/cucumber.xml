@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.035426">
+<testcase classname="Add new idea" name="Add new idea" time="0.035426">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given I want to go to OOB and login.........................................undefined
+When I want to maximize window..............................................skipped
+Then I verify I'm in OOB main page..........................................skipped
+Then I want to close browser................................................skipped
+]]></failure>
+</testcase>
+</testsuite>

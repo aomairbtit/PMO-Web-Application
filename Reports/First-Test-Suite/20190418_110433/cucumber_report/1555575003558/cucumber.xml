@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="51.490399">
+<testcase classname="Submit idea and check it has been sent to PMO for approval" name="Submit idea and check it has been sent to PMO" time="51.490399">
+<failure message="com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Automation6662' of object 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Name-Field'&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$6.call(Unknown Source)&#13;&#10;&#9;at com.pmo.steps.AddIdeaSteps.fillIdeaNameField(AddIdeaSteps.groovy:109)&#13;&#10;&#9;at ✽.I want to fill idea name field(C:/Users/HP/git/PMO-Web-Application/Include/features/Main-Features/016-Submit-Idea-and-Check-its-Sent-to-PMO.feature:13)&#13;&#10;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Name-Field' located by 'By.xpath: //input[@id='TxtIdeaName']' not found&#13;&#10;&#9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$6.call(Unknown Source)&#13;&#10;&#9;at com.pmo.steps.AddIdeaSteps.fillIdeaNameField(AddIdeaSteps.groovy:109)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)&#13;&#10;&#9;at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:55)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:42)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:47)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:44)&#13;&#10;&#9;at cucumber.runtime.Runtime.runFeature(Runtime.java:120)&#13;&#10;&#9;at cucumber.runtime.Runtime.run(Runtime.java:106)&#13;&#10;&#9;at cucumber.api.cli.Main.run(Main.java:35)&#13;&#10;&#9;at cucumber.api.cli.Main$run.call(Unknown Source)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)&#13;&#10;&#9;at Script1555418230443.run(Script1555418230443.groovy:18)&#13;&#10;&#9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#13;&#10;&#9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)&#13;&#10;&#9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)&#13;&#10;&#9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)&#13;&#10;&#9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#13;&#10;&#9;at TempTestSuite1555574673738.run(TempTestSuite1555574673738.groovy:35)&#13;&#10;"><![CDATA[Given I want to open browser................................................passed
+When I want to maximize window..............................................passed
+When I want to go to OOB....................................................passed
+Then I want to verify I'm in OOB main page..................................passed
+When I want to go to ideas list page........................................passed
+When I want to click on Add New button......................................passed
+When I want to fill idea name field.........................................failed
+When I want to select expected start date...................................skipped
+When I want to select expected end date.....................................skipped
+When I want to fill idea objective field....................................skipped
+When I want to fill expected budget field...................................skipped
+When I want to fill Notes field.............................................skipped
+When I want to click send idea button.......................................skipped
+Then I want to verify idea added successfuly................................skipped
+Then I want to verify submitted idea cannot be deleted or edited............skipped
+Then I want to check submitted idea status is In Progress...................skipped
+Then I want to check submitted idea sent to PMO office for approval.........skipped
+Then I want to close browser................................................skipped
+
+StackTrace:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Automation6662' of object 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Name-Field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$6.call(Unknown Source)
+	at com.pmo.steps.AddIdeaSteps.fillIdeaNameField(AddIdeaSteps.groovy:109)
+	at ✽.I want to fill idea name field(C:/Users/HP/git/PMO-Web-Application/Include/features/Main-Features/016-Submit-Idea-and-Check-its-Sent-to-PMO.feature:13)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PMO-Objects/Page_Add New Project Request/Idea-Name-Field' located by 'By.xpath: //input[@id='TxtIdeaName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$6.call(Unknown Source)
+	at com.pmo.steps.AddIdeaSteps.fillIdeaNameField(AddIdeaSteps.groovy:109)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1555418230443.run(Script1555418230443.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555574673738.run(TempTestSuite1555574673738.groovy:35)
+]]></failure>
+</testcase>
+</testsuite>
