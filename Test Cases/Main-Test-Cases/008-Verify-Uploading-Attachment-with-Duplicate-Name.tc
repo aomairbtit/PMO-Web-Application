@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>008-Verify-Uploading-Attachment-with-Duplicate-Name</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>786d7e15-5ed3-4ca9-981d-66dc6f9d6a2c</testCaseGuid>
-</TestCaseEntity>

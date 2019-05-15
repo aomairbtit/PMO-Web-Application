@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.874862">
+<testcase classname="Verify uploading attachment with duplicate name in add idea form" name="Verify that user unable to upload attachment with duplicate name" time="23.874862">
+<system-out><![CDATA[Given I want to open browser................................................passed
+When I want to maximize window..............................................passed
+When I want to go to OOB....................................................passed
+Then I want to verify I'm in OOB main page..................................passed
+When I want to go to ideas list page........................................passed
+When I want to click on Add New button......................................passed
+When I want to add Attachment...............................................passed
+Then I want to verify document uploaded.....................................passed
+When I want to refresh page.................................................passed
+When I want to add Attachment...............................................passed
+Then I want to verify Attachment with already existed name not added........passed
+]]></system-out>
+</testcase>
+</testsuite>

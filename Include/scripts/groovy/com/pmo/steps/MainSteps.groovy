@@ -68,61 +68,61 @@ class MainSteps {
 
 	@Then("I want to verify I'm in OOB main page")
 	def verifyLoginToOOB() {
-		WebUI.verifyElementPresent(findTestObject('OOB-Objects/OOB-Side-Bar'), 0)
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/HomepageObjects/OOBSideBar'), 0)
+	}
+
+	@When('I want to verify Dashboard presents')
+	def verifyDashboardPresent() {
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/HomepageObjects/Dashboard'), 0)
+	}
+
+	@When('I want to verify Projects List presents')
+	def verifyProjectsListPresent() {
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/HomepageObjects/ProjectsList'), 0)
+	}
+
+	@When('I want to verify Strategy Center presents')
+	def verifyStrategyCenterPresent() {
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/HomepageObjects/StrategyCenter'), 0)
+	}
+
+	@When('I want to verify Reports presents')
+	def verifyReportsPresent() {
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/HomepageObjects/Reports'), 0)
+	}
+
+	@When('I want to verify Tasks presents')
+	def verifyTasksPresent() {
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/HomepageObjects/Tasks'), 0)
+	}
+
+	@When('I want to verify Support presents')
+	def verifySupportPresent() {
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/HomepageObjects/Support'), 0)
+	}
+
+	@When('I want to verify User Dropdwon presents')
+	def verifyUserDropdwonPresent() {
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/HomepageObjects/UserDropdwon'), 0)
+	}
+
+	@When('I want to verify Inbox Icon presents')
+	def verifyNotificationsPresent() {
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/HomepageObjects/InboxIcon'), 0)
+	}
+
+	@When('I want to verify Settings presents')
+	def verifySettingsPresent() {
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/HomepageObjects/Settings'), 0)
+	}
+
+	@When('I want to verify Language presents')
+	def verifyLanguagePresent() {
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/HomepageObjects/Language'), 0)
 	}
 
 	@Then("I want to close browser")
 	def closeBrowser() {
 		WebUI.closeBrowser()
-	}
-
-	@When('I want to verify Dashboard presents')
-	def verifyDashboardPresent() {
-		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Dashboard'), 0)
-	}
-
-	@When('I want to verify Projects List presents')
-	def verifyProjectsListPresent() {
-		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Projects-List'), 0)
-	}
-
-	@When('I want to verify Strategy Center presents')
-	def verifyStrategyCenterPresent() {
-		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Strategy-Center'), 0)
-	}
-
-	@When('I want to verify Reports presents')
-	def verifyReportsPresent() {
-		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Reports'), 0)
-	}
-
-	@When('I want to verify Tasks presents')
-	def verifyTasksPresent() {
-		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Tasks'), 0)
-	}
-
-	@When('I want to verify Support presents')
-	def verifySupportPresent() {
-		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Support'), 0)
-	}
-
-	@When('I want to verify User Dropdwon presents')
-	def verifyUserDropdwonPresent() {
-		WebUI.verifyElementPresent(findTestObject('OOB-Objects/User-Dropdwon'), 0)
-	}
-
-	@When('I want to verify Inbox Icon presents')
-	def verifyNotificationsPresent() {
-		WebUI.verifyElementPresent(findTestObject('OOB-Objects/InboxIcon'), 0)
-	}
-
-	@When('I want to verify Settings presents')
-	def verifySettingsPresent() {
-		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Settings'), 0)
-	}
-
-	@When('I want to verify Language presents')
-	def verifyLanguagePresent() {
-		WebUI.verifyElementPresent(findTestObject('OOB-Objects/Language'), 0)
 	}
 }

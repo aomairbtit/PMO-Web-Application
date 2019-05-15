@@ -1,0 +1,268 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify delete idea functionality",
+        "description": "",
+        "id": "verify-delete-idea;verify-delete-idea-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2816490808,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1131413232,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8791771406,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27959497,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4779178066,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to go to ideas list page",
+            "match": {
+              "location": "AddIdeaSteps.goToIdeasList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1677890562,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to click on Add New button",
+            "match": {
+              "location": "AddIdeaSteps.clickAddNewIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151981120,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to fill idea name field",
+            "match": {
+              "location": "AddIdeaSteps.fillIdeaNameField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 433881111,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to select expected start date",
+            "match": {
+              "location": "AddIdeaSteps.selectStartDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2479768819,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to select expected end date",
+            "match": {
+              "location": "AddIdeaSteps.selectEndDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111014983,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to fill idea objective field",
+            "match": {
+              "location": "AddIdeaSteps.fillObjectiveField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126271646,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to fill expected budget field",
+            "match": {
+              "location": "AddIdeaSteps.fillBudgetField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115060602,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to fill Notes field",
+            "match": {
+              "location": "AddIdeaSteps.fillNotesField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5134688796,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I want to click save idea button",
+            "match": {
+              "location": "AddIdeaSteps.clickSaveIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48493971,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I want to wait for page load",
+            "match": {
+              "location": "AddIdeaSteps.waitForPgaeLoad()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1229776787,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I want to go to ideas list page",
+            "match": {
+              "location": "AddIdeaSteps.goToIdeasList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1759712314,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I want to search for idea by idea name",
+            "match": {
+              "location": "AddIdeaSteps.searchOnSavedIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104531196,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I want to click on delete idea icon",
+            "match": {
+              "location": "AddIdeaSteps.clickdeleteIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3192888140,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I want to check idea has been deleted",
+            "match": {
+              "location": "AddIdeaSteps.checkIdeaDeleted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 612427094,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify delete idea",
+    "description": "  I want to submit draft idea then verify delete functionality",
+    "id": "verify-delete-idea",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Idea/019-Delete-Draft-Idea.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

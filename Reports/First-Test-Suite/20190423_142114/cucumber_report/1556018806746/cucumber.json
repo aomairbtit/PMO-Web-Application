@@ -1,0 +1,136 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Search for approved idea by name",
+        "description": "",
+        "id": "search-for-approved-idea-by-name;search-for-approved-idea-by-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2074130372,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1139270432,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7056483882,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21681824,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7245866995,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to go to approved ideas list page",
+            "match": {
+              "location": "AddIdeaSteps.goToApprovedIdeasList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150045031,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to verify Approved Ideas List page",
+            "match": {
+              "location": "AddIdeaSteps.verifyApprovedIdeasListPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 196204627,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to search for approved idea by name",
+            "match": {
+              "location": "AddIdeaSteps.searchForApprovedIdeaByName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 604760358,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Search for approved idea by name",
+    "description": "  I want to search for approved idea by name",
+    "id": "search-for-approved-idea-by-name",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Idea/024-Search-for-Approved-Idea.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

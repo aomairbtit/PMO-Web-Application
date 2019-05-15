@@ -13,5 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CucumberKW.runFeatureFile('Include/features/Governance-Module/005-Save-Idea.feature')
+CucumberKW.runFeatureFile('Include/features/Governance-Module/Add-Idea/005-Save-Idea.feature')
 

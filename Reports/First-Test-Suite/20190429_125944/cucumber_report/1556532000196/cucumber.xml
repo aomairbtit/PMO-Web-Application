@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.232924">
+<testcase classname="Verify OOB Home Page" name="verify OOB home page elements" time="16.232924">
+<system-out><![CDATA[Given I want to open browser................................................passed
+When I want to maximize window..............................................passed
+When I want to go to OOB....................................................passed
+Then I want to verify I'm in OOB main page..................................passed
+When I want to verify Dashboard presents....................................passed
+When I want to verify Projects List presents................................passed
+When I want to verify Strategy Center presents..............................passed
+When I want to verify Reports presents......................................passed
+When I want to verify Tasks presents........................................passed
+When I want to verify Support presents......................................passed
+When I want to verify User Dropdwon presents................................passed
+When I want to verify Inbox Icon presents...................................passed
+When I want to verify Settings presents.....................................passed
+When I want to verify Language presents.....................................passed
+Then I want to close browser................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

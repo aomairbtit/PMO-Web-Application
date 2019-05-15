@@ -1,0 +1,1695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="First-Test-Suite" time="480" tests="4" failures="1" errors="0">
+   <testsuite name="First-Test-Suite" tests="4" failures="1" errors="0" time="480" timestamp="2019-05-01 14:48:08" hostname="HP - 10.152.104.67" id="Test Suites/First-Test-Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190501_144806"/>
+         <property name="logFiles" value="C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190501_144806\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190501_144806\\1556711343315.png, C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190501_144806\\1556711343629.png"/>
+         <property name="hostName" value="HP - 10.152.104.67"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.152.104.67"/>
+         <property name="sessionId" value="c911ae39e4a24aee96b3c9c5501d8057"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields" classname="Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)
+"/>
+         <system-out><![CDATA[2019-05-01 14:48:08 - [TEST_CASE][FAILED] - Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields: Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)
+
+
+2019-05-01 14:48:08 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature"): runFeatureFile("Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)
+
+
+2019-05-01 14:48:08 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190501_144806/cucumber_report/1556711288784'...
+
+2019-05-01 14:48:09 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO check create idea form mandatory fields: SCENARIO check create idea form mandatory fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/OOBObjects/IdeasListObjects/IdeaNameMandatoryField' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at com.pmo.steps.AddIdeaSteps.ideaNameMandatory(AddIdeaSteps.groovy:459)
+	at ✽.I want to check idea name is a mandatory field(C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature:14)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OOBObjects/IdeasListObjects/IdeaNameMandatoryField' located by 'By.xpath: //*[@id='TxtIdeaNameError']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at com.pmo.steps.AddIdeaSteps.ideaNameMandatory(AddIdeaSteps.groovy:459)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)
+
+
+2019-05-01 14:48:09 - [TEST_STEP][PASSED] - I want to open browser: I want to open browser
+
+2019-05-01 14:48:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-01 14:48:09 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-01 14:48:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-01 14:48:12 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-05-01 14:48:12 - [MESSAGE][PASSED] - I want to open browser
+
+2019-05-01 14:48:12 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-05-01 14:48:13 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-01 14:48:13 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-05-01 14:48:13 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-05-01 14:48:21 - [MESSAGE][PASSED] - Navigate to 'https://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-05-01 14:48:21 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-05-01 14:48:21 - [TEST_STEP][PASSED] - I want to verify I'm in OOB main page: I want to verify I'm in OOB main page
+
+2019-05-01 14:48:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:48:22 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/HomepageObjects/OOBSideBar' is present
+
+2019-05-01 14:48:22 - [MESSAGE][PASSED] - I want to verify I'm in OOB main page
+
+2019-05-01 14:48:22 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-05-01 14:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/HomepageObjects/IdeasList' is clicked on
+
+2019-05-01 14:48:25 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-05-01 14:48:25 - [TEST_STEP][PASSED] - I want to click on Add New button: I want to click on Add New button
+
+2019-05-01 14:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/AddNewIdeaButton' is clicked on
+
+2019-05-01 14:48:26 - [MESSAGE][PASSED] - I want to click on Add New button
+
+2019-05-01 14:48:26 - [TEST_STEP][PASSED] - I want to click send idea button: I want to click send idea button
+
+2019-05-01 14:48:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-01 14:48:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:48:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OOBObjects/IdeasListObjects/CardBlock' successfully
+
+2019-05-01 14:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/SendIdeaButton' is clicked on
+
+2019-05-01 14:48:32 - [MESSAGE][PASSED] - I want to click send idea button
+
+2019-05-01 14:48:32 - [TEST_STEP][FAILED] - I want to check idea name is a mandatory field: I want to check idea name is a mandatory field FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/OOBObjects/IdeasListObjects/IdeaNameMandatoryField' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at com.pmo.steps.AddIdeaSteps.ideaNameMandatory(AddIdeaSteps.groovy:459)
+	at ✽.I want to check idea name is a mandatory field(C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature:14)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OOBObjects/IdeasListObjects/IdeaNameMandatoryField' located by 'By.xpath: //*[@id='TxtIdeaNameError']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at com.pmo.steps.AddIdeaSteps.ideaNameMandatory(AddIdeaSteps.groovy:459)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)
+
+
+2019-05-01 14:49:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='TxtIdeaNameError']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-01 14:49:03 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/OOBObjects/IdeasListObjects/IdeaNameMandatoryField' located by 'By.xpath: //*[@id='TxtIdeaNameError']/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OOBObjects/IdeasListObjects/IdeaNameMandatoryField' located by 'By.xpath: //*[@id='TxtIdeaNameError']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at com.pmo.steps.AddIdeaSteps.ideaNameMandatory(AddIdeaSteps.groovy:459)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)
+)
+[[ATTACHMENT|C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190501_144806\\1556711343315.png]]
+
+2019-05-01 14:49:03 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/OOBObjects/IdeasListObjects/IdeaNameMandatoryField' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/OOBObjects/IdeasListObjects/IdeaNameMandatoryField' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at com.pmo.steps.AddIdeaSteps.ideaNameMandatory(AddIdeaSteps.groovy:459)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OOBObjects/IdeasListObjects/IdeaNameMandatoryField' located by 'By.xpath: //*[@id='TxtIdeaNameError']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 42 more
+)
+[[ATTACHMENT|C:\\Users\\HP\\git\\PMO-Web-Application\\Reports\\First-Test-Suite\\20190501_144806\\1556711343629.png]]
+
+2019-05-01 14:49:03 - [MESSAGE][FAILED] - I want to check idea name is a mandatory field FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/OOBObjects/IdeasListObjects/IdeaNameMandatoryField' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at com.pmo.steps.AddIdeaSteps.ideaNameMandatory(AddIdeaSteps.groovy:459)
+	at ✽.I want to check idea name is a mandatory field(C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature:14)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OOBObjects/IdeasListObjects/IdeaNameMandatoryField' located by 'By.xpath: //*[@id='TxtIdeaNameError']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at com.pmo.steps.AddIdeaSteps.ideaNameMandatory(AddIdeaSteps.groovy:459)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)
+
+
+2019-05-01 14:49:03 - [TEST_STEP][NOT_RUN] - I want to check start date is a mandatory field: I want to check start date is a mandatory field
+
+2019-05-01 14:49:03 - [MESSAGE][NOT_RUN] - I want to check start date is a mandatory field
+
+2019-05-01 14:49:03 - [TEST_STEP][NOT_RUN] - I want to check end date is a mandatory field: I want to check end date is a mandatory field
+
+2019-05-01 14:49:03 - [MESSAGE][NOT_RUN] - I want to check end date is a mandatory field
+
+2019-05-01 14:49:03 - [TEST_STEP][NOT_RUN] - I want to check idea objective is a mandatory field: I want to check idea objective is a mandatory field
+
+2019-05-01 14:49:03 - [MESSAGE][NOT_RUN] - I want to check idea objective is a mandatory field
+
+2019-05-01 14:49:03 - [TEST_STEP][NOT_RUN] - I want to close browser: I want to close browser
+
+2019-05-01 14:49:03 - [MESSAGE][NOT_RUN] - I want to close browser
+
+2019-05-01 14:49:04 - [MESSAGE][FAILED] - Feature file 'Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature' was failed
+
+2019-05-01 14:49:04 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)
+)
+
+2019-05-01 14:49:04 - [MESSAGE][FAILED] - runFeatureFile("Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-05-01 14:48:08 - [TEST_CASE][FAILED] - Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields: Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main-Test-Cases/019-Delete-Draft-Idea" classname="Test Cases/Main-Test-Cases/019-Delete-Draft-Idea" status="PASSED">
+         <system-out><![CDATA[2019-05-01 14:49:04 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/019-Delete-Draft-Idea: Test Cases/Main-Test-Cases/019-Delete-Draft-Idea
+
+2019-05-01 14:49:04 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Governance-Module/Add-Idea/019-Delete-Draft-Idea.feature"): Feature file: 'Include/features/Governance-Module/Add-Idea/019-Delete-Draft-Idea.feature' was passed
+
+2019-05-01 14:49:04 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Governance-Module/Add-Idea/019-Delete-Draft-Idea.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190501_144806/cucumber_report/1556711344211'...
+
+2019-05-01 14:49:04 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Verify delete idea functionality: SCENARIO Verify delete idea functionality
+
+2019-05-01 14:49:04 - [TEST_STEP][PASSED] - I want to open browser: I want to open browser
+
+2019-05-01 14:49:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-01 14:49:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-01 14:49:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-01 14:49:07 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-05-01 14:49:07 - [MESSAGE][PASSED] - I want to open browser
+
+2019-05-01 14:49:07 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-05-01 14:49:08 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-01 14:49:08 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-05-01 14:49:08 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-05-01 14:49:17 - [MESSAGE][PASSED] - Navigate to 'https://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-05-01 14:49:17 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-05-01 14:49:17 - [TEST_STEP][PASSED] - I want to verify I'm in OOB main page: I want to verify I'm in OOB main page
+
+2019-05-01 14:49:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:49:17 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/HomepageObjects/OOBSideBar' is present
+
+2019-05-01 14:49:17 - [MESSAGE][PASSED] - I want to verify I'm in OOB main page
+
+2019-05-01 14:49:17 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-05-01 14:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/HomepageObjects/IdeasList' is clicked on
+
+2019-05-01 14:49:21 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-05-01 14:49:21 - [TEST_STEP][PASSED] - I want to click on Add New button: I want to click on Add New button
+
+2019-05-01 14:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/AddNewIdeaButton' is clicked on
+
+2019-05-01 14:49:23 - [MESSAGE][PASSED] - I want to click on Add New button
+
+2019-05-01 14:49:23 - [TEST_STEP][PASSED] - I want to fill idea name field: I want to fill idea name field
+
+2019-05-01 14:49:23 - [MESSAGE][PASSED] - Text 'Automation4194' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Idea-Name-Field'
+
+2019-05-01 14:49:23 - [MESSAGE][PASSED] - I want to fill idea name field
+
+2019-05-01 14:49:23 - [TEST_STEP][PASSED] - I want to select expected start date: I want to select expected start date
+
+2019-05-01 14:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//GREGORIAN-Start-date-Check-Box' is clicked on
+
+2019-05-01 14:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//Excepted-Start-Date' is clicked on
+
+2019-05-01 14:49:24 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/OOBObjects/IdeasListObjects/StartDateMonthDropDwon'
+
+2019-05-01 14:49:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//Day26' is hovered
+
+2019-05-01 14:49:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//Day26' is clicked on
+
+2019-05-01 14:49:24 - [MESSAGE][PASSED] - I want to select expected start date
+
+2019-05-01 14:49:24 - [TEST_STEP][PASSED] - I want to select expected end date: I want to select expected end date
+
+2019-05-01 14:49:24 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/IdeasListObjects/GREGORIAN-End-Date-Check-Box' is visible
+
+2019-05-01 14:49:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/GREGORIAN-End-Date-Check-Box' is clicked on
+
+2019-05-01 14:49:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-01 14:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/Excpected-End-Date' is hovered
+
+2019-05-01 14:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/Excpected-End-Date' is clicked on
+
+2019-05-01 14:49:26 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/OOBObjects/IdeasListObjects/EndDateMonthDropdown'
+
+2019-05-01 14:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/EndDateDay15' is hovered
+
+2019-05-01 14:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/EndDateDay15' is clicked on
+
+2019-05-01 14:49:26 - [MESSAGE][PASSED] - I want to select expected end date
+
+2019-05-01 14:49:26 - [TEST_STEP][PASSED] - I want to fill idea objective field: I want to fill idea objective field
+
+2019-05-01 14:49:26 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Idea-Objective-Field'
+
+2019-05-01 14:49:26 - [MESSAGE][PASSED] - I want to fill idea objective field
+
+2019-05-01 14:49:26 - [TEST_STEP][PASSED] - I want to fill expected budget field: I want to fill expected budget field
+
+2019-05-01 14:49:26 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Expected-Budget-Field'
+
+2019-05-01 14:49:26 - [MESSAGE][PASSED] - I want to fill expected budget field
+
+2019-05-01 14:49:26 - [TEST_STEP][PASSED] - I want to fill Notes field: I want to fill Notes field
+
+2019-05-01 14:49:27 - [MESSAGE][PASSED] - Text 'test note' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Notes-Field'
+
+2019-05-01 14:49:27 - [MESSAGE][PASSED] - I want to fill Notes field
+
+2019-05-01 14:49:27 - [TEST_STEP][PASSED] - I want to click save idea button: I want to click save idea button
+
+2019-05-01 14:49:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:49:27 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/IdeasListObjects/SaveIdeaButton' is present
+
+2019-05-01 14:49:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:49:27 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/IdeasListObjects/SaveIdeaButton' is clickable
+
+2019-05-01 14:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/SaveIdeaButton' is clicked on
+
+2019-05-01 14:49:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-01 14:49:32 - [MESSAGE][PASSED] - I want to click save idea button
+
+2019-05-01 14:49:32 - [TEST_STEP][PASSED] - I want to wait for page load: I want to wait for page load
+
+2019-05-01 14:49:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-01 14:49:32 - [MESSAGE][PASSED] - I want to wait for page load
+
+2019-05-01 14:49:32 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-05-01 14:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/HomepageObjects/IdeasList' is clicked on
+
+2019-05-01 14:49:33 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-05-01 14:49:33 - [TEST_STEP][PASSED] - I want to search for idea by idea name: I want to search for idea by idea name
+
+2019-05-01 14:49:33 - [MESSAGE][PASSED] - Text 'Automation4194' is set on object 'Object Repository/OOBObjects/IdeasListObjects/SearchField'
+
+2019-05-01 14:49:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OOBObjects/IdeasListObjects/SearchResult' are matched.
+
+2019-05-01 14:49:35 - [MESSAGE][PASSED] - I want to search for idea by idea name
+
+2019-05-01 14:49:35 - [TEST_STEP][PASSED] - I want to click on delete idea icon: I want to click on delete idea icon
+
+2019-05-01 14:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/DeleteIdeaIcon' is clicked on
+
+2019-05-01 14:49:35 - [MESSAGE][PASSED] - Alert accepted
+
+2019-05-01 14:49:35 - [MESSAGE][PASSED] - I want to click on delete idea icon
+
+2019-05-01 14:49:35 - [TEST_STEP][PASSED] - I want to check idea has been deleted: I want to check idea has been deleted
+
+2019-05-01 14:49:36 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-05-01 14:49:36 - [MESSAGE][PASSED] - Text 'Automation4194' is set on object 'Object Repository/OOBObjects/IdeasListObjects/SearchField'
+
+2019-05-01 14:49:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OOBObjects/IdeasListObjects/SearchResult' are matched.
+
+2019-05-01 14:49:38 - [MESSAGE][PASSED] - I want to check idea has been deleted
+
+2019-05-01 14:49:38 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-05-01 14:49:39 - [MESSAGE][PASSED] - Browser is closed
+
+2019-05-01 14:49:39 - [MESSAGE][PASSED] - I want to close browser
+
+2019-05-01 14:49:39 - [MESSAGE][PASSED] - Feature file: 'Include/features/Governance-Module/Add-Idea/019-Delete-Draft-Idea.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main-Test-Cases/024-Search-for-Approved-Idea" classname="Test Cases/Main-Test-Cases/024-Search-for-Approved-Idea" status="PASSED">
+         <system-out><![CDATA[2019-05-01 14:49:39 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/024-Search-for-Approved-Idea: Test Cases/Main-Test-Cases/024-Search-for-Approved-Idea
+
+2019-05-01 14:49:39 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Governance-Module/Add-Idea/024-Search-for-Approved-Idea.feature"): Feature file: 'Include/features/Governance-Module/Add-Idea/024-Search-for-Approved-Idea.feature' was passed
+
+2019-05-01 14:49:39 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Governance-Module/Add-Idea/024-Search-for-Approved-Idea.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190501_144806/cucumber_report/1556711379213'...
+
+2019-05-01 14:49:39 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search for approved idea by name: SCENARIO Search for approved idea by name
+
+2019-05-01 14:49:39 - [TEST_STEP][PASSED] - I want to open browser: I want to open browser
+
+2019-05-01 14:49:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-01 14:49:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-01 14:49:41 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-05-01 14:49:41 - [MESSAGE][PASSED] - I want to open browser
+
+2019-05-01 14:49:41 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-05-01 14:49:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-01 14:49:42 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-05-01 14:49:42 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-05-01 14:49:51 - [MESSAGE][PASSED] - Navigate to 'https://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-05-01 14:49:51 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-05-01 14:49:51 - [TEST_STEP][PASSED] - I want to verify I'm in OOB main page: I want to verify I'm in OOB main page
+
+2019-05-01 14:49:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:49:51 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/HomepageObjects/OOBSideBar' is present
+
+2019-05-01 14:49:51 - [MESSAGE][PASSED] - I want to verify I'm in OOB main page
+
+2019-05-01 14:49:51 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-05-01 14:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/HomepageObjects/IdeasList' is clicked on
+
+2019-05-01 14:49:56 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-05-01 14:49:56 - [TEST_STEP][PASSED] - I want to click on Add New button: I want to click on Add New button
+
+2019-05-01 14:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/AddNewIdeaButton' is clicked on
+
+2019-05-01 14:49:57 - [MESSAGE][PASSED] - I want to click on Add New button
+
+2019-05-01 14:49:57 - [TEST_STEP][PASSED] - I want to fill idea name field: I want to fill idea name field
+
+2019-05-01 14:49:58 - [MESSAGE][PASSED] - Text 'Automation6629' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Idea-Name-Field'
+
+2019-05-01 14:49:58 - [MESSAGE][PASSED] - I want to fill idea name field
+
+2019-05-01 14:49:58 - [TEST_STEP][PASSED] - I want to select expected start date: I want to select expected start date
+
+2019-05-01 14:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//GREGORIAN-Start-date-Check-Box' is clicked on
+
+2019-05-01 14:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//Excepted-Start-Date' is clicked on
+
+2019-05-01 14:49:58 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/OOBObjects/IdeasListObjects/StartDateMonthDropDwon'
+
+2019-05-01 14:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//Day26' is hovered
+
+2019-05-01 14:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//Day26' is clicked on
+
+2019-05-01 14:49:58 - [MESSAGE][PASSED] - I want to select expected start date
+
+2019-05-01 14:49:58 - [TEST_STEP][PASSED] - I want to select expected end date: I want to select expected end date
+
+2019-05-01 14:49:58 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/IdeasListObjects/GREGORIAN-End-Date-Check-Box' is visible
+
+2019-05-01 14:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/GREGORIAN-End-Date-Check-Box' is clicked on
+
+2019-05-01 14:50:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-01 14:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/Excpected-End-Date' is hovered
+
+2019-05-01 14:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/Excpected-End-Date' is clicked on
+
+2019-05-01 14:50:00 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/OOBObjects/IdeasListObjects/EndDateMonthDropdown'
+
+2019-05-01 14:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/EndDateDay15' is hovered
+
+2019-05-01 14:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/EndDateDay15' is clicked on
+
+2019-05-01 14:50:00 - [MESSAGE][PASSED] - I want to select expected end date
+
+2019-05-01 14:50:00 - [TEST_STEP][PASSED] - I want to fill idea objective field: I want to fill idea objective field
+
+2019-05-01 14:50:01 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Idea-Objective-Field'
+
+2019-05-01 14:50:01 - [MESSAGE][PASSED] - I want to fill idea objective field
+
+2019-05-01 14:50:01 - [TEST_STEP][PASSED] - I want to fill expected budget field: I want to fill expected budget field
+
+2019-05-01 14:50:01 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Expected-Budget-Field'
+
+2019-05-01 14:50:01 - [MESSAGE][PASSED] - I want to fill expected budget field
+
+2019-05-01 14:50:01 - [TEST_STEP][PASSED] - I want to fill Notes field: I want to fill Notes field
+
+2019-05-01 14:50:01 - [MESSAGE][PASSED] - Text 'test note' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Notes-Field'
+
+2019-05-01 14:50:01 - [MESSAGE][PASSED] - I want to fill Notes field
+
+2019-05-01 14:50:01 - [TEST_STEP][PASSED] - I want to click send idea button: I want to click send idea button
+
+2019-05-01 14:50:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-01 14:50:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:50:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OOBObjects/IdeasListObjects/CardBlock' successfully
+
+2019-05-01 14:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/SendIdeaButton' is clicked on
+
+2019-05-01 14:50:06 - [MESSAGE][PASSED] - I want to click send idea button
+
+2019-05-01 14:50:06 - [TEST_STEP][PASSED] - I want to verify idea added successfuly: I want to verify idea added successfuly
+
+2019-05-01 14:50:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:50:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-01 14:50:08 - [MESSAGE][PASSED] - Text 'Automation6629' is set on object 'Object Repository/OOBObjects/IdeasListObjects/SearchField'
+
+2019-05-01 14:50:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OOBObjects/IdeasListObjects/SearchResult' are matched.
+
+2019-05-01 14:50:10 - [MESSAGE][PASSED] - I want to verify idea added successfuly
+
+2019-05-01 14:50:10 - [TEST_STEP][PASSED] - I want to approve idea: I want to approve idea
+
+2019-05-01 14:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/HomepageObjects/InboxIcon' is clicked on
+
+2019-05-01 14:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/ApproveIdeaButton' is clicked on
+
+2019-05-01 14:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:50:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:50:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OOBObjects/InboxPageObjects/AddNewAttachmentButtonApproveIdea' successfully
+
+2019-05-01 14:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/AddNewAttachmentButtonApproveIdea' is clicked on
+
+2019-05-01 14:50:33 - [MESSAGE][PASSED] - File 'C:\Users\HP\Desktop\SK.png' sent to object: 'Object Repository/OOBObjects/InboxPageObjects/UploadFileApproveIdea'
+
+2019-05-01 14:50:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:50:34 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/InboxPageObjects/AttachedFileApprovedIdea' is present
+
+2019-05-01 14:50:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/LoadButtonApproveIdea' is clicked on
+
+2019-05-01 14:50:34 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/InboxPageObjects/SendAproveIdeaSecondPhase' is clickable
+
+2019-05-01 14:50:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SendAproveIdeaSecondPhase' is hovered
+
+2019-05-01 14:50:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-01 14:50:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SendAproveIdeaSecondPhase' is clicked on
+
+2019-05-01 14:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/StrategicObjectiveCheckBox' is clicked on
+
+2019-05-01 14:50:52 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/ddlInitiativesDropdwon'
+
+2019-05-01 14:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SendApproveIdeaThirdPhase' is clicked on
+
+2019-05-01 14:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:51:03 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/WalletDropdownApproveIdea'
+
+2019-05-01 14:51:04 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/ProgramDropdownApproveIdea'
+
+2019-05-01 14:51:04 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/OwnerDropdownApproveIdea'
+
+2019-05-01 14:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SendApproveIdeaFourthPhase' is clicked on
+
+2019-05-01 14:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/ApproveButtonFivthPhase' is clicked on
+
+2019-05-01 14:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/GeorgianCheckBoxApproveIdea' is clicked on
+
+2019-05-01 14:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/ExceptedExecutionDateApproveIdea' is clicked on
+
+2019-05-01 14:51:25 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/MonthsDropdownApproveIdea'
+
+2019-05-01 14:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/Day30ApproveIdeaExcutionDate' is hovered
+
+2019-05-01 14:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/Day30ApproveIdeaExcutionDate' is clicked on
+
+2019-05-01 14:51:25 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/PriorityDropdownApproveIdea'
+
+2019-05-01 14:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SubmitButtonApproveIdae' is clicked on
+
+2019-05-01 14:51:25 - [MESSAGE][PASSED] - I want to approve idea
+
+2019-05-01 14:51:25 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-05-01 14:51:35 - [MESSAGE][PASSED] - Navigate to 'https://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-05-01 14:51:35 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-05-01 14:51:35 - [TEST_STEP][PASSED] - I want to go to approved ideas list page: I want to go to approved ideas list page
+
+2019-05-01 14:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/HomepageObjects/ApprovedIdeasList' is clicked on
+
+2019-05-01 14:51:43 - [MESSAGE][PASSED] - I want to go to approved ideas list page
+
+2019-05-01 14:51:43 - [TEST_STEP][PASSED] - I want to search for approved idea by name: I want to search for approved idea by name
+
+2019-05-01 14:51:43 - [MESSAGE][PASSED] - Text 'Automation6629' is set on object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/ApprovedIdeasSearchField'
+
+2019-05-01 14:51:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/IdeaNameLinkInApprovedIdeasList' are matched.
+
+2019-05-01 14:51:43 - [MESSAGE][PASSED] - I want to search for approved idea by name
+
+2019-05-01 14:51:43 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-05-01 14:51:44 - [MESSAGE][PASSED] - Browser is closed
+
+2019-05-01 14:51:44 - [MESSAGE][PASSED] - I want to close browser
+
+2019-05-01 14:51:44 - [MESSAGE][PASSED] - Feature file: 'Include/features/Governance-Module/Add-Idea/024-Search-for-Approved-Idea.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main-Test-Cases/026-Verify-Execute-Idea-form" classname="Test Cases/Main-Test-Cases/026-Verify-Execute-Idea-form" status="PASSED">
+         <system-out><![CDATA[2019-05-01 14:51:44 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/026-Verify-Execute-Idea-form: Test Cases/Main-Test-Cases/026-Verify-Execute-Idea-form
+
+2019-05-01 14:51:44 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Governance-Module/Add-Idea/026-Verify-Execute-Idea-form.feature"): Feature file: 'Include/features/Governance-Module/Add-Idea/026-Verify-Execute-Idea-form.feature' was passed
+
+2019-05-01 14:51:44 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Governance-Module/Add-Idea/026-Verify-Execute-Idea-form.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190501_144806/cucumber_report/1556711504358'...
+
+2019-05-01 14:51:44 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Verify execute idea form: SCENARIO Verify execute idea form
+
+2019-05-01 14:51:44 - [TEST_STEP][PASSED] - I want to open browser: I want to open browser
+
+2019-05-01 14:51:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-01 14:51:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-01 14:51:46 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-05-01 14:51:46 - [MESSAGE][PASSED] - I want to open browser
+
+2019-05-01 14:51:46 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-05-01 14:51:47 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-01 14:51:47 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-05-01 14:51:47 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-05-01 14:51:58 - [MESSAGE][PASSED] - Navigate to 'https://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-05-01 14:51:58 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-05-01 14:51:58 - [TEST_STEP][PASSED] - I want to verify I'm in OOB main page: I want to verify I'm in OOB main page
+
+2019-05-01 14:51:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:51:58 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/HomepageObjects/OOBSideBar' is present
+
+2019-05-01 14:51:58 - [MESSAGE][PASSED] - I want to verify I'm in OOB main page
+
+2019-05-01 14:51:58 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-05-01 14:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/HomepageObjects/IdeasList' is clicked on
+
+2019-05-01 14:52:02 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-05-01 14:52:02 - [TEST_STEP][PASSED] - I want to click on Add New button: I want to click on Add New button
+
+2019-05-01 14:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/AddNewIdeaButton' is clicked on
+
+2019-05-01 14:52:03 - [MESSAGE][PASSED] - I want to click on Add New button
+
+2019-05-01 14:52:03 - [TEST_STEP][PASSED] - I want to fill idea name field: I want to fill idea name field
+
+2019-05-01 14:52:03 - [MESSAGE][PASSED] - Text 'Automation2389' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Idea-Name-Field'
+
+2019-05-01 14:52:03 - [MESSAGE][PASSED] - I want to fill idea name field
+
+2019-05-01 14:52:03 - [TEST_STEP][PASSED] - I want to select expected start date: I want to select expected start date
+
+2019-05-01 14:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//GREGORIAN-Start-date-Check-Box' is clicked on
+
+2019-05-01 14:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//Excepted-Start-Date' is clicked on
+
+2019-05-01 14:52:04 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/OOBObjects/IdeasListObjects/StartDateMonthDropDwon'
+
+2019-05-01 14:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//Day26' is hovered
+
+2019-05-01 14:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//Day26' is clicked on
+
+2019-05-01 14:52:04 - [MESSAGE][PASSED] - I want to select expected start date
+
+2019-05-01 14:52:04 - [TEST_STEP][PASSED] - I want to select expected end date: I want to select expected end date
+
+2019-05-01 14:52:04 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/IdeasListObjects/GREGORIAN-End-Date-Check-Box' is visible
+
+2019-05-01 14:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/GREGORIAN-End-Date-Check-Box' is clicked on
+
+2019-05-01 14:52:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-01 14:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/Excpected-End-Date' is hovered
+
+2019-05-01 14:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/Excpected-End-Date' is clicked on
+
+2019-05-01 14:52:06 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/OOBObjects/IdeasListObjects/EndDateMonthDropdown'
+
+2019-05-01 14:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/EndDateDay15' is hovered
+
+2019-05-01 14:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/EndDateDay15' is clicked on
+
+2019-05-01 14:52:06 - [MESSAGE][PASSED] - I want to select expected end date
+
+2019-05-01 14:52:06 - [TEST_STEP][PASSED] - I want to fill idea objective field: I want to fill idea objective field
+
+2019-05-01 14:52:06 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Idea-Objective-Field'
+
+2019-05-01 14:52:06 - [MESSAGE][PASSED] - I want to fill idea objective field
+
+2019-05-01 14:52:06 - [TEST_STEP][PASSED] - I want to fill expected budget field: I want to fill expected budget field
+
+2019-05-01 14:52:06 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Expected-Budget-Field'
+
+2019-05-01 14:52:06 - [MESSAGE][PASSED] - I want to fill expected budget field
+
+2019-05-01 14:52:06 - [TEST_STEP][PASSED] - I want to fill Notes field: I want to fill Notes field
+
+2019-05-01 14:52:07 - [MESSAGE][PASSED] - Text 'test note' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Notes-Field'
+
+2019-05-01 14:52:07 - [MESSAGE][PASSED] - I want to fill Notes field
+
+2019-05-01 14:52:07 - [TEST_STEP][PASSED] - I want to click send idea button: I want to click send idea button
+
+2019-05-01 14:52:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-01 14:52:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:52:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OOBObjects/IdeasListObjects/CardBlock' successfully
+
+2019-05-01 14:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/SendIdeaButton' is clicked on
+
+2019-05-01 14:52:12 - [MESSAGE][PASSED] - I want to click send idea button
+
+2019-05-01 14:52:12 - [TEST_STEP][PASSED] - I want to verify idea added successfuly: I want to verify idea added successfuly
+
+2019-05-01 14:52:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:52:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-01 14:52:13 - [MESSAGE][PASSED] - Text 'Automation2389' is set on object 'Object Repository/OOBObjects/IdeasListObjects/SearchField'
+
+2019-05-01 14:52:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OOBObjects/IdeasListObjects/SearchResult' are matched.
+
+2019-05-01 14:52:16 - [MESSAGE][PASSED] - I want to verify idea added successfuly
+
+2019-05-01 14:52:16 - [TEST_STEP][PASSED] - I want to approve idea: I want to approve idea
+
+2019-05-01 14:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/HomepageObjects/InboxIcon' is clicked on
+
+2019-05-01 14:52:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/ApproveIdeaButton' is clicked on
+
+2019-05-01 14:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:52:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:52:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OOBObjects/InboxPageObjects/AddNewAttachmentButtonApproveIdea' successfully
+
+2019-05-01 14:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/AddNewAttachmentButtonApproveIdea' is clicked on
+
+2019-05-01 14:52:35 - [MESSAGE][PASSED] - File 'C:\Users\HP\Desktop\SK.png' sent to object: 'Object Repository/OOBObjects/InboxPageObjects/UploadFileApproveIdea'
+
+2019-05-01 14:52:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:52:36 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/InboxPageObjects/AttachedFileApprovedIdea' is present
+
+2019-05-01 14:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/LoadButtonApproveIdea' is clicked on
+
+2019-05-01 14:52:36 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/InboxPageObjects/SendAproveIdeaSecondPhase' is clickable
+
+2019-05-01 14:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SendAproveIdeaSecondPhase' is hovered
+
+2019-05-01 14:52:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-01 14:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SendAproveIdeaSecondPhase' is clicked on
+
+2019-05-01 14:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/StrategicObjectiveCheckBox' is clicked on
+
+2019-05-01 14:52:53 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/ddlInitiativesDropdwon'
+
+2019-05-01 14:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SendApproveIdeaThirdPhase' is clicked on
+
+2019-05-01 14:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:53:03 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/WalletDropdownApproveIdea'
+
+2019-05-01 14:53:03 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/ProgramDropdownApproveIdea'
+
+2019-05-01 14:53:03 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/OwnerDropdownApproveIdea'
+
+2019-05-01 14:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SendApproveIdeaFourthPhase' is clicked on
+
+2019-05-01 14:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/ApproveButtonFivthPhase' is clicked on
+
+2019-05-01 14:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/GeorgianCheckBoxApproveIdea' is clicked on
+
+2019-05-01 14:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/ExceptedExecutionDateApproveIdea' is clicked on
+
+2019-05-01 14:53:23 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/MonthsDropdownApproveIdea'
+
+2019-05-01 14:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/Day30ApproveIdeaExcutionDate' is hovered
+
+2019-05-01 14:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/Day30ApproveIdeaExcutionDate' is clicked on
+
+2019-05-01 14:53:23 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/PriorityDropdownApproveIdea'
+
+2019-05-01 14:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SubmitButtonApproveIdae' is clicked on
+
+2019-05-01 14:53:23 - [MESSAGE][PASSED] - I want to approve idea
+
+2019-05-01 14:53:23 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-05-01 14:53:33 - [MESSAGE][PASSED] - Navigate to 'https://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-05-01 14:53:33 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-05-01 14:53:33 - [TEST_STEP][PASSED] - I want to go to approved ideas list page: I want to go to approved ideas list page
+
+2019-05-01 14:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/HomepageObjects/ApprovedIdeasList' is clicked on
+
+2019-05-01 14:53:41 - [MESSAGE][PASSED] - I want to go to approved ideas list page
+
+2019-05-01 14:53:41 - [TEST_STEP][PASSED] - I want to search for approved idea by name: I want to search for approved idea by name
+
+2019-05-01 14:53:41 - [MESSAGE][PASSED] - Text 'Automation2389' is set on object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/ApprovedIdeasSearchField'
+
+2019-05-01 14:53:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/IdeaNameLinkInApprovedIdeasList' are matched.
+
+2019-05-01 14:53:41 - [MESSAGE][PASSED] - I want to search for approved idea by name
+
+2019-05-01 14:53:41 - [TEST_STEP][PASSED] - I want to click Excute button: I want to click Excute button
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/ApprovedIdeasListObjects/ExcuteButton' is clicked on
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - I want to click Excute button
+
+2019-05-01 14:53:42 - [TEST_STEP][PASSED] - I want to verify im in add new project page: I want to verify im in add new project page
+
+2019-05-01 14:53:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/AddNewProjectLabel' is present
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - I want to verify im in add new project page
+
+2019-05-01 14:53:42 - [TEST_STEP][PASSED] - I want to check already filled fields: I want to check already filled fields
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/OOBObjects/ProjectsListObjects/ProjectNameField' is: ''
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - Actual object '' and expected object 'null' are not equal
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/OOBObjects/ProjectsListObjects/PlannedStartDate' is: ''
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - Actual object '' and expected object 'null' are not equal
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/OOBObjects/ProjectsListObjects/PlannedEndDate' is: ''
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - Actual object '' and expected object 'null' are not equal
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/OOBObjects/ProjectsListObjects/Duration' is: ''
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - Actual object '' and expected object 'null' are not equal
+
+2019-05-01 14:53:42 - [MESSAGE][PASSED] - I want to check already filled fields
+
+2019-05-01 14:53:42 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-05-01 14:53:43 - [MESSAGE][PASSED] - Browser is closed
+
+2019-05-01 14:53:43 - [MESSAGE][PASSED] - I want to close browser
+
+2019-05-01 14:53:43 - [MESSAGE][PASSED] - Feature file: 'Include/features/Governance-Module/Add-Idea/026-Verify-Execute-Idea-form.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main-Test-Cases/028-Cancel-Execution-Idea" classname="Test Cases/Main-Test-Cases/028-Cancel-Execution-Idea" status="PASSED">
+         <system-out><![CDATA[2019-05-01 14:53:43 - [TEST_CASE][PASSED] - Test Cases/Main-Test-Cases/028-Cancel-Execution-Idea: Test Cases/Main-Test-Cases/028-Cancel-Execution-Idea
+
+2019-05-01 14:53:43 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Governance-Module/Add-Idea/028-Cancel-Execution-Idea.feature"): Feature file: 'Include/features/Governance-Module/Add-Idea/028-Cancel-Execution-Idea.feature' was passed
+
+2019-05-01 14:53:43 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Governance-Module/Add-Idea/028-Cancel-Execution-Idea.feature' and extract report to folder: 'C:\Users\HP\git\PMO-Web-Application\Reports\First-Test-Suite\20190501_144806/cucumber_report/1556711623672'...
+
+2019-05-01 14:53:43 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Verify Cancel execution idea: SCENARIO Verify Cancel execution idea
+
+2019-05-01 14:53:43 - [TEST_STEP][PASSED] - I want to open browser: I want to open browser
+
+2019-05-01 14:53:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-01 14:53:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-01 14:53:45 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-05-01 14:53:45 - [MESSAGE][PASSED] - I want to open browser
+
+2019-05-01 14:53:45 - [TEST_STEP][PASSED] - I want to maximize window: I want to maximize window
+
+2019-05-01 14:53:47 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-01 14:53:47 - [MESSAGE][PASSED] - I want to maximize window
+
+2019-05-01 14:53:47 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-05-01 14:53:57 - [MESSAGE][PASSED] - Navigate to 'https://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-05-01 14:53:57 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-05-01 14:53:57 - [TEST_STEP][PASSED] - I want to verify I'm in OOB main page: I want to verify I'm in OOB main page
+
+2019-05-01 14:53:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:53:57 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/HomepageObjects/OOBSideBar' is present
+
+2019-05-01 14:53:57 - [MESSAGE][PASSED] - I want to verify I'm in OOB main page
+
+2019-05-01 14:53:57 - [TEST_STEP][PASSED] - I want to go to ideas list page: I want to go to ideas list page
+
+2019-05-01 14:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/HomepageObjects/IdeasList' is clicked on
+
+2019-05-01 14:54:01 - [MESSAGE][PASSED] - I want to go to ideas list page
+
+2019-05-01 14:54:01 - [TEST_STEP][PASSED] - I want to click on Add New button: I want to click on Add New button
+
+2019-05-01 14:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/AddNewIdeaButton' is clicked on
+
+2019-05-01 14:54:02 - [MESSAGE][PASSED] - I want to click on Add New button
+
+2019-05-01 14:54:02 - [TEST_STEP][PASSED] - I want to fill idea name field: I want to fill idea name field
+
+2019-05-01 14:54:02 - [MESSAGE][PASSED] - Text 'Automation9665' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Idea-Name-Field'
+
+2019-05-01 14:54:02 - [MESSAGE][PASSED] - I want to fill idea name field
+
+2019-05-01 14:54:02 - [TEST_STEP][PASSED] - I want to select expected start date: I want to select expected start date
+
+2019-05-01 14:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//GREGORIAN-Start-date-Check-Box' is clicked on
+
+2019-05-01 14:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//Excepted-Start-Date' is clicked on
+
+2019-05-01 14:54:03 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/OOBObjects/IdeasListObjects/StartDateMonthDropDwon'
+
+2019-05-01 14:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//Day26' is hovered
+
+2019-05-01 14:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects//Day26' is clicked on
+
+2019-05-01 14:54:03 - [MESSAGE][PASSED] - I want to select expected start date
+
+2019-05-01 14:54:03 - [TEST_STEP][PASSED] - I want to select expected end date: I want to select expected end date
+
+2019-05-01 14:54:03 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/IdeasListObjects/GREGORIAN-End-Date-Check-Box' is visible
+
+2019-05-01 14:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/GREGORIAN-End-Date-Check-Box' is clicked on
+
+2019-05-01 14:54:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-01 14:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/Excpected-End-Date' is hovered
+
+2019-05-01 14:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/Excpected-End-Date' is clicked on
+
+2019-05-01 14:54:05 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/OOBObjects/IdeasListObjects/EndDateMonthDropdown'
+
+2019-05-01 14:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/EndDateDay15' is hovered
+
+2019-05-01 14:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/EndDateDay15' is clicked on
+
+2019-05-01 14:54:05 - [MESSAGE][PASSED] - I want to select expected end date
+
+2019-05-01 14:54:05 - [TEST_STEP][PASSED] - I want to fill idea objective field: I want to fill idea objective field
+
+2019-05-01 14:54:05 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Idea-Objective-Field'
+
+2019-05-01 14:54:05 - [MESSAGE][PASSED] - I want to fill idea objective field
+
+2019-05-01 14:54:05 - [TEST_STEP][PASSED] - I want to fill expected budget field: I want to fill expected budget field
+
+2019-05-01 14:54:05 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Expected-Budget-Field'
+
+2019-05-01 14:54:05 - [MESSAGE][PASSED] - I want to fill expected budget field
+
+2019-05-01 14:54:05 - [TEST_STEP][PASSED] - I want to fill Notes field: I want to fill Notes field
+
+2019-05-01 14:54:06 - [MESSAGE][PASSED] - Text 'test note' is set on object 'Object Repository/OOBObjects/IdeasListObjects/Notes-Field'
+
+2019-05-01 14:54:06 - [MESSAGE][PASSED] - I want to fill Notes field
+
+2019-05-01 14:54:06 - [TEST_STEP][PASSED] - I want to click send idea button: I want to click send idea button
+
+2019-05-01 14:54:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-01 14:54:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:54:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OOBObjects/IdeasListObjects/CardBlock' successfully
+
+2019-05-01 14:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/IdeasListObjects/SendIdeaButton' is clicked on
+
+2019-05-01 14:54:11 - [MESSAGE][PASSED] - I want to click send idea button
+
+2019-05-01 14:54:11 - [TEST_STEP][PASSED] - I want to verify idea added successfuly: I want to verify idea added successfuly
+
+2019-05-01 14:54:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:54:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-01 14:54:12 - [MESSAGE][PASSED] - Text 'Automation9665' is set on object 'Object Repository/OOBObjects/IdeasListObjects/SearchField'
+
+2019-05-01 14:54:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OOBObjects/IdeasListObjects/SearchResult' are matched.
+
+2019-05-01 14:54:14 - [MESSAGE][PASSED] - I want to verify idea added successfuly
+
+2019-05-01 14:54:14 - [TEST_STEP][PASSED] - I want to approve idea: I want to approve idea
+
+2019-05-01 14:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/HomepageObjects/InboxIcon' is clicked on
+
+2019-05-01 14:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/ApproveIdeaButton' is clicked on
+
+2019-05-01 14:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:54:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:54:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OOBObjects/InboxPageObjects/AddNewAttachmentButtonApproveIdea' successfully
+
+2019-05-01 14:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/AddNewAttachmentButtonApproveIdea' is clicked on
+
+2019-05-01 14:54:35 - [MESSAGE][PASSED] - File 'C:\Users\HP\Desktop\SK.png' sent to object: 'Object Repository/OOBObjects/InboxPageObjects/UploadFileApproveIdea'
+
+2019-05-01 14:54:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:54:36 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/InboxPageObjects/AttachedFileApprovedIdea' is present
+
+2019-05-01 14:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/LoadButtonApproveIdea' is clicked on
+
+2019-05-01 14:54:36 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/InboxPageObjects/SendAproveIdeaSecondPhase' is clickable
+
+2019-05-01 14:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SendAproveIdeaSecondPhase' is hovered
+
+2019-05-01 14:54:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-01 14:54:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SendAproveIdeaSecondPhase' is clicked on
+
+2019-05-01 14:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/StrategicObjectiveCheckBox' is clicked on
+
+2019-05-01 14:54:54 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/ddlInitiativesDropdwon'
+
+2019-05-01 14:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SendApproveIdeaThirdPhase' is clicked on
+
+2019-05-01 14:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:55:07 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/WalletDropdownApproveIdea'
+
+2019-05-01 14:55:07 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/ProgramDropdownApproveIdea'
+
+2019-05-01 14:55:07 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/OwnerDropdownApproveIdea'
+
+2019-05-01 14:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SendApproveIdeaFourthPhase' is clicked on
+
+2019-05-01 14:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/ApproveButtonFivthPhase' is clicked on
+
+2019-05-01 14:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/BeforeInitiatePhase' is clicked on
+
+2019-05-01 14:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/FirstIdea' is clicked on
+
+2019-05-01 14:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/GeorgianCheckBoxApproveIdea' is clicked on
+
+2019-05-01 14:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/ExceptedExecutionDateApproveIdea' is clicked on
+
+2019-05-01 14:55:30 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/MonthsDropdownApproveIdea'
+
+2019-05-01 14:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/Day30ApproveIdeaExcutionDate' is hovered
+
+2019-05-01 14:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/Day30ApproveIdeaExcutionDate' is clicked on
+
+2019-05-01 14:55:30 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/InboxPageObjects/PriorityDropdownApproveIdea'
+
+2019-05-01 14:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/InboxPageObjects/SubmitButtonApproveIdae' is clicked on
+
+2019-05-01 14:55:30 - [MESSAGE][PASSED] - I want to approve idea
+
+2019-05-01 14:55:30 - [TEST_STEP][PASSED] - I want to go to OOB: I want to go to OOB
+
+2019-05-01 14:55:40 - [MESSAGE][PASSED] - Navigate to 'https://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/' successfully
+
+2019-05-01 14:55:40 - [MESSAGE][PASSED] - I want to go to OOB
+
+2019-05-01 14:55:40 - [TEST_STEP][PASSED] - I want to go to approved ideas list page: I want to go to approved ideas list page
+
+2019-05-01 14:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/HomepageObjects/ApprovedIdeasList' is clicked on
+
+2019-05-01 14:55:48 - [MESSAGE][PASSED] - I want to go to approved ideas list page
+
+2019-05-01 14:55:48 - [TEST_STEP][PASSED] - I want to search for approved idea by name: I want to search for approved idea by name
+
+2019-05-01 14:55:49 - [MESSAGE][PASSED] - Text 'Automation9665' is set on object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/ApprovedIdeasSearchField'
+
+2019-05-01 14:55:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/IdeaNameLinkInApprovedIdeasList' are matched.
+
+2019-05-01 14:55:49 - [MESSAGE][PASSED] - I want to search for approved idea by name
+
+2019-05-01 14:55:49 - [TEST_STEP][PASSED] - I want to click Excute button: I want to click Excute button
+
+2019-05-01 14:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/ApprovedIdeasListObjects/ExcuteButton' is clicked on
+
+2019-05-01 14:55:50 - [MESSAGE][PASSED] - I want to click Excute button
+
+2019-05-01 14:55:50 - [TEST_STEP][PASSED] - I want to verify im in add new project page: I want to verify im in add new project page
+
+2019-05-01 14:55:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:55:50 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/AddNewProjectLabel' is present
+
+2019-05-01 14:55:50 - [MESSAGE][PASSED] - I want to verify im in add new project page
+
+2019-05-01 14:55:50 - [TEST_STEP][PASSED] - I want to select project type: I want to select project type
+
+2019-05-01 14:55:50 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/OOBObjects/ProjectsListObjects/ProjectTypeDropDwon'
+
+2019-05-01 14:55:50 - [MESSAGE][PASSED] - I want to select project type
+
+2019-05-01 14:55:50 - [TEST_STEP][PASSED] - I want to fill project manager field: I want to fill project manager field
+
+2019-05-01 14:55:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:55:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OOBObjects/ProjectsListObjects/Duration' successfully
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - Text 'النظام' is set on object 'Object Repository/OOBObjects/ProjectsListObjects/ProjectMangerField'
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - I want to fill project manager field
+
+2019-05-01 14:55:51 - [TEST_STEP][PASSED] - I want to tap enter key on manager field: I want to tap enter key on manager field
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/OOBObjects/ProjectsListObjects/ProjectMangerField'
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - I want to tap enter key on manager field
+
+2019-05-01 14:55:51 - [TEST_STEP][PASSED] - I want to fill project owner field: I want to fill project owner field
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - Text 'محمد فيصل عبدالله' is set on object 'Object Repository/OOBObjects/ProjectsListObjects/ProjectOwnerField'
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - I want to fill project owner field
+
+2019-05-01 14:55:51 - [TEST_STEP][PASSED] - I want to tap enter key on owner field: I want to tap enter key on owner field
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/OOBObjects/ProjectsListObjects/ProjectOwnerField'
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - I want to tap enter key on owner field
+
+2019-05-01 14:55:51 - [TEST_STEP][PASSED] - I want to fill project sponser field: I want to fill project sponser field
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - Text 'هديل خالد علي' is set on object 'Object Repository/OOBObjects/ProjectsListObjects/ProjectSponsorField'
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - I want to fill project sponser field
+
+2019-05-01 14:55:51 - [TEST_STEP][PASSED] - I want to tap enter key on sponser field: I want to tap enter key on sponser field
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/OOBObjects/ProjectsListObjects/ProjectSponsorField'
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - I want to tap enter key on sponser field
+
+2019-05-01 14:55:51 - [TEST_STEP][PASSED] - I want to fill project description field: I want to fill project description field
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - Text 'test description' is set on object 'Object Repository/OOBObjects/ProjectsListObjects/ProjectDescriptionField'
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - I want to fill project description field
+
+2019-05-01 14:55:51 - [TEST_STEP][PASSED] - I want to fill project notes field: I want to fill project notes field
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - Text 'test notes' is set on object 'Object Repository/OOBObjects/ProjectsListObjects/ProjectNotesField'
+
+2019-05-01 14:55:51 - [MESSAGE][PASSED] - I want to fill project notes field
+
+2019-05-01 14:55:51 - [TEST_STEP][PASSED] - I want to wait: I want to wait
+
+2019-05-01 14:55:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-01 14:55:54 - [MESSAGE][PASSED] - I want to wait
+
+2019-05-01 14:55:54 - [TEST_STEP][PASSED] - I want to click on cancel creating new project button: I want to click on cancel creating new project button
+
+2019-05-01 14:55:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-01 14:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OOBObjects/ProjectsListObjects/CancelAddingNewProject' is clicked on
+
+2019-05-01 14:56:07 - [MESSAGE][PASSED] - I want to click on cancel creating new project button
+
+2019-05-01 14:56:07 - [TEST_STEP][PASSED] - I want to verify Approved Ideas List page: I want to verify Approved Ideas List page
+
+2019-05-01 14:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/ApprovedIdeasListTitle' is present
+
+2019-05-01 14:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/IdeaNameColumnInApprovedIdeasList' is present
+
+2019-05-01 14:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/ExpectedBudgetColumnInApprovedIdeasList' is present
+
+2019-05-01 14:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/StatusColumnInApprovedIdeasList' is present
+
+2019-05-01 14:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/PriorityColumnInApprovedIdeasList' is present
+
+2019-05-01 14:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/ActionsColumnInApprovedIdeasList' is present
+
+2019-05-01 14:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/SearchSectionInApprovedIdeasList' is present
+
+2019-05-01 14:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 14:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/ExcuteButton' is present
+
+2019-05-01 14:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/OOBObjects/ApprovedIdeasListObjects/IdeaNameLinkInApprovedIdeasList' is clickable
+
+2019-05-01 14:56:07 - [MESSAGE][PASSED] - I want to verify Approved Ideas List page
+
+2019-05-01 14:56:07 - [TEST_STEP][PASSED] - I want to close browser: I want to close browser
+
+2019-05-01 14:56:08 - [MESSAGE][PASSED] - Browser is closed
+
+2019-05-01 14:56:08 - [MESSAGE][PASSED] - I want to close browser
+
+2019-05-01 14:56:08 - [MESSAGE][PASSED] - Feature file: 'Include/features/Governance-Module/Add-Idea/028-Cancel-Execution-Idea.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-01 14:48:08 - [TEST_SUITE][FAILED] - First-Test-Suite: Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-05-01 14:48:08 - [TEST_SUITE][FAILED] - First-Test-Suite: Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 006-Check-Mandatory-Fields.run(006-Check-Mandatory-Fields:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556711286907.run(TempTestSuite1556711286907.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

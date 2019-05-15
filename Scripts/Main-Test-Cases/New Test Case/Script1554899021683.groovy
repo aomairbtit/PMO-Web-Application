@@ -21,38 +21,38 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/')
 
-WebUI.click(findTestObject('OOB-Objects/IdeasList'))
+WebUI.click(findTestObject('OOBObjects/HomepageObjects/IdeasList'))
 
-WebUI.click(findTestObject('PMO-Objects/Page_Project Request/Add-New-Project-Request'))
+WebUI.click(findTestObject('OOBObjects/IdeasListObjects/AddNewIdeaButton'))
 
-not_run: WebUI.click(findTestObject('PMO-Objects/Page_Add New Project Request/SendIdeaButton'))
+not_run: WebUI.click(findTestObject('OOBObjects/IdeasListObjects/SendIdeaButton'))
 
-not_run: WebUI.verifyElementVisible(findTestObject('PMO-Objects/Page_Add New Project Request/IdeaNameMandatoryField'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('OOBObjects/IdeasListObjects/IdeaNameMandatoryField'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('PMO-Objects/Page_Add New Project Request/GREGORIAN-Start-date-Check-Box'))
+WebUI.click(findTestObject('OOBObjects/IdeasListObjects/GREGORIAN-Start-date-Check-Box'))
 
-WebUI.click(findTestObject('PMO-Objects/Page_Add New Project Request/Excepted-Start-Date'))
+WebUI.click(findTestObject('OOBObjects/IdeasListObjects/Excepted-Start-Date'))
 
-WebUI.selectOptionByIndex(findTestObject('PMO-Objects/Page_Add New Project Request/StartDateMonthDropDwon'), 4)
+WebUI.selectOptionByIndex(findTestObject('OOBObjects/IdeasListObjects/StartDateMonthDropDwon'), 4)
 
-WebUI.mouseOver(findTestObject('PMO-Objects/Page_Add New Project Request/Day26'))
+WebUI.mouseOver(findTestObject('OOBObjects/IdeasListObjects/Day26'))
 
-WebUI.click(findTestObject('PMO-Objects/Page_Add New Project Request/Day26'))
+WebUI.click(findTestObject('OOBObjects/IdeasListObjects/Day26'))
 
-WebUI.selectOptionByIndex(findTestObject('PMO-Objects/Page_Add New Project Request/EndDateMonthDropdown'), 4)
+WebUI.selectOptionByIndex(findTestObject('OOBObjects/IdeasListObjects/EndDateMonthDropdown'), 4)
 
-WebUI.verifyElementNotPresent(findTestObject('PMO-Objects/Page_Add New Project Request/AttachedFile'), 0)
+WebUI.verifyElementNotPresent(findTestObject('OOBObjects/IdeasListObjects/AttachedFile'), 0)
 
-WebUI.verifyElementText(findTestObject('PMO-Objects/Page_Add New Project Request/ErrorMessage'), 'صيغة الملف غير مسموح بها. الصيغ المسموح بها :  png, pdf, jpeg, xls, xlsx, ppt, pptx, doc, docx.')
+WebUI.verifyElementText(findTestObject('OOBObjects/IdeasListObjects/ErrorMessage'), 'صيغة الملف غير مسموح بها. الصيغ المسموح بها :  png, pdf, jpeg, xls, xlsx, ppt, pptx, doc, docx.')
 
 WebUI.verifyTextPresent('صيغة الملف غير مسموح بها. الصيغ المسموح بها :  png, pdf, jpeg, xls, xlsx, ppt, pptx, doc, docx.', 
     false)
 
 WebUI.scrollToElement(findTestObject(null), 0)
 
-WebUI.verifyElementPresent(findTestObject('PMO-Objects/Page_Add New Project Request/ErrorMessage'), 0)
+WebUI.verifyElementPresent(findTestObject('OOBObjects/IdeasListObjects/ErrorMessage'), 0)
 
-WebUI.clearText(findTestObject('PMO-Objects/Page_Add New Project Request/Idea-Name-Field'))
+WebUI.clearText(findTestObject('OOBObjects/IdeasListObjects/Idea-Name-Field'))
 
 WebUI.getText(findTestObject(null))
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="135.329096">
+<testcase classname="Verify approved idea details page" name="Verify approved idea details page" time="135.329096">
+<system-out><![CDATA[Given I want to open browser................................................passed
+When I want to maximize window..............................................passed
+When I want to go to OOB....................................................passed
+Then I want to verify I'm in OOB main page..................................passed
+When I want to go to ideas list page........................................passed
+When I want to click on Add New button......................................passed
+When I want to fill idea name field.........................................passed
+When I want to select expected start date...................................passed
+When I want to select expected end date.....................................passed
+When I want to fill idea objective field....................................passed
+When I want to fill expected budget field...................................passed
+When I want to fill Notes field.............................................passed
+When I want to click send idea button.......................................passed
+Then I want to verify idea added successfuly................................passed
+When I want to approve idea.................................................passed
+When I want to go to OOB....................................................passed
+When I want to go to approved ideas list page...............................passed
+When I want to search for approved idea by name.............................passed
+When I want to go to approved idea details page.............................passed
+Then I want to verify approved idea details page............................passed
+Then I want to close browser................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

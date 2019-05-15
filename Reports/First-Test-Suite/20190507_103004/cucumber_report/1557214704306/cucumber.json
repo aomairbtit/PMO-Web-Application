@@ -1,0 +1,256 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Submit idea and check it has been sent to PMO",
+        "description": "",
+        "id": "submit-idea-and-check-it-has-been-sent-to-pmo-for-approval;submit-idea-and-check-it-has-been-sent-to-pmo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2119405854,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1142210388,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8954029553,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25431357,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5139538326,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to go to ideas list page",
+            "match": {
+              "location": "AddIdeaSteps.goToIdeasList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1711626138,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to click on Add New button",
+            "match": {
+              "location": "AddIdeaSteps.clickAddNewIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113594971,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to fill idea name field",
+            "match": {
+              "location": "AddIdeaSteps.fillIdeaNameField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 396589756,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to select expected start date",
+            "match": {
+              "location": "AddIdeaSteps.selectStartDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2440395514,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to select expected end date",
+            "match": {
+              "location": "AddIdeaSteps.selectEndDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107697725,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to fill idea objective field",
+            "match": {
+              "location": "AddIdeaSteps.fillObjectiveField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116538452,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to fill expected budget field",
+            "match": {
+              "location": "AddIdeaSteps.fillBudgetField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115165924,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to fill Notes field",
+            "match": {
+              "location": "AddIdeaSteps.fillNotesField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5101719773,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I want to click send idea button",
+            "match": {
+              "location": "AddIdeaSteps.clickSendIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3060666267,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I want to verify idea added successfuly",
+            "match": {
+              "location": "AddIdeaSteps.verifyIdeaAdded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44748537,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I want to verify submitted idea cannot be deleted or edited",
+            "match": {
+              "location": "AddIdeaSteps.checkSubmittedIdeaCantBeDeletedorEdited()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37335855,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I want to check submitted idea status is In Progress",
+            "match": {
+              "location": "AddIdeaSteps.checkSubmittedIdeaStatusIsInProgress()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8875562056,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I want to check submitted idea sent to PMO office for approval",
+            "match": {
+              "location": "AddIdeaSteps.checkSubmittedIdeaSentToPMO()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 602553828,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Submit idea and check it has been sent to PMO for approval",
+    "description": "  I want to submit idea form and check it has been sent to PMO office",
+    "id": "submit-idea-and-check-it-has-been-sent-to-pmo-for-approval",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Idea/017-Submit-Idea-and-Check-its-Sent-to-PMO.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

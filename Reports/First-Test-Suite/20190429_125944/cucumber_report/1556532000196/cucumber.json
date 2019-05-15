@@ -1,0 +1,220 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "verify OOB home page elements",
+        "description": "",
+        "id": "verify-oob-home-page;verify-oob-home-page-elements",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2075133886,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1125293397,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1230089847,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10990353742,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21263920,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to verify Dashboard presents",
+            "match": {
+              "location": "MainSteps.verifyDashboardPresent()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21452578,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to verify Projects List presents",
+            "match": {
+              "location": "MainSteps.verifyProjectsListPresent()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20470217,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to verify Strategy Center presents",
+            "match": {
+              "location": "MainSteps.verifyStrategyCenterPresent()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19303310,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to verify Reports presents",
+            "match": {
+              "location": "MainSteps.verifyReportsPresent()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25145555,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to verify Tasks presents",
+            "match": {
+              "location": "MainSteps.verifyTasksPresent()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19952563,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to verify Support presents",
+            "match": {
+              "location": "MainSteps.verifySupportPresent()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25919723,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to verify User Dropdwon presents",
+            "match": {
+              "location": "MainSteps.verifyUserDropdwonPresent()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21146201,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to verify Inbox Icon presents",
+            "match": {
+              "location": "MainSteps.verifyNotificationsPresent()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19777270,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I want to verify Settings presents",
+            "match": {
+              "location": "MainSteps.verifySettingsPresent()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18783600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I want to verify Language presents",
+            "match": {
+              "location": "MainSteps.verifyLanguagePresent()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 586591162,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@OOB"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify OOB Home Page",
+    "description": "  I want to verify OOB home page elements",
+    "id": "verify-oob-home-page",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Idea/002-Verify-OOB-HomePage.feature",
+    "tags": [
+      {
+        "name": "@OOB",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

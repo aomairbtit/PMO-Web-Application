@@ -15,4 +15,4 @@ import internal.GlobalVariable as GlobalVariable
 import com.pmo.steps.MyTestRunner
 
 //CucumberKW.runWithCucumberRunner(MyTestRunner.class)
-CucumberKW.runFeatureFile('Include/features/Governance-Module/020-Update-Draft-Idea.feature')
+CucumberKW.runFeatureFile('Include/features/Governance-Module/Add-Idea/020-Update-Draft-Idea.feature')

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.675221">
+<testcase classname="View Project List" name="View Project List" time="21.675221">
+<system-out><![CDATA[Given I want to open browser................................................passed
+When I want to maximize window..............................................passed
+When I want to go to OOB....................................................passed
+Then I want to verify I'm in OOB main page..................................passed
+When I want to go to projects list..........................................passed
+Then I want to verify project list page.....................................passed
+When I want to click Add new project button.................................passed
+Then I want to verify add new project form..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

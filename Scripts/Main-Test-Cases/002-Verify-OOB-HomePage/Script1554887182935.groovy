@@ -17,5 +17,5 @@ import com.pmo.steps.MyTestRunner
 
 //CucumberKW.runWithCucumberRunner(MyTestRunner.class)
 
-CucumberKW.runFeatureFile('Include/features/Governance-Module/002-Verify-OOB-HomePage.feature')
+CucumberKW.runFeatureFile('Include/features/Governance-Module/Add-Idea/002-Verify-OOB-HomePage.feature')
 

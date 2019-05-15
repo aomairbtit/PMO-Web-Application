@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.021681">
+<testcase classname="Set start date greater than end date and check error message" name="Check start date greater than end date error message" time="30.021681">
+<system-out><![CDATA[Given I want to open browser................................................passed
+When I want to maximize window..............................................passed
+When I want to go to OOB....................................................passed
+Then I want to verify I'm in OOB main page..................................passed
+When I want to go to ideas list page........................................passed
+When I want to click on Add New button......................................passed
+When I want to fill idea name field.........................................passed
+When I want to select start date greater than end date......................passed
+When I want to fill idea objective field....................................passed
+When I want to fill expected budget field...................................passed
+When I want to fill Notes field.............................................passed
+When I want to click send idea button.......................................passed
+Then I want to check start date greater than end date error message.........passed
+Then I want to close browser................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

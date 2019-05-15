@@ -1,0 +1,80 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First-Test-Suite,Chrome 73.0.3683.103,,2019-04-25 15:43:52,2019-04-25 15:57:43,13m - 50.955s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/001-Login-To-OOB,Chrome 73.0.3683.103,,2019-04-25 15:43:52,2019-04-25 15:44:07,14.878s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/001-Login-to-OOB.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:43:52,2019-04-25 15:44:07,14.635s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/002-Verify-OOB-HomePage,Chrome 73.0.3683.103,,2019-04-25 15:44:07,2019-04-25 15:44:26,18.793s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/002-Verify-OOB-HomePage.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:44:07,2019-04-25 15:44:26,18.694s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/003-Add-Idea,Chrome 73.0.3683.103,,2019-04-25 15:44:26,2019-04-25 15:44:46,20.407s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/003-Add-Idea.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:44:26,2019-04-25 15:44:46,20.303s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/004-Cancel-Idea-Creation,Chrome 73.0.3683.103,,2019-04-25 15:44:46,2019-04-25 15:45:09,22.903s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/004-Cancel-Idea-Creation.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:44:46,2019-04-25 15:45:09,22.804s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/005-Save-Idea,Chrome 73.0.3683.103,,2019-04-25 15:45:09,2019-04-25 15:46:00,51.065s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/005-Save-Idea.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:45:09,2019-04-25 15:46:00,50.956s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/006-Check-Mandatory-Fields,Chrome 73.0.3683.103,,2019-04-25 15:46:00,2019-04-25 15:46:56,55.406s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:46:00,2019-04-25 15:46:56,55.310s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/007-Check-Optional-Fields,Chrome 73.0.3683.103,,2019-04-25 15:46:56,2019-04-25 15:46:56,0.172s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/007-Check-Optional-Fields.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:46:56,2019-04-25 15:46:56,0.085s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/008-Delete-Attachment,Chrome 73.0.3683.103,,2019-04-25 15:46:56,2019-04-25 15:47:47,51.579s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/008-Delete-Attachment.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:46:56,2019-04-25 15:47:47,51.494s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/009-Verify-Uploading-Attachment-with-Duplicate-Name,Chrome 73.0.3683.103,,2019-04-25 15:47:47,2019-04-25 15:48:11,24.083s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/009-Verify-Uploading-Attachment-with-Duplicate-Name.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:47:47,2019-04-25 15:48:11,23.988s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/010-Upload-Invalid-Format-Attachment,Chrome 73.0.3683.103,,2019-04-25 15:48:11,2019-04-25 15:48:30,18.479s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/010-Upload-Invalid-Format-Attachment.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:48:12,2019-04-25 15:48:30,18.379s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/011-Upload-Large-Size-Attachment,Chrome 73.0.3683.103,,2019-04-25 15:48:30,2019-04-25 15:48:54,23.599s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/011-Upload-Large-Size-Attachment.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:48:30,2019-04-25 15:48:54,23.483s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/012-Start-Date-Greater-Than-End-Date,Chrome 73.0.3683.103,,2019-04-25 15:48:54,2019-04-25 15:49:55,1m - 1.630s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/012-Start-Date-Greater-Than-End-Date.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:48:54,2019-04-25 15:49:55,1m - 1.519s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/013-Check-Duration-Field,Chrome 73.0.3683.103,,2019-04-25 15:49:55,2019-04-25 15:50:15,19.545s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/013-Check-Duration-Field.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:49:55,2019-04-25 15:50:15,19.446s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/014-Verify-Clicking-Load-With-No-Attachment,Chrome 73.0.3683.103,,2019-04-25 15:50:15,2019-04-25 15:50:41,26.389s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/014-Verify-Clicking-Load-With-No-Attachment.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:50:15,2019-04-25 15:50:41,26.293s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/015-Verify-Hide-Optional-fields,Chrome 73.0.3683.103,,2019-04-25 15:50:41,2019-04-25 15:51:01,20.118s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/015-Verify-Hide-Optional-fields.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:50:41,2019-04-25 15:51:01,20.024s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/016-Verify-Show-Optional-fields,Chrome 73.0.3683.103,,2019-04-25 15:51:01,2019-04-25 15:51:24,22.729s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/016-Verify-Show-Optional-fields.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:51:01,2019-04-25 15:51:24,22.634s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/017-Submit-Idea-and-Check-its-Sent-to-PMO,Chrome 73.0.3683.103,,2019-04-25 15:51:24,2019-04-25 15:51:24,0.169s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/016-Submit-Idea-and-Check-its-Sent-to-PMO.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:51:24,2019-04-25 15:51:24,0.082s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/018-Save-Draft-Idea-then-Send-it,Chrome 73.0.3683.103,,2019-04-25 15:51:24,2019-04-25 15:52:15,51.239s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/018-Save-Draft-Idea-then-Send-it.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:51:24,2019-04-25 15:52:15,51.151s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/019-Delete-Draft-Idea,Chrome 73.0.3683.103,,2019-04-25 15:52:15,2019-04-25 15:53:06,50.588s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/019-Delete-Draft-Idea.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:52:16,2019-04-25 15:53:06,50.485s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/020-Update-Draft-Idea,Chrome 73.0.3683.103,,2019-04-25 15:53:06,2019-04-25 15:54:55,1m - 48.656s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/020-Update-Draft-Idea.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:53:06,2019-04-25 15:54:55,1m - 48.567s,FAILED
+,,,,,,
+Test Cases/Main-Test-Cases/021-Verify-Ideas-List-and-Idea-Details-Pages,Chrome 73.0.3683.103,,2019-04-25 15:54:55,2019-04-25 15:55:23,28.393s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/021-Verify-Ideas-List-and-Idea-Details-Pages.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:54:55,2019-04-25 15:55:23,28.292s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/022-Search-for-Idea-in-idea-center,Chrome 73.0.3683.103,,2019-04-25 15:55:23,2019-04-25 15:55:49,26.262s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/022-Search-for-Idea-in-idea-center.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:55:23,2019-04-25 15:55:49,26.168s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/023-Verify-Approved-Ideas-List-page,Chrome 73.0.3683.103,,2019-04-25 15:55:49,2019-04-25 15:56:11,21.573s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/023-Verify-Approved-Ideas-List-page.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:55:49,2019-04-25 15:56:11,21.485s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/024-Search-for-Approved-Idea,Chrome 73.0.3683.103,,2019-04-25 15:56:11,2019-04-25 15:56:31,20.246s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/024-Search-for-Approved-Idea.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:56:11,2019-04-25 15:56:31,20.159s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/025-Verify-Approved-Idea-Details-Page,Chrome 73.0.3683.103,,2019-04-25 15:56:31,2019-04-25 15:56:52,21.318s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/025-Verify-Approved-Idea-Details-Page.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:56:31,2019-04-25 15:56:52,21.231s,PASSED
+,,,,,,
+Test Cases/Main-Test-Cases/026-Verify-Execute-Idea-form,Chrome 73.0.3683.103,,2019-04-25 15:56:52,2019-04-25 15:57:42,49.913s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/026-Verify-Execute-Idea-form.feature"")",Chrome 73.0.3683.103,,2019-04-25 15:56:53,2019-04-25 15:57:42,49.810s,FAILED

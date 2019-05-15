@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.31073">
+<testcase classname="Upload large size attachment (more than 2MB)" name="Upload large size attachment (more than 2MB)" time="20.31073">
+<system-out><![CDATA[Given I want to open browser................................................passed
+When I want to maximize window..............................................passed
+When I want to go to OOB....................................................passed
+Then I want to verify I'm in OOB main page..................................passed
+When I want to go to ideas list page........................................passed
+When I want to click on Add New button......................................passed
+When I want to add large file as Attachment.................................passed
+Then I want to check large file error message...............................passed
+Then I want to verify Attachment not added..................................passed
+Then I want to close browser................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

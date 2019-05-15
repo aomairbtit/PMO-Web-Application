@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First-Test-Suite,Chrome 73.0.3683.103,,2019-05-07 10:50:41,2019-05-07 10:59:25,8m - 44.272s,FAILED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/006-Check-Mandatory-Fields,Chrome 73.0.3683.103,,2019-05-07 10:50:41,2019-05-07 10:51:37,55.280s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/006-Check-Mandatory-Fields.feature"")",Chrome 73.0.3683.103,,2019-05-07 10:50:41,2019-05-07 10:51:37,55.062s,FAILED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/009-Verify-Uploading-Attachment-with-Duplicate-Name,Chrome 73.0.3683.103,,2019-05-07 10:51:37,2019-05-07 10:52:14,37.274s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/009-Verify-Uploading-Attachment-with-Duplicate-Name.feature"")",Chrome 73.0.3683.103,,2019-05-07 10:51:37,2019-05-07 10:52:14,37.163s,FAILED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/010-Upload-Invalid-Format-Attachment,Chrome 73.0.3683.103,,2019-05-07 10:52:14,2019-05-07 10:52:35,20.774s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/010-Upload-Invalid-Format-Attachment.feature"")",Chrome 73.0.3683.103,,2019-05-07 10:52:14,2019-05-07 10:52:35,20.659s,PASSED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/014-Verify-Clicking-Load-With-No-Attachment,Chrome 73.0.3683.103,,2019-05-07 10:52:35,2019-05-07 10:52:55,20.268s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/014-Verify-Clicking-Load-With-No-Attachment.feature"")",Chrome 73.0.3683.103,,2019-05-07 10:52:35,2019-05-07 10:52:55,20.176s,PASSED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/015-Verify-Hide-Optional-fields,Chrome 73.0.3683.103,,2019-05-07 10:52:55,2019-05-07 10:53:14,19.074s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/015-Verify-Hide-Optional-fields.feature"")",Chrome 73.0.3683.103,,2019-05-07 10:52:55,2019-05-07 10:53:14,18.951s,PASSED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/019-Delete-Draft-Idea,Chrome 73.0.3683.103,,2019-05-07 10:53:14,2019-05-07 10:53:47,32.868s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/019-Delete-Draft-Idea.feature"")",Chrome 73.0.3683.103,,2019-05-07 10:53:14,2019-05-07 10:53:47,32.776s,PASSED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/024-Search-for-Approved-Idea,Chrome 73.0.3683.103,,2019-05-07 10:53:47,2019-05-07 10:54:23,36.349s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/024-Search-for-Approved-Idea.feature"")",Chrome 73.0.3683.103,,2019-05-07 10:53:47,2019-05-07 10:54:23,36.252s,FAILED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/025-Verify-Approved-Idea-Details-Page,Chrome 73.0.3683.103,,2019-05-07 10:54:23,2019-05-07 10:55:00,36.784s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/025-Verify-Approved-Idea-Details-Page.feature"")",Chrome 73.0.3683.103,,2019-05-07 10:54:23,2019-05-07 10:55:00,36.710s,FAILED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/026-Verify-Execute-Idea-form,Chrome 73.0.3683.103,,2019-05-07 10:55:00,2019-05-07 10:56:00,1m - 0.000s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/026-Verify-Execute-Idea-form.feature"")",Chrome 73.0.3683.103,,2019-05-07 10:55:00,2019-05-07 10:56:00,59.906s,FAILED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/028-Cancel-Execution-Idea,Chrome 73.0.3683.103,,2019-05-07 10:56:00,2019-05-07 10:56:37,37.341s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/028-Cancel-Execution-Idea.feature"")",Chrome 73.0.3683.103,,2019-05-07 10:56:00,2019-05-07 10:56:37,37.232s,FAILED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/029-Verify-Related-Project-Link,Chrome 73.0.3683.103,,2019-05-07 10:56:37,2019-05-07 10:59:25,2m - 47.459s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/029-Verify-Related-Project-Link.feature"")",Chrome 73.0.3683.103,,2019-05-07 10:56:37,2019-05-07 10:59:25,2m - 47.366s,FAILED

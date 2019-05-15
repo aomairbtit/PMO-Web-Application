@@ -21,43 +21,43 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://pmoadmin:P@ssw0rd@dev5.cloudapp.net/OOB2/')
 
-WebUI.click(findTestObject('OOB-Objects/IdeasList'))
+WebUI.click(findTestObject('OOBObjects/HomepageObjects/IdeasList'))
 
-WebUI.click(findTestObject('PMO-Objects/Page_Project Request/Add-New-Project-Request'))
+WebUI.click(findTestObject('OOBObjects/IdeasListObjects/AddNewIdeaButton'))
 
-WebUI.setText(findTestObject('PMO-Objects/Page_Add New Project Request/Idea-Name-Field'), 'save name')
+WebUI.setText(findTestObject('OOBObjects/IdeasListObjects/Idea-Name-Field'), 'save name')
 
-WebUI.getText(findTestObject('PMO-Objects/Page_Add New Project Request/Idea-Name-Field'))
+WebUI.getText(findTestObject('OOBObjects/IdeasListObjects/Idea-Name-Field'))
 
-WebUI.click(findTestObject('PMO-Objects/Page_Add New Project Request/Add-New-Document-Button'))
+WebUI.click(findTestObject('OOBObjects/IdeasListObjects/Add-New-Document-Button'))
 
-WebUI.scrollToElement(findTestObject('PMO-Objects/Page_Add New Project Request/Add-New-Document-Button'), 0)
+WebUI.scrollToElement(findTestObject('OOBObjects/IdeasListObjects/Add-New-Document-Button'), 0)
 
-WebUI.setText(findTestObject('PMO-Objects/Page_Add New Project Request/AttachmentNameField'), 'test1')
+WebUI.setText(findTestObject('OOBObjects/IdeasListObjects/AttachmentNameField'), 'test1')
 
-WebUI.uploadFile(findTestObject('PMO-Objects/Page_Add New Project Request/Upload-File'), 'C:\\Users\\HP\\Desktop\\Automation book Mitsubishi.pdf')
+WebUI.uploadFile(findTestObject('OOBObjects/IdeasListObjects/Upload-File'), 'C:\\Users\\HP\\Desktop\\Automation book Mitsubishi.pdf')
 
-not_run: WebUI.waitForElementPresent(findTestObject('PMO-Objects/Page_Add New Project Request/AttachedFile'), 0)
+not_run: WebUI.waitForElementPresent(findTestObject('OOBObjects/IdeasListObjects/AttachedFile'), 0)
 
-WebUI.click(findTestObject('PMO-Objects/Page_Add New Project Request/LoadButton'))
+WebUI.click(findTestObject('OOBObjects/IdeasListObjects/LoadButton'))
 
-WebUI.verifyElementText(findTestObject('PMO-Objects/Page_Add New Project Request/ErrorMessage'), 'حجم الملف اكبر من المسموح به, أقصى حجم 2.0MB.')
+WebUI.verifyElementText(findTestObject('OOBObjects/IdeasListObjects/ErrorMessage'), 'حجم الملف اكبر من المسموح به, أقصى حجم 2.0MB.')
 
-not_run: WebUI.verifyElementPresent(findTestObject('PMO-Objects/Page_Add New Project Request/UploadedDocument'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('OOBObjects/IdeasListObjects/UploadedDocument'), 0)
 
-not_run: WebUI.verifyElementNotVisible(findTestObject('PMO-Objects/Page_Add New Project Request/AttachmentNameField'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementNotVisible(findTestObject('OOBObjects/IdeasListObjects/AttachmentNameField'), FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('PMO-Objects/Page_Add New Project Request/Add-New-Document-Button'))
+not_run: WebUI.click(findTestObject('OOBObjects/IdeasListObjects/Add-New-Document-Button'))
 
-not_run: WebUI.click(findTestObject('PMO-Objects/Page_Add New Project Request/LoadButton'))
+not_run: WebUI.click(findTestObject('OOBObjects/IdeasListObjects/LoadButton'))
 
-not_run: WebUI.setText(findTestObject('PMO-Objects/Page_Add New Project Request/AttachmentNameField'), 'test1')
+not_run: WebUI.setText(findTestObject('OOBObjects/IdeasListObjects/AttachmentNameField'), 'test1')
 
-not_run: WebUI.uploadFile(findTestObject('PMO-Objects/Page_Add New Project Request/Upload-File'), 'C:\\Users\\HP\\Desktop\\download.png')
+not_run: WebUI.uploadFile(findTestObject('OOBObjects/IdeasListObjects/Upload-File'), 'C:\\Users\\HP\\Desktop\\download.png')
 
-not_run: WebUI.waitForElementPresent(findTestObject('PMO-Objects/Page_Add New Project Request/AttachedFile'), 0)
+not_run: WebUI.waitForElementPresent(findTestObject('OOBObjects/IdeasListObjects/AttachedFile'), 0)
 
-not_run: WebUI.click(findTestObject('PMO-Objects/Page_Add New Project Request/LoadButton'))
+not_run: WebUI.click(findTestObject('OOBObjects/IdeasListObjects/LoadButton'))
 
-not_run: WebUI.verifyElementVisible(findTestObject('PMO-Objects/Page_Add New Project Request/AttachmentNameField'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('OOBObjects/IdeasListObjects/AttachmentNameField'), FailureHandling.STOP_ON_FAILURE)
 

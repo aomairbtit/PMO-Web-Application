@@ -1,0 +1,148 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify execute idea form",
+        "description": "",
+        "id": "verify-execute-idea-form;verify-execute-idea-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2080715935,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1135241781,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6660828883,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17937959,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3273409050,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to go to approved ideas list page",
+            "match": {
+              "location": "AddIdeaSteps.goToApprovedIdeasList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2255462352,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to click Excute button",
+            "match": {
+              "location": "AddIdeaSteps.clickExcuteButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24338977,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to verify im in add new project page",
+            "match": {
+              "location": "AddProjectSteps.verifyAddNewProjectPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116715228,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to check already filled fields",
+            "match": {
+              "location": "AddProjectSteps.checkAlreadyFilledFields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 593326740,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify execute idea form",
+    "description": "  I want to verify execute idea form",
+    "id": "verify-execute-idea-form",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Idea/026-Verify-Execute-Idea-form.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
