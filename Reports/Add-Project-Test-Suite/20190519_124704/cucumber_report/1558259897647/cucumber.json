@@ -1,0 +1,148 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify Related Strategic Objective",
+        "description": "",
+        "id": "verify-related-strategic-objective;verify-related-strategic-objective",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2220466207,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1130971659,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1389102736,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7024770809,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8573590177,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to go to projects list",
+            "match": {
+              "location": "AddProjectSteps.clickProjectsList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93079575,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to verify project list page",
+            "match": {
+              "location": "AddProjectSteps.verifyProjectListPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3489342080,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to click Add new project button",
+            "match": {
+              "location": "AddProjectSteps.clickAddNewProjectButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250088675,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to verify related strategic objective",
+            "match": {
+              "location": "AddProjectSteps.verifyRelatedStrategicObjective()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 600660870,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Related Strategic Objective",
+    "description": "  I want to Verify Related Strategic Objective",
+    "id": "verify-related-strategic-objective",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Project/018-Verify-Related-Strategic-Objective.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

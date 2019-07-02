@@ -1,0 +1,424 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Delete attachemnt file from documents page",
+        "description": "",
+        "id": "delete-attachemnt-file-from-documents-page;delete-attachemnt-file-from-documents-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2138134512,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1119388952,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 976484002,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8315443677,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8183305112,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to go to projects list",
+            "match": {
+              "location": "AddProjectSteps.clickProjectsList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91969728,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to verify project list page",
+            "match": {
+              "location": "AddProjectSteps.verifyProjectListPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3425064025,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to click Add new project button",
+            "match": {
+              "location": "AddProjectSteps.clickAddNewProjectButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 189055854,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to fill project name",
+            "match": {
+              "location": "AddProjectSteps.fillProjectName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133577407,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to select project type",
+            "match": {
+              "location": "AddProjectSteps.selectProjectType()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 283087974,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to select project expected start date",
+            "match": {
+              "location": "AddProjectSteps.selectProjectStartDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2470552826,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to select project expected end date",
+            "match": {
+              "location": "AddProjectSteps.selectProjectEndDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133408797,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to fill project budget",
+            "match": {
+              "location": "AddProjectSteps.fillProjectBudget()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142387296,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to select from owner deopdown list",
+            "match": {
+              "location": "AddProjectSteps.fillSelectOwnerDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139779490,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I want to fill project manager field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectMangerField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72793390,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I want to tap enter key on manager field",
+            "match": {
+              "location": "AddProjectSteps.tapEnterKeyManger()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110120525,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I want to fill project owner field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectOwnerField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48597296,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I want to tap enter key on owner field",
+            "match": {
+              "location": "AddProjectSteps.tapEnterKeyOwner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99832727,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I want to fill project sponser field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectSponserField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47353794,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I want to tap enter key on sponser field",
+            "match": {
+              "location": "AddProjectSteps.tapEnterKeySponser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104763550,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I want to fill project description field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectDescriptionField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115782850,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I want to fill project notes field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectNotesField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 733297041,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I want to add attachment for the project",
+            "match": {
+              "location": "AddProjectSteps.addProjectAttachment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3001771950,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I want to wait",
+            "match": {
+              "location": "AddProjectSteps.waitForSeconds()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5079912035,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I want to click on send project button",
+            "match": {
+              "location": "AddProjectSteps.clickSendProject()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7164396,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I want to wait for page load",
+            "match": {
+              "location": "AddIdeaSteps.waitForPgaeLoad()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52482603322,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I want to check im in projects list page",
+            "match": {
+              "location": "AddProjectSteps.checkProjectsListPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2295423258,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I want to search for crated project by name",
+            "match": {
+              "location": "AddProjectSteps.searchForProjectByName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12723411233,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I want to view project page",
+            "match": {
+              "location": "AddProjectSteps.viewProjectPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9399848045,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I want to verify documents page",
+            "match": {
+              "location": "AddProjectSteps.verifyDocumentsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43501411597,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I want to add documment frome documents page",
+            "match": {
+              "location": "AddProjectSteps.addDocumentFromDocumentsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28280144491,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I want to delete documment frome documents page",
+            "match": {
+              "location": "AddProjectSteps.deleteDocumentFromDocumentsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 584701493,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Delete attachemnt file from documents page",
+    "description": "  I want to Delete attachemnt file from documents page",
+    "id": "delete-attachemnt-file-from-documents-page",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Project/032-Delete-Attachment-File-From-Documents-Page.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

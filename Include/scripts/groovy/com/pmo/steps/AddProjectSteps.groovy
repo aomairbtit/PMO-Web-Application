@@ -455,7 +455,7 @@ class AddProjectSteps {
 		WebUI.click(findTestObject('OOBObjects/InboxPageObjects/Initiation'))
 	}
 
-	@Then("I want to search for crated project by name")
+	@Then("I want to search for created project by name")
 	def searchForProjectByName() {
 		WebUI.waitForPageLoad(10)
 		WebUI.mouseOver(findTestObject('OOBObjects/ProjectsListObjects/ProjectSearchField'))
@@ -489,6 +489,185 @@ class AddProjectSteps {
 	@When("I want to view project page")
 	def viewProjectPage(){
 		WebUI.click(findTestObject('OOBObjects/ProjectsListObjects/ProjectNameLink'))
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/ProjectsListObjects/SupportFomMenue'), 0)	
+	}
+	
+	@When("I want to fill in scope list")
+	def fillInScope(){
+		WebUI.click(findTestObject('OOBObjects/CharterFields/InScopeAddNewButton'))
+		WebUI.setText(findTestObject('OOBObjects/CharterFields/InScopeField'), 'Automation Test')
+		WebUI.delay(3)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/InScopeSave'))
+	}
+	
+	@When("I want to fill out of scope list")
+	def fillOutOfScope(){
+		WebUI.click(findTestObject('OOBObjects/CharterFields/OutOfScopeAddNewButton'))
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/OutOfScopeCancel'), 0)
+		WebUI.setText(findTestObject('OOBObjects/CharterFields/OutOfScopeField'), 'Automation Test')
+		WebUI.click(findTestObject('OOBObjects/CharterFields/OutOfScopeSave'))
+	}
+	
+	
+	@When("I want to fill goals list")
+	def fillGoals(){
+		//WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/GoalsAddNewButton'), 0)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/GoalsAddNewButton'))
+		WebUI.setText(findTestObject('OOBObjects/CharterFields/ObjectiveBenefitField'), 'Automation Test')
+		WebUI.setText(findTestObject('OOBObjects/CharterFields/VerificationMeasurementField'), 'Automation Test')
+		WebUI.click(findTestObject('OOBObjects/CharterFields/GoalsSave'))
+	}
+	
+	
+	@When("I want to fill outcomes list")
+	def fillOutComes(){
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/GoalsAddNewButton'), 0)
+		
+		WebUI.click(findTestObject('OOBObjects/CharterFields/OutComesAddNew'))
+		WebUI.setText(findTestObject('OOBObjects/CharterFields/OutComeNameField'), 'Automation Test')
+		WebUI.click(findTestObject('OOBObjects/CharterFields/OutComesGREGORIAN'))
+		WebUI.click(findTestObject('OOBObjects/CharterFields/OutComeDeliveryDate'))
+		WebUI.mouseOver(findTestObject('OOBObjects/CharterFields/OutComesDate'))
+		WebUI.click(findTestObject('OOBObjects/CharterFields/OutComesDate'))
+		WebUI.selectOptionByIndex(findTestObject('OOBObjects/CharterFields/OutComesPhaseDropDown'), 3)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/OutComesSave'))
+	}
+	
+	@When("I want to fill Dependencies list")
+	def fillDependencies(){
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/OutComesAddNew'), 0)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/DependenciesAddNewButton'))
+		WebUI.selectOptionByIndex(findTestObject('OOBObjects/CharterFields/DependenciesProjectNameDropDown'), 3)
+		//WebUI.setText(findTestObject('OOBObjects/CharterFields/DependenciesOthersField'), 'Automation Test')
+		WebUI.setText(findTestObject('OOBObjects/CharterFields/DependenciesRelationDescriptionField'), 'Automation Test')
+		WebUI.click(findTestObject('OOBObjects/CharterFields/DependenciesSave'))
+	}
+	
+	@When("I want to fill Risks list")
+	def fillRisks(){
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/DependenciesAddNewButton'), 0)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/RisksAddNew'))
+		WebUI.setText(findTestObject('OOBObjects/CharterFields/RiskField'), 'Automation Test')
+		WebUI.setText(findTestObject('OOBObjects/CharterFields/RiskMethodOfHandlingField'), 'Automation Test')
+		WebUI.selectOptionByIndex(findTestObject('OOBObjects/CharterFields/RiskImpactDropdown'), 3)
+		WebUI.selectOptionByIndex(findTestObject('OOBObjects/CharterFields/RiskProbabilityDropdwon'), 3)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/RiskSave'))
+	}
+	
+	@When("I want to fill Constraints list")
+	def fillConstraints(){
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/RisksAddNew'), 0)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/ConstraintAddNewButton'))
+		WebUI.setText(findTestObject('OOBObjects/CharterFields/ConstraintNameFiled'), 'Automation Test')
+		WebUI.click(findTestObject('OOBObjects/CharterFields/ConstraintSave'))
+	}
+	
+	@When("I want to fill Assumptions list")
+	def fillAssumptions(){
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/ConstraintAddNewButton'), 0)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/AssumptionsAddNewButton'))
+		WebUI.setText(findTestObject('OOBObjects/CharterFields/AssumptionNameField'), 'Automation Test')
+		WebUI.click(findTestObject('OOBObjects/CharterFields/AssumptionSave'))
+	}
+	
+	@When("I want to fill stakehholders list")
+	def fillStakehholders(){
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/AssumptionsAddNewButton'), 0)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/StakeholdersAddNewButton'))
+		WebUI.setText(findTestObject('OOBObjects/CharterFields/StakeholdersNameFields'), 'Automation Test')
+		WebUI.setText(findTestObject('OOBObjects/CharterFields/StakeholdersPartnerType'), 'Automation Test')
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/StakeholdersPartnerType'), 0)
+		WebUI.selectOptionByIndex(findTestObject('OOBObjects/CharterFields/StakeholdersEntityTypeDropdown'), 1)
+		WebUI.selectOptionByIndex(findTestObject('OOBObjects/CharterFields/StakeholdersEntityDropdown'), 1)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/StakeholdersSave'))
+	}
+	
+	@When("I want to fill documents list")
+	def fillDocuments(){
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/StakeholdersAddNewButton'), 0)
+		//WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/DocumentsAddNew'), 0)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/DocumentsAddNew'))
+		WebUI.uploadFile(findTestObject('OOBObjects/CharterFields/DocumentsUploadFile'), 'C:\\Users\\HP\\Desktop\\download.png')
+		WebUI.waitForElementPresent(findTestObject('OOBObjects/CharterFields/DocumentsUploadedFile'), 3)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/DocumentsLoadButton'))
+	}
+	
+	@When("I want to click save charter button")
+	def clickSaveCharter(){
+		WebUI.delay(4)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/CharterSaveButton'))
+	}
+	
+	@When("I want to click cancel button from charter page")
+	def clickCancelCharter(){
+		WebUI.delay(4)
+		WebUI.click(findTestObject('OOBObjects/CharterFields/CharterCancelButton'))
+	}
+	
+	@When("I want to check charter data not updated after clicking cancel")
+	def CheckCancelCharter(){
+		WebUI.verifyElementNotPresent(findTestObject('OOBObjects/CharterFields/InscopeEditDeleteSection'), 0)
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/OutOfScopeAddNewButton'), 0)
+		WebUI.verifyElementNotPresent(findTestObject('OOBObjects/CharterFields/OutComesEditDeleteSection'), 0)
+	}
+	
+	@When("I want to check fill all required fields error message")
+	def checkFillAllRequiredFieldsErrorMessage(){
+		WebUI.verifyElementText(findTestObject('OOBObjects/IdeasListObjects/ErrorMessage'), "يجب استكمال جميع الحقول")
+	}
+	
+	@When("I want to check charter data saved")
+	def checkCharterDataSaved(){
+		WebUI.delay(4)
+		WebUI.mouseOver(findTestObject('OOBObjects/ProjectsListObjects/ProjectSearchField'))
+		WebUI.setText(findTestObject('OOBObjects/ProjectsListObjects/ProjectSearchField'),projectName)
+		WebUI.verifyElementText(findTestObject('OOBObjects/ProjectsListObjects/FirstProjectName'), projectName)
+		WebUI.click(findTestObject('OOBObjects/ProjectsListObjects/FirstProjectName'))
+		
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/CharterFields/InscopeEditDeleteSection'), 0)
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/OutOfScopeAddNewButton'), 0)
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/CharterFields/OutComesEditDeleteSection'), 0)
+		
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/GoalsAddNewButton'), 0)
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/CharterFields/GoalsEditDeleteSection'), 0)
+		
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/OutComesAddNew'), 0)
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/CharterFields/OutComesEditDeleteSection'), 0)
+		
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/DependenciesAddNewButton'), 0)
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/CharterFields/DependenciesEditDeleteSection'), 0)
+		
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/RisksAddNew'), 0)
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/CharterFields/RisksEditDeleteSection'), 0)
+		
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/ConstraintAddNewButton'), 0)
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/CharterFields/ConstraintsEditDeleteSection'), 0)
+		
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/AssumptionsAddNewButton'), 0)
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/CharterFields/AssumptionsEditDeleteSection'), 0)
+		
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/StakeholdersAddNewButton'), 0)
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/CharterFields/StakeholdersEditDeleteSection'), 0)
+		
+		WebUI.scrollToElement(findTestObject('OOBObjects/CharterFields/DocumentsAddNew'), 0)
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/CharterFields/DocumentsAddedFile'), 0)
+		
+		
+		}
+	
+	@When("I want to verify project charter page")
+	def verifyProjectCharter(){
+		WebUI.click(findTestObject('OOBObjects/ProjectCharterPage/ProjectCharterTitle'))
+		WebUI.click(findTestObject('OOBObjects/ProjectCharterPage/ProjectInScopeList'))
+		WebUI.click(findTestObject('OOBObjects/ProjectCharterPage/OutofWorkScopeList'))
+		WebUI.click(findTestObject('OOBObjects/ProjectCharterPage/ProjectGoalsList'))
+		WebUI.click(findTestObject('OOBObjects/ProjectCharterPage/ExpectedOutcomesList'))
+		WebUI.click(findTestObject('OOBObjects/ProjectCharterPage/DependenciesList'))
+		WebUI.click(findTestObject('OOBObjects/ProjectCharterPage/Risks'))
+		WebUI.click(findTestObject('OOBObjects/ProjectCharterPage/ConstraintList'))
+		WebUI.click(findTestObject('OOBObjects/ProjectCharterPage/AssumptionList'))
+		WebUI.click(findTestObject('OOBObjects/ProjectCharterPage/StakeholdersList'))
+		WebUI.click(findTestObject('OOBObjects/ProjectCharterPage/Documents'))
 	}
 
 	@When("I want to verify documents page")
@@ -520,16 +699,37 @@ class AddProjectSteps {
 		WebUI.verifyElementPresent(findTestObject('OOBObjects/SupportPageObjects/Actions'), 0)
 	}
 	
-	@When("I want to add support")
-	def addSupport(){
+	@When("I want to save support")
+	def saveSupport(){
 		WebUI.click(findTestObject('OOBObjects/SupportPageObjects/AddSupportButton'))
 		WebUI.setText(findTestObject('OOBObjects/SupportPageObjects/SupportSubjectField'), 'Automation support')
 		WebUI.setText(findTestObject('OOBObjects/SupportPageObjects/SupportNotesField'), 'Automation support note')
 		WebUI.click(findTestObject('OOBObjects/SupportPageObjects/SaveButton'))
 		WebUI.verifyElementPresent(findTestObject('OOBObjects/SupportPageObjects/EditSupportIcon'), 0)
-		
 	}
 
+	@When("I want to submit support")
+	def submitSupport(){
+		WebUI.click(findTestObject('OOBObjects/SupportPageObjects/AddSupportButton'))
+		WebUI.setText(findTestObject('OOBObjects/SupportPageObjects/SupportSubjectField'), 'Automation support')
+		WebUI.setText(findTestObject('OOBObjects/SupportPageObjects/SupportNotesField'), 'Automation support note')
+		WebUI.click(findTestObject('OOBObjects/SupportPageObjects/SendButton'))
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/SupportPageObjects/PageOne'), 0)
+	}
+	
+	@When("I want to view support details")
+	def viewSupport(){
+		WebUI.click(findTestObject('OOBObjects/SupportPageObjects/AddedSupportName'))
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/SupportPageObjects/SenderFromDetails'), 0)
+		WebUI.verifyElementText(findTestObject('OOBObjects/SupportPageObjects/SenderValue'), 'النظام')
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/SupportPageObjects/SubjectFromDetails'), 0)
+		WebUI.verifyElementText(findTestObject('OOBObjects/SupportPageObjects/SubjectValue'), 'Automation support')
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/SupportPageObjects/RelatedProjectFromDetails'), 0)
+		WebUI.verifyElementText(findTestObject('OOBObjects/SupportPageObjects/RelatedProjectValue'), projectName)
+		WebUI.verifyElementPresent(findTestObject('OOBObjects/SupportPageObjects/NotesFromDetails'), 0)
+		WebUI.verifyElementText(findTestObject('OOBObjects/SupportPageObjects/NotesValue'), 'Automation support note')
+	}
+	
 	@When("I want to update support")
 	def updateSupport(){
 		WebUI.click(findTestObject('OOBObjects/SupportPageObjects/EditSupportIcon'))
@@ -542,6 +742,13 @@ class AddProjectSteps {
 		//WebUI.setText(findTestObject('OOBObjects/SupportPageObjects/SupportNotesField'), 'Automation support note')
 	}
 
+	@When("I want to delete support")
+	def deleteSupport(){
+		WebUI.click(findTestObject('OOBObjects/SupportPageObjects/DeleteSupportIcon'))
+		WebUI.acceptAlert()
+		WebUI.verifyElementNotPresent(findTestObject('OOBObjects/SupportPageObjects/EditSupportIcon'), 0)
+	}
+	
 	@When("I want to add documment frome documents page")
 	def addDocumentFromDocumentsPage(){
 		WebUI.click(findTestObject('OOBObjects/ProjectsListObjects/AddDocumentFromDocumentsPage'))

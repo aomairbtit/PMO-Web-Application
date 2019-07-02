@@ -4,9 +4,10 @@ Feature: Verify execute idea form
 
   @smoke
   Scenario: Verify execute idea form
-      Given I want to open browser
+    Given I want to open browser
     When I want to maximize window
     When I want to go to OOB
+   
     Then I want to verify I'm in OOB main page
     When I want to go to ideas list page
     When I want to click on Add New button

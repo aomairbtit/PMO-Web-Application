@@ -1,0 +1,352 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Create new project with inactive user",
+        "description": "",
+        "id": "create-new-project-with-inactive-user-as-manager;create-new-project-with-inactive-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2766842268,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1140353691,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1379799868,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7222511636,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10095982449,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to go to projects list",
+            "match": {
+              "location": "AddProjectSteps.clickProjectsList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93728313,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to verify project list page",
+            "match": {
+              "location": "AddProjectSteps.verifyProjectListPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3938497846,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to click Add new project button",
+            "match": {
+              "location": "AddProjectSteps.clickAddNewProjectButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219187236,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to fill project name",
+            "match": {
+              "location": "AddProjectSteps.fillProjectName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134095061,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to select project type",
+            "match": {
+              "location": "AddProjectSteps.selectProjectType()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 300812105,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to select project expected start date",
+            "match": {
+              "location": "AddProjectSteps.selectProjectStartDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2540357495,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to select project expected end date",
+            "match": {
+              "location": "AddProjectSteps.selectProjectEndDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154575559,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to fill project budget",
+            "match": {
+              "location": "AddProjectSteps.fillProjectBudget()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142509127,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I want to select from owner deopdown list",
+            "match": {
+              "location": "AddProjectSteps.fillSelectOwnerDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 212225893,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I want to fill project manager field with inactive user",
+            "match": {
+              "location": "AddProjectSteps.fillProjectMangerFieldWithInactiveUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47716204,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I want to tap enter key on manager field",
+            "match": {
+              "location": "AddProjectSteps.tapEnterKeyManger()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106286697,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I want to fill project owner field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectOwnerField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50668427,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I want to tap enter key on owner field",
+            "match": {
+              "location": "AddProjectSteps.tapEnterKeyOwner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119649064,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I want to fill project sponser field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectSponserField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52378177,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I want to tap enter key on sponser field",
+            "match": {
+              "location": "AddProjectSteps.tapEnterKeySponser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112985359,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I want to fill project description field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectDescriptionField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114360458,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I want to fill project notes field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectNotesField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 787267762,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I want to add attachment for the project",
+            "match": {
+              "location": "AddProjectSteps.addProjectAttachment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3003006712,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I want to wait",
+            "match": {
+              "location": "AddProjectSteps.waitForSeconds()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5081949752,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I want to click on send project button",
+            "match": {
+              "location": "AddProjectSteps.clickSendProject()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Verify element text of test object \u0027Object Repository/OOBObjects/IdeasListObjects/ErrorMessage\u0027 FAILED.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$16.call(Unknown Source)\r\n\tat com.pmo.steps.AddProjectSteps.checkUserNotFoundErrorMessage(AddProjectSteps.groovy:340)\r\n\tat ✽.I want to check user not found error message(C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Project/015-Create-Project-with-Inactive-Manager.feature:31)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Actual text \u0027الرجاء ادخال جميع الحقول الاجبارية\u0027 and expected text \u0027User not found\u0027 of test object \u0027Object Repository/OOBObjects/IdeasListObjects/ErrorMessage\u0027 are NOT matched.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$16.call(Unknown Source)\r\n\tat com.pmo.steps.AddProjectSteps.checkUserNotFoundErrorMessage(AddProjectSteps.groovy:340)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat 015-Create-Project-with-Inactive-Manager.run(015-Create-Project-with-Inactive-Manager:16)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1558259224413.run(TempTestSuite1558259224413.groovy:35)\r\n",
+              "duration": 622053817,
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "I want to check user not found error message",
+            "match": {
+              "location": "AddProjectSteps.checkUserNotFoundErrorMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Create new project with inactive user as manager",
+    "description": "  I want to Create new project with inactive user as manager",
+    "id": "create-new-project-with-inactive-user-as-manager",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Project/015-Create-Project-with-Inactive-Manager.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

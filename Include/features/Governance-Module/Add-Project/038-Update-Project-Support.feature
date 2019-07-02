@@ -33,7 +33,7 @@ Feature: Update project support
     When I want to view project page
     When I want to go to project support page
     When I want to verify project support page
-    When I want to add support
+    When I want to submit support
     When I want to update support
     Then I want to close browser
    

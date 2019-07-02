@@ -1,0 +1,128 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add-Project-Test-Suite,Chrome 74.0.3729.131,,2019-05-19 12:47:05,2019-05-19 13:17:03,29m - 57.990s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/001-View-Projects-List,Chrome 74.0.3729.131,,2019-05-19 12:47:06,2019-05-19 12:47:30,24.415s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/001-View-Projects-List.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:47:06,2019-05-19 12:47:30,24.201s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/002-Verify-Project-Creation-Form,Chrome 74.0.3729.131,,2019-05-19 12:47:30,2019-05-19 12:48:28,58.231s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/002-Verify-Project-Creation-Form.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:47:30,2019-05-19 12:48:28,58.139s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/003-Verify-Budget-Field,Chrome 74.0.3729.131,,2019-05-19 12:48:28,2019-05-19 12:48:58,29.897s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/003-Verify-Budget-Field.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:48:28,2019-05-19 12:48:58,29.800s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/004-Create-Project-with-Attachment,Chrome 74.0.3729.131,,2019-05-19 12:48:58,2019-05-19 12:50:52,1m - 54.081s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/004-Create-Project-with-Attachment.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:48:58,2019-05-19 12:50:52,1m - 53.990s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/005-Delete-Project-Attachment,Chrome 74.0.3729.131,,2019-05-19 12:50:52,2019-05-19 12:51:25,32.534s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/005-Delete-Project-Attachment.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:50:52,2019-05-19 12:51:25,32.438s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/006-Add-Project-Attachment-with-Duplicate-Name,Chrome 74.0.3729.131,,2019-05-19 12:51:25,2019-05-19 12:51:55,29.735s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/006-Add-Project-Attachment-with-Duplicate-Name.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:51:25,2019-05-19 12:51:55,29.645s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/007-Upload-Large-Attachment,Chrome 74.0.3729.131,,2019-05-19 12:51:55,2019-05-19 12:52:20,25.723s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/007-Upload-Large-Attachment.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:51:55,2019-05-19 12:52:20,25.628s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/008-Upload-Invalid-Format-Attachment,Chrome 74.0.3729.131,,2019-05-19 12:52:20,2019-05-19 12:52:46,26.212s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/008-Upload-Invalid-Format-Attachment.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:52:20,2019-05-19 12:52:46,25.994s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/009-Verify-Clicking-Load-With-No-Attachment,Chrome 74.0.3729.131,,2019-05-19 12:52:46,2019-05-19 12:53:13,26.417s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/009-Verify-Clicking-Load-With-No-Attachment.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:52:47,2019-05-19 12:53:13,26.284s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/010-Check-Mandatory-Fields,Chrome 74.0.3729.131,,2019-05-19 12:53:13,2019-05-19 12:53:47,34.198s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/010-Check-Mandatory-Fields.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:53:13,2019-05-19 12:53:47,34.108s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/011-Create-Project-Missing-Optional-Field,Chrome 74.0.3729.131,,2019-05-19 12:53:47,2019-05-19 12:55:32,1m - 45.094s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/011-Create-Project-Missing-Optional-Field.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:53:47,2019-05-19 12:55:32,1m - 44.998s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/012-Create-Project-With-Already-Existed-Name,Chrome 74.0.3729.131,,2019-05-19 12:55:32,2019-05-19 12:55:32,0.332s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/012-Create-Project-With-Already-Existed-Name"")",Chrome 74.0.3729.131,,2019-05-19 12:55:32,2019-05-19 12:55:32,0.233s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/013-Create-Project-With-Special-Characters,Chrome 74.0.3729.131,,2019-05-19 12:55:32,2019-05-19 12:56:18,45.840s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/013-Create-Project-With-Special-Characters.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:55:33,2019-05-19 12:56:18,45.742s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/014-Create-Project-with-Invalid-Manager,Chrome 74.0.3729.131,,2019-05-19 12:56:18,2019-05-19 12:57:09,50.498s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/014-Create-Project-with-Invalid-Manager.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:56:18,2019-05-19 12:57:09,50.413s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/015-Create-Project-with-Inactive-Manager,Chrome 74.0.3729.131,,2019-05-19 12:57:09,2019-05-19 12:57:50,40.792s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/015-Create-Project-with-Inactive-Manager.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:57:09,2019-05-19 12:57:50,40.700s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/016-Verify-Entity-Field(needs-update),Chrome 74.0.3729.131,,2019-05-19 12:57:50,2019-05-19 12:58:17,27.183s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/016-Verify-Entity-Field(needs-update).feature"")",Chrome 74.0.3729.131,,2019-05-19 12:57:50,2019-05-19 12:58:17,27.089s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/017-Verify-Project-Type-List.feature,Chrome 74.0.3729.131,,2019-05-19 12:58:17,2019-05-19 12:58:17,0.257s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/017-Verify-Project-Type-List.feature.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:58:17,2019-05-19 12:58:17,0.165s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/018-Verify-Related-Strategic-Objective,Chrome 74.0.3729.131,,2019-05-19 12:58:17,2019-05-19 12:58:42,25.043s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/018-Verify-Related-Strategic-Objective.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:58:17,2019-05-19 12:58:42,24.960s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/019-Verify-Portfolios-List,Chrome 74.0.3729.131,,2019-05-19 12:58:42,2019-05-19 12:58:42,0.258s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/019-Verify-Portfolios-List.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:58:42,2019-05-19 12:58:42,0.170s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/020-Verify-Programs-List,Chrome 74.0.3729.131,,2019-05-19 12:58:42,2019-05-19 12:59:07,24.632s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/020-Verify-Programs-List.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:58:42,2019-05-19 12:59:07,24.548s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/021-Check-Duration-Field,Chrome 74.0.3729.131,,2019-05-19 12:59:07,2019-05-19 12:59:37,29.952s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/021-Check-Duration-Field.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:59:07,2019-05-19 12:59:37,29.866s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/022-Start-Date-Greater-Than-End-Date,Chrome 74.0.3729.131,,2019-05-19 12:59:37,2019-05-19 13:00:03,25.656s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/022-Start-Date-Greater-Than-End-Date.feature"")",Chrome 74.0.3729.131,,2019-05-19 12:59:37,2019-05-19 13:00:03,25.562s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/023-Save-Project-As-Draft,Chrome 74.0.3729.131,,2019-05-19 13:00:03,2019-05-19 13:01:28,1m - 25.583s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/023-Save-Project-As-Draft.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:00:03,2019-05-19 13:01:28,1m - 25.488s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/024-Check-submitted-Project-Workflow,Chrome 74.0.3729.131,,2019-05-19 13:01:28,2019-05-19 13:01:58,30.298s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/021-Check-Duration-Field.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:01:28,2019-05-19 13:01:58,30.214s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/025-Submit-Saved-Project,Chrome 74.0.3729.131,,2019-05-19 13:01:58,2019-05-19 13:04:17,2m - 18.599s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/025-Submit-Saved-Project.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:01:59,2019-05-19 13:04:17,2m - 18.513s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/026-Update-Draft-Project-Name,Chrome 74.0.3729.131,,2019-05-19 13:04:17,2019-05-19 13:06:42,2m - 24.663s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/026-Update-Draft-Project-Name.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:04:17,2019-05-19 13:06:42,2m - 24.578s,PASSED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/027-Delete-Draft-Project,Chrome 74.0.3729.131,,2019-05-19 13:06:42,2019-05-19 13:08:59,2m - 17.132s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/027-Delete-Draft-Project.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:06:42,2019-05-19 13:08:59,2m - 17.042s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/028-Verify-Project-Page,Chrome 74.0.3729.131,,2019-05-19 13:08:59,2019-05-19 13:09:37,37.624s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/028-Verify-Project-Page.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:08:59,2019-05-19 13:09:37,37.525s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/029-View-Project-Details,Chrome 74.0.3729.131,,2019-05-19 13:09:37,2019-05-19 13:10:13,36.651s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/029-View-Project-Details.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:09:37,2019-05-19 13:10:13,36.567s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/030-Verify-Documents-Page,Chrome 74.0.3729.131,,2019-05-19 13:10:13,2019-05-19 13:10:50,36.723s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/030-Verify-Documents-Page.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:10:13,2019-05-19 13:10:50,36.638s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/031-Upload-Attachment-File-From-Documents-Page,Chrome 74.0.3729.131,,2019-05-19 13:10:50,2019-05-19 13:11:27,36.618s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/031-Upload-Attachment-File-From-Documents-Page.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:10:50,2019-05-19 13:11:27,36.533s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/032-Delete-Attachment-File-From-Documents-Page,Chrome 74.0.3729.131,,2019-05-19 13:11:27,2019-05-19 13:12:04,37.244s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/032-Delete-Attachment-File-From-Documents-Page.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:11:27,2019-05-19 13:12:04,37.155s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/033-Upload-Large-Attachment-File-From-Documents-Page,Chrome 74.0.3729.131,,2019-05-19 13:12:04,2019-05-19 13:12:41,37.180s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/033-Upload-Large-Attachment-File-From-Documents-Page.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:12:04,2019-05-19 13:12:41,37.088s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/034-Upload-Invalid-Attachment-File-From-Documents-Page,Chrome 74.0.3729.131,,2019-05-19 13:12:41,2019-05-19 13:13:18,37.227s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/034-Upload-Invalid-Attachment-File-From-Documents-Page.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:12:41,2019-05-19 13:13:18,37.143s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/035-Upload-Already-Existed-Attachment-File-From-Documents-Page,Chrome 74.0.3729.131,,2019-05-19 13:13:18,2019-05-19 13:13:55,36.829s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/035-Upload-Already-Existed-Attachment-File-From-Documents-Page.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:13:18,2019-05-19 13:13:55,36.743s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/036-Verify-Project-Support-Page,Chrome 74.0.3729.131,,2019-05-19 13:13:55,2019-05-19 13:14:34,38.517s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/036-Verify-Project-Support-Page.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:13:55,2019-05-19 13:14:34,38.427s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/037-Add-Project-Support,Chrome 74.0.3729.131,,2019-05-19 13:14:34,2019-05-19 13:14:34,0.245s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/037-Add-Project-Support.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:14:34,2019-05-19 13:14:34,0.156s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/038-Update-Project-Support,Chrome 74.0.3729.131,,2019-05-19 13:14:34,2019-05-19 13:15:11,37.149s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/038-Update-Project-Support.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:14:34,2019-05-19 13:15:11,37.068s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/039-DeleteProject-Support,Chrome 74.0.3729.131,,2019-05-19 13:15:11,2019-05-19 13:15:48,36.741s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/039-DeleteProject-Support.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:15:11,2019-05-19 13:15:48,36.658s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/040-SubmitProject-Support,Chrome 74.0.3729.131,,2019-05-19 13:15:48,2019-05-19 13:15:48,0.243s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/040-SubmitProject-Support"")",Chrome 74.0.3729.131,,2019-05-19 13:15:48,2019-05-19 13:15:48,0.159s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/041-Verify-Support-Details,Chrome 74.0.3729.131,,2019-05-19 13:15:48,2019-05-19 13:16:25,37.072s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/041-Verify-Support-Details.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:15:48,2019-05-19 13:16:25,36.990s,FAILED
+,,,,,,
+Test Cases/Add-Project-Test-Cases/042-Verify-Project-Charter,Chrome 74.0.3729.131,,2019-05-19 13:16:25,2019-05-19 13:17:03,37.823s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Project/042-Verify-Project-Charter.feature"")",Chrome 74.0.3729.131,,2019-05-19 13:16:25,2019-05-19 13:17:03,37.734s,FAILED

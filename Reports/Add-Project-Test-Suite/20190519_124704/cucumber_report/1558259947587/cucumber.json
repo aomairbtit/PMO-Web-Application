@@ -1,0 +1,172 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "check that duration field filled automatically",
+        "description": "",
+        "id": "check-that-duration-field-filled-automatically;check-that-duration-field-filled-automatically",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2860051899,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1137579846,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1030112363,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8596728343,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8549953375,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to go to projects list",
+            "match": {
+              "location": "AddProjectSteps.clickProjectsList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104373895,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to verify project list page",
+            "match": {
+              "location": "AddProjectSteps.verifyProjectListPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4003464736,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to click Add new project button",
+            "match": {
+              "location": "AddProjectSteps.clickAddNewProjectButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 290930925,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to select project expected start date",
+            "match": {
+              "location": "AddProjectSteps.selectProjectStartDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2470111252,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to select project expected end date",
+            "match": {
+              "location": "AddProjectSteps.selectProjectEndDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39654267,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to check project duration field filled automatically",
+            "match": {
+              "location": "AddProjectSteps.checkProjectDurationField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 586614809,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Check that duration field filled automatically",
+    "description": "  I want to check that duration field filled automatically after selecting start and end date",
+    "id": "check-that-duration-field-filled-automatically",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Project/021-Check-Duration-Field.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

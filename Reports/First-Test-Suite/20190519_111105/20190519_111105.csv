@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First-Test-Suite,Chrome 74.0.3729.131,,2019-05-19 11:11:06,2019-05-19 11:12:08,1m - 1.533s,INCOMPLETE
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/001-Login-to-OOB,Chrome 74.0.3729.131,,2019-05-19 11:11:06,2019-05-19 11:11:25,18.938s,PASSED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/001-Login-to-OOB.feature"")",Chrome 74.0.3729.131,,2019-05-19 11:11:06,2019-05-19 11:11:25,18.714s,PASSED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/002-Verify-OOB-HomePage,Chrome 74.0.3729.131,,2019-05-19 11:11:25,2019-05-19 11:12:02,36.765s,FAILED
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/002-Verify-OOB-HomePage.feature"")",Chrome 74.0.3729.131,,2019-05-19 11:11:25,2019-05-19 11:12:02,36.665s,FAILED
+,,,,,,
+Test Cases/Add-Idea-Test-Cases/003-Add-Idea,Chrome 74.0.3729.131,,2019-05-19 11:12:02,2019-05-19 11:12:08,5.660s,INCOMPLETE
+"runFeatureFile(""Include/features/Governance-Module/Add-Idea/003-Add-Idea.feature"")",Chrome 74.0.3729.131,,2019-05-19 11:12:02,2019-05-19 11:12:08,5.538s,INCOMPLETE

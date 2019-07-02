@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.884601">
+<testcase classname="Check create project form mandatory fields" name="check create project form mandatory fields" time="33.884601">
+<system-out><![CDATA[Given I want to open browser................................................passed
+When I want to maximize window..............................................passed
+When I want to go to OOB....................................................passed
+Then I want to verify I'm in OOB main page..................................passed
+When I want to go to projects list..........................................passed
+Then I want to verify project list page.....................................passed
+When I want to click Add new project button.................................passed
+When I want to click on send project button.................................passed
+Then I want to check mandatory fields error message.........................passed
+When I want to check project name is a mandatory field......................passed
+When I want to check project type is a mandatory field......................passed
+When I want to check project start date is mandatory........................passed
+When I want to check project end date is mandatory..........................passed
+When I want to check project budget is a mandatory field....................passed
+When I want to check project owner list is mandatory........................passed
+When I want to check project manager is a mandatory field...................passed
+When I want to check project owner is a mandatory field.....................passed
+When I want to check project sponser is a mandatory field...................passed
+When I want to check project description is a mandatory field...............passed
+Then I want to close browser................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

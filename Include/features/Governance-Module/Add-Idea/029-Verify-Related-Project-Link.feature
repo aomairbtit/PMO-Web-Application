@@ -15,6 +15,7 @@ Feature: Verify related project link for executed idea
     When I want to select expected end date
     When I want to fill idea objective field
     When I want to fill expected budget field
+   
     When I want to fill Notes field
     When I want to click send idea button
     Then I want to verify idea added successfuly

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.566114">
+<testcase classname="Verify budget field doesn't accept alphapet" name="Verify budget field doesn't accept alphapet" time="29.566114">
+<system-out><![CDATA[Given I want to open browser................................................passed
+When I want to maximize window..............................................passed
+When I want to go to OOB....................................................passed
+Then I want to verify I'm in OOB main page..................................passed
+When I want to go to projects list..........................................passed
+Then I want to verify project list page.....................................passed
+When I want to click Add new project button.................................passed
+Then I want to verify budget field doesn't accept alphapet..................passed
+Then I want to close browser................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

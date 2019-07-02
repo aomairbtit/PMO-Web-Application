@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.380248">
+<testcase classname="Verify programs list" name="Verify programs list" time="24.380248">
+<system-out><![CDATA[Given I want to open browser................................................passed
+When I want to maximize window..............................................passed
+When I want to go to OOB....................................................passed
+Then I want to verify I'm in OOB main page..................................passed
+When I want to verify programs list.........................................passed
+Then I want to close browser................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

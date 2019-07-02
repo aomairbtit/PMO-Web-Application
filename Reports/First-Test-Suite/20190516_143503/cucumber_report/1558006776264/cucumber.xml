@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.162625">
+<testcase classname="Delete attachment" name="Delete attachment from idea form" time="41.162625">
+<system-out><![CDATA[Given I want to open browser................................................passed
+When I want to maximize window..............................................passed
+When I want to go to OOB....................................................passed
+Then I want to verify I'm in OOB main page..................................passed
+When I want to go to ideas list page........................................passed
+When I want to click on Add New button......................................passed
+When I want to fill idea name field.........................................passed
+When I want to select expected start date...................................passed
+When I want to select expected end date.....................................passed
+When I want to fill idea objective field....................................passed
+When I want to fill expected budget field...................................passed
+When I want to fill Notes field.............................................passed
+When I want to click save idea button.......................................passed
+When I want to wait for page load...........................................passed
+When I want to go to ideas list page........................................passed
+When I want to search for idea by idea name.................................passed
+When I want to click on edit idea icon......................................passed
+When I want to add Attachment...............................................passed
+When I want to refresh page.................................................passed
+When I want to click save idea button.......................................passed
+When I want to delete attachment............................................passed
+Then I want to verify document removed......................................passed
+Then I want to close browser................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

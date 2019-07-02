@@ -1,0 +1,400 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "View project details",
+        "description": "",
+        "id": "view-project-details;view-project-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3083415325,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1129506599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1355958473,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7217930371,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8815259130,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to go to projects list",
+            "match": {
+              "location": "AddProjectSteps.clickProjectsList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88159032,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to verify project list page",
+            "match": {
+              "location": "AddProjectSteps.verifyProjectListPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1669814230,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to click Add new project button",
+            "match": {
+              "location": "AddProjectSteps.clickAddNewProjectButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186485061,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to fill project name",
+            "match": {
+              "location": "AddProjectSteps.fillProjectName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135297438,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to select project type",
+            "match": {
+              "location": "AddProjectSteps.selectProjectType()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 273754263,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to select project expected start date",
+            "match": {
+              "location": "AddProjectSteps.selectProjectStartDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2473232085,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to select project expected end date",
+            "match": {
+              "location": "AddProjectSteps.selectProjectEndDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124598394,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to fill project budget",
+            "match": {
+              "location": "AddProjectSteps.fillProjectBudget()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139148230,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to select from owner deopdown list",
+            "match": {
+              "location": "AddProjectSteps.fillSelectOwnerDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167959003,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I want to fill project manager field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectMangerField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66490551,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I want to tap enter key on manager field",
+            "match": {
+              "location": "AddProjectSteps.tapEnterKeyManger()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97057853,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I want to fill project owner field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectOwnerField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52743156,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I want to tap enter key on owner field",
+            "match": {
+              "location": "AddProjectSteps.tapEnterKeyOwner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99742766,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I want to fill project sponser field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectSponserField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48647673,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I want to tap enter key on sponser field",
+            "match": {
+              "location": "AddProjectSteps.tapEnterKeySponser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130897634,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I want to fill project description field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectDescriptionField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104967630,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I want to fill project notes field",
+            "match": {
+              "location": "AddProjectSteps.fillProjectNotesField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 729086410,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I want to add attachment for the project",
+            "match": {
+              "location": "AddProjectSteps.addProjectAttachment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3001593573,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I want to wait",
+            "match": {
+              "location": "AddProjectSteps.waitForSeconds()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5075912680,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I want to click on send project button",
+            "match": {
+              "location": "AddProjectSteps.clickSendProject()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8213070,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I want to wait for page load",
+            "match": {
+              "location": "AddIdeaSteps.waitForPgaeLoad()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58893326218,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I want to check im in projects list page",
+            "match": {
+              "location": "AddProjectSteps.checkProjectsListPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2256950806,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I want to search for crated project by name",
+            "match": {
+              "location": "AddProjectSteps.searchForProjectByName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15743983234,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I want to view project page",
+            "match": {
+              "location": "AddProjectSteps.viewProjectPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 727119118,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I want to verify project details",
+            "match": {
+              "location": "AddProjectSteps.verifyProjectDetails()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 620906444,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "View project details",
+    "description": "  I want to view project details",
+    "id": "view-project-details",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Project/029-View-Project-Details.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

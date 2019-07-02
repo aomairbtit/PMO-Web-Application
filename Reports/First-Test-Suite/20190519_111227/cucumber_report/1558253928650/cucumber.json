@@ -1,0 +1,172 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify that choose file error message displays after clicking Load button without choosing attachment",
+        "description": "",
+        "id": "verify-choose-file-error-message;verify-that-choose-file-error-message-displays-after-clicking-load-button-without-choosing-attachment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2443316606,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to open browser",
+            "match": {
+              "location": "MainSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1118969997,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to maximize window",
+            "match": {
+              "location": "MainSteps.maximizeWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 954154959,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to go to OOB",
+            "match": {
+              "location": "MainSteps.goToOOB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7837983996,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to verify I\u0027m in OOB main page",
+            "match": {
+              "location": "MainSteps.verifyLoginToOOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2657212152,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to go to ideas list page",
+            "match": {
+              "location": "AddIdeaSteps.goToIdeasList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1703853980,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to click on Add New button",
+            "match": {
+              "location": "AddIdeaSteps.clickAddNewIdea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83226152,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to click Add New Doc button",
+            "match": {
+              "location": "AddIdeaSteps.clickAddNewDocButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70818901,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to click Load button",
+            "match": {
+              "location": "AddIdeaSteps.clickLoadButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30912233,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to check choose file error message",
+            "match": {
+              "location": "AddIdeaSteps.checkChooseFileErrorMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17893255,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to verify Attachment not added",
+            "match": {
+              "location": "AddIdeaSteps.verifyLargeAttachmentnotAdded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 599449755,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to close browser",
+            "match": {
+              "location": "MainSteps.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PMO"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify choose file error message",
+    "description": "  I want to click Load button without choosing attachment and check error message",
+    "id": "verify-choose-file-error-message",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/git/PMO-Web-Application/Include/features/Governance-Module/Add-Idea/014-Verify-Clicking-Load-With-No-Attachment.feature",
+    "tags": [
+      {
+        "name": "@PMO",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
