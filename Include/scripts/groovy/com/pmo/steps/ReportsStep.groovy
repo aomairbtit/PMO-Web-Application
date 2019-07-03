@@ -47,9 +47,9 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-class ReportsSteps {
-
-	@When("I want to go to reports")
+class ReportsStep {
+	
+@When("I want to go to reports")
 	def clickReports() {
 		WebUI.click(findTestObject("OOBObjects/HomepageObjects/Reports"));
 	}

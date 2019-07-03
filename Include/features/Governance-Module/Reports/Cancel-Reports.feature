@@ -1,4 +1,3 @@
-
 Feature: Cancel reports
   I want to verify cancel reports
 
@@ -8,5 +7,3 @@ Feature: Cancel reports
     When I want to go to OOB
     When I want to verify I'm in OOB main page 
     When I want to go to reports
- 
-
