@@ -47,15 +47,12 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-class CancelReports {
-	@When("I want to go to reports")
-	def clickReports() {
-		WebUI.click(findTestObject("OOBObjects/HomepageObjects/Reports"));
+class TaskCenter {
+	
+	@When("I want to go to Tasks Center")
+	def clickOnTaskCenter() {
+		WebUI.click(findTestObject('Object Repository/OOBObjects/HomepageObjects/Tasks'))
 	}
 
 
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
-	}
 }
